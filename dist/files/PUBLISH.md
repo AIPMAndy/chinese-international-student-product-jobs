@@ -8,11 +8,15 @@
 
 ## 当前执行边界
 
-截至 **2026-11-13 21:48（北京时间，UTC+8）**，目标公开仓库已创建，仓库 ID 为 `1456653335`，默认分支为 `main`，当前连接对该仓库具有 `admin` 权限。完整 `README.md` 已成功写入，初始化提交 `f4f8324f8960dd39c57a1bf41e160cee30181896` 及对应 tree `08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0` 已读回确认。
+截至 **2026-11-13 22:57:48（北京时间，UTC+8）**，完整项目已上传至公开仓库，ID `1456653335`，默认分支 `main`。原始发布提交 `4d1f8923a4a2ee8527838ae9e468bffa3e313b6f`、tree `07c1c653fc73dbf5131a6d89f5b32e7873f9a61a` 已读回；远端 317 个 tree entries 中的 286 个 blob 与本地交付文件逐一比对，286/286 一致，缺失 0、不同 0。PDF、两个 ZIP 与对应 `dist/downloads/` 文件全部上传且 blob 相同。
 
-**完整项目文件上传进行中；上述提交只证明 README 初始化完成，不代表源码、`dist/` 和全部交付物已经上传。GitHub Pages 尚未部署或完成线上验收，Release 尚未发布。** 后续实际进度以 [部署记录](DEPLOYMENT.md)和[发布状态](verification/publication-status.json)为准。
+**[v1.0.0 Release](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) 已公开。** 发布时间为 2026-11-13 21:55:40（北京时间）；三个公开下载 URL 已实际 GET，均返回 HTTP 200，下载字节数及 SHA-256 与本地成品一致，[Release 工作流](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137)成功。
 
-用户已经授权创建公开项目并发布，无需重复索取同一授权。仓库创建与写入已验证可用；后续继续完成文件上传、提交读回、Pages 部署验收与 Release。不要把 token 写入聊天、脚本、文件、Git 远端 URL 或提交。
+**GitHub Pages 待启用，正式网站尚未上线，线上验收未执行。** [Pages 工作流 attempt 2](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445)在 Configure GitHub Pages 步骤返回 `Not Found`。需在[本仓库 Settings → Pages](https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages)将 **Build and deployment → Source** 选为 **GitHub Actions**，再重跑部署并检查实际网站。当前连接器没有 Pages 设置接口，本地浏览器扩展不可用，云浏览器 GitHub 未登录，因此该设置尚需仓库所有者完成。
+
+v1.0.0 的三个附件与 tag 保持不变。此次仅同步发布状态；源码 ZIP 内保留打包时的验证快照，最新远端状态以 [DEPLOYMENT.md](DEPLOYMENT.md)与[发布状态](verification/publication-status.json)为准。需要变更成品时发布新版本，不覆盖已有附件。
+
+用户已授权本项目发布，无需再次授权上传。不得把 token 写入聊天、脚本、文件、Git 远端 URL 或提交。
 
 `tools/publish-github.sh` 只接受固定目标，不接受仓库、分支或版本覆盖参数。它从当前项目导出一个独立临时目录，再克隆指定 GitHub 仓库；不会使用当前工作区的 `.git` 或 `.openai` 状态，不会推送任何 Sites 私有远程，也不会修改另外三个留学生项目、官网、个人主页或总导航。
 

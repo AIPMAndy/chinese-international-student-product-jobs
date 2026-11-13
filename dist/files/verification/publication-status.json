@@ -1,6 +1,6 @@
 {
   "checked": "2026-11-13",
-  "status_updated_at": "2026-11-13T21:48:00+08:00",
+  "status_updated_at": "2026-11-13T22:57:48+08:00",
   "target_repository": "AIPMAndy/chinese-international-student-product-jobs",
   "target_website": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
   "github_repository": "created_public_and_accessible",
@@ -8,26 +8,25 @@
   "repository_visibility": "public",
   "default_branch": "main",
   "current_repository_permission": "admin",
-  "github_commit": "f4f8324f8960dd39c57a1bf41e160cee30181896",
-  "github_tree": "08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0",
-  "github_commit_scope": "Verified initialization containing the complete README.md only; not a completed upload of the full project.",
+  "github_commit": "4d1f8923a4a2ee8527838ae9e468bffa3e313b6f",
+  "github_tree": "07c1c653fc73dbf5131a6d89f5b32e7873f9a61a",
+  "github_commit_scope": "Original full-publication commit, verified before this documentation-only status update. All 286 remote blobs match local deliverables; this record does not claim a later status-document commit has been uploaded.",
   "commit_read_back_verified": true,
   "tree_read_back_verified": true,
-  "full_project_upload": "in_progress",
-  "full_project_upload_verified": false,
-  "github_pages": "not_deployed",
+  "full_project_upload": "completed_and_verified",
+  "full_project_upload_verified": true,
+  "github_pages": "not_enabled",
   "github_pages_online_validation": "not_performed",
-  "release": "not_published",
+  "release": "published_and_assets_verified",
   "authorization": "User explicitly authorized public repository creation, commit, release and website deployment for this new project only.",
-  "blocker": null,
-  "current_stage": "Repository creation and README write verified; full project file upload in progress. Pages deployment, online validation and Release publication remain incomplete.",
+  "blocker": "Enable GitHub Pages in this repository Settings > Pages > Build and deployment > Source: GitHub Actions. The connector has no Pages settings operation; the local browser extension is unavailable and cloud GitHub browser session is logged out.",
+  "current_stage": "Full repository upload and public v1.0.0 Release are verified. GitHub Pages is not enabled; deployment and live website validation remain incomplete.",
   "remaining": [
-    "Complete the full project upload and read back the final commit and files",
-    "Deploy GitHub Pages and verify the actual website and downloads",
-    "Complete final desktop and mobile-width browser regression",
-    "Publish the GitHub Release and verify its assets"
+    "Repository owner selects GitHub Actions as Pages Source",
+    "Rerun pages.yml and verify successful deployment",
+    "Verify actual Pages website, desktop and mobile-width interactions, and all three download hashes"
   ],
-  "prepared_scope": "Reviewed local artifacts; this list does not imply complete remote upload.",
+  "prepared_scope": "Complete deliverables verified at the original full-publication commit; deployed website status remains separate.",
   "prepared": [
     "Complete sources and dist",
     "128-page reviewed PDF",
@@ -38,9 +37,80 @@
   "scope": "No changes were made to other GitHub projects or personal/company websites.",
   "connected_github_account": "AIPMAndy",
   "verified_remote_write": {
-    "operation": "create_file",
-    "path": "README.md",
+    "operation": "full_project_commit",
+    "commit_sha": "4d1f8923a4a2ee8527838ae9e468bffa3e313b6f",
+    "tree_sha": "07c1c653fc73dbf5131a6d89f5b32e7873f9a61a",
     "result": "success",
-    "read_back": "commit and tree verified"
+    "read_back": "commit, recursive tree and all 286 blobs verified"
+  },
+  "full_project_integrity": {
+    "verified_commit": "4d1f8923a4a2ee8527838ae9e468bffa3e313b6f",
+    "tree_sha": "07c1c653fc73dbf5131a6d89f5b32e7873f9a61a",
+    "tree_entries": 317,
+    "blob_entries": 286,
+    "matching_local_git_blob_shas": 286,
+    "missing_local_files": 0,
+    "different_blob_shas": 0,
+    "excluded_local_state": [
+      ".openai/hosting.json"
+    ],
+    "root_and_dist_download_blobs_match": true
+  },
+  "pages_attempt": {
+    "run_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445",
+    "attempt": 2,
+    "conclusion": "failure",
+    "failed_step": "Configure GitHub Pages",
+    "error": "Not Found",
+    "reason": "GitHub Pages is not enabled for the repository"
+  },
+  "release_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0",
+  "release_workflow_run": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137",
+  "release_published_at": "2026-11-13T21:55:40+08:00",
+  "release_tag": "v1.0.0",
+  "release_commit": "4d1f8923a4a2ee8527838ae9e468bffa3e313b6f",
+  "release_assets": {
+    "product-jobs-guide-v1.0.0.pdf": {
+      "bytes": 1486561,
+      "sha256": "2a1abf1a37f1a75f1e6265737a4ae23e71cbeba12df5d0a75408e334e0e1df1c",
+      "download_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-guide-v1.0.0.pdf",
+      "verified_match": true,
+      "public_download_http_status": 200,
+      "public_download_method": "GET",
+      "public_download_bytes": 1486561,
+      "public_download_sha256": "2a1abf1a37f1a75f1e6265737a4ae23e71cbeba12df5d0a75408e334e0e1df1c"
+    },
+    "product-jobs-workbook-v1.0.0.zip": {
+      "bytes": 747427,
+      "sha256": "403ead76ce6aaba3767ea7312d21d1b713b81e169b3e1168eb85942064324199",
+      "download_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-workbook-v1.0.0.zip",
+      "verified_match": true,
+      "public_download_http_status": 200,
+      "public_download_method": "GET",
+      "public_download_bytes": 747427,
+      "public_download_sha256": "403ead76ce6aaba3767ea7312d21d1b713b81e169b3e1168eb85942064324199"
+    },
+    "product-jobs-source-v1.0.0.zip": {
+      "bytes": 2197451,
+      "sha256": "fc7d7b93f750764e1a62c02b8d1d3d895a85e81b62540d89aa4e8baa68d893c5",
+      "download_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-source-v1.0.0.zip",
+      "verified_match": true,
+      "public_download_http_status": 200,
+      "public_download_method": "GET",
+      "public_download_bytes": 2197451,
+      "public_download_sha256": "fc7d7b93f750764e1a62c02b8d1d3d895a85e81b62540d89aa4e8baa68d893c5"
+    }
+  },
+  "release_asset_count": 3,
+  "release_asset_sha256_match_local": true,
+  "immutable_release_policy": "No PDF, ZIP, v1.0.0 tag or published release asset is changed by this status synchronization. Source ZIP contains the historical packaging-time snapshot.",
+  "release_public_download_validation": {
+    "status": "pass",
+    "public_downloads_tested": 3,
+    "http_200_count": 3,
+    "byte_counts_match_local": true,
+    "sha256_matches_local": true,
+    "method": "Actual GET requests to each GitHub Release browser_download_url",
+    "scope": "GitHub Release downloads only; does not verify GitHub Pages deployment or website downloads"
   }
 }

@@ -1,7 +1,7 @@
 {
   "checked": "2026-11-13",
   "status": "pass",
-  "scope": "Reproducible packaging checks; source ZIP checksum is intentionally external to avoid self-reference",
+  "scope": "Read-only inventory of the immutable published v1.0.0 packages; counts corrected from actual ZIP contents without repackaging. Per-file manifests remain authoritative.",
   "templates": 15,
   "example_files_including_readme": 12,
   "final_pdf_sha256": "2a1abf1a37f1a75f1e6265737a4ae23e71cbeba12df5d0a75408e334e0e1df1c",
@@ -16,8 +16,8 @@
     },
     {
       "file": "downloads/product-jobs-source-v1.0.0.zip",
-      "entries": 109,
-      "payload_entries": 108,
+      "entries": 111,
+      "payload_entries": 110,
       "crc": "pass",
       "per_file_manifest_sha256": "pass",
       "excluded_state_and_cache": "pass"
@@ -26,6 +26,8 @@
   "notes": [
     "Source ZIP includes complete build inputs and final PDF; dist is reproducibly generated.",
     "Workbook includes all 15 templates and 12 example files, relative dependencies and offline prototype.",
-    "All scenario data are explicitly synthetic; no real participant or business result is included."
-  ]
+    "All scenario data are explicitly synthetic; no real participant or business result is included.",
+    "Status documents may be updated after publication; published ZIP bytes, embedded snapshot, tag and release assets remain unchanged."
+  ],
+  "status_updated_at": "2026-11-13T22:57:19+08:00"
 }

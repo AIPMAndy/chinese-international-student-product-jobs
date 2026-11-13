@@ -8,7 +8,7 @@
 <li>静态目录：<code>dist/</code>。</li>
 <li>预期项目地址：<code>https://aipmandy.github.io/chinese-international-student-product-jobs/</code>。<strong>此地址待发布，不代表已经上线。</strong> 最终以部署返回值与实际访问结果为准。</li>
 </ul>
-<p>已记录公开仓库创建及 README 初始化提交的读回结果；完整文件上传进行中，尚未记录完整项目上传完成、Pages 部署或线上验收成功。ChatGPT Pages / Sites 不作为本项目的正式部署目标。</p>
+<p><strong>完整项目已上传，v1.0.0 Release 已公开并核对三个附件。GitHub Pages 尚未启用，正式网站尚未上线。</strong> Pages 工作流在 Configure GitHub Pages 步骤返回 <code>Not Found</code>；需先在<a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages">本仓库 Pages 设置</a>中将 Source 选为 <strong>GitHub Actions</strong>，再重新运行部署。ChatGPT Pages / Sites 不作为本项目的正式部署目标。</p>
 <h2 id="发布步骤">发布步骤</h2>
 <ol>
 <li>确认 GitHub 账号为 AIPMAndy，且上述仓库存在并可写。不存在时创建同名公开空仓库；不覆盖已有仓库。</li>
@@ -32,8 +32,8 @@
 <h2 id="部署已验收产物">部署已验收产物</h2>
 <p>工作流检查并上传提交中的 <code>dist/</code>。发布阶段不重新生成中文 PDF，也不执行依赖当前工作区路径的构建。内容修改后先按项目原有构建说明更新和验收 <code>dist/</code>，再提交；这样部署的文件与本地验收对象一致。</p>
 <p>工作流限制为本项目精确仓库的 <code>main</code>，支持 push 和手动触发，使用 <code>github-pages</code> 环境。全局仅授予 <code>contents: read</code>，部署任务额外取得 <code>pages: write</code> 和 <code>id-token: write</code>。</p>
-<h2 id="线上验收记录">线上验收记录</h2>
-<p>状态更新时间：<strong>2026-11-13 21:48（北京时间，UTC+8）</strong>。初始化提交只包含已写入的完整 README；不能据此认定全部项目文件已上传。</p>
+<h2 id="发布与线上验收记录">发布与线上验收记录</h2>
+<p>状态更新时间：<strong>2026-11-13 22:57:48（北京时间，UTC+8）</strong>。以下完整文件核对固定到原始发布提交 <code>4d1f8923a4a2ee8527838ae9e468bffa3e313b6f</code>；本次状态文档同步不改变该提交或 v1.0.0 附件。</p>
 <div class="table-wrap"><table>
 <thead>
 <tr>
@@ -47,41 +47,53 @@
 </tr>
 <tr>
 <td>当前连接仓库权限</td>
-<td><code>admin</code>；README 创建写入成功</td>
+<td><code>admin</code>，完整项目写入成功</td>
 </tr>
 <tr>
-<td>README 初始化提交 SHA</td>
-<td><code>f4f8324f8960dd39c57a1bf41e160cee30181896</code>，已读回</td>
+<td>完整项目提交 SHA</td>
+<td><a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/commit/4d1f8923a4a2ee8527838ae9e468bffa3e313b6f"><code>4d1f8923a4a2ee8527838ae9e468bffa3e313b6f</code></a>，已读回</td>
 </tr>
 <tr>
-<td>README 初始化 tree</td>
-<td><code>08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0</code>，已读回</td>
+<td>完整项目 tree</td>
+<td><code>07c1c653fc73dbf5131a6d89f5b32e7873f9a61a</code>，317 个 tree entries；其中 286 个 blob 与本地交付文件逐一对比，286/286 Git blob SHA 一致，缺失 0、不同 0</td>
 </tr>
 <tr>
-<td>完整项目文件上传</td>
-<td>进行中；源码、交付物与 <code>dist/</code> 的完整上传及最终提交尚待确认</td>
-</tr>
-<tr>
-<td>Pages Actions 成功运行链接</td>
-<td>尚未部署，待记录成功运行</td>
-</tr>
-<tr>
-<td>实际网站 URL</td>
-<td>待部署返回与访问确认</td>
-</tr>
-<tr>
-<td>首页、章节、PDF / ZIP 线上检查</td>
-<td>待完成</td>
-</tr>
-<tr>
-<td>手机页面与关键交互检查</td>
-<td>待完成</td>
+<td>下载文件</td>
+<td>根目录与 <code>dist/downloads/</code> 的 PDF、模板 ZIP、源码 ZIP 全部上传，同名文件 blob 相同</td>
 </tr>
 <tr>
 <td>GitHub Release</td>
-<td>尚未发布</td>
+<td><a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0">v1.0.0</a> 已公开，发布时间 2026-11-13 21:55:40（北京时间）；三个公开下载 URL 实际 GET 均为 HTTP 200，下载字节数与 SHA-256 均与本地成品一致</td>
+</tr>
+<tr>
+<td>Release Actions</td>
+<td><a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137">成功运行</a></td>
+</tr>
+<tr>
+<td>Pages Actions</td>
+<td><a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445">运行 attempt 2</a> 失败；Configure GitHub Pages 返回 <code>Not Found</code>，仓库尚未启用 Pages</td>
+</tr>
+<tr>
+<td>实际网站 URL</td>
+<td>尚未部署成功；上方 URL 仅为目标地址</td>
+</tr>
+<tr>
+<td>首页、章节、PDF / ZIP 的 Pages 线上检查</td>
+<td>未执行；Release 附件核对不等于 Pages 下载验收</td>
+</tr>
+<tr>
+<td>手机页面与关键交互的 Pages 线上检查</td>
+<td>未执行；制作期浏览器检查另见验证记录</td>
 </tr>
 </tbody></table></div>
+<h3 id="完成-pages-的剩余操作">完成 Pages 的剩余操作</h3>
+<ol>
+<li>打开<a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages">本仓库 Settings → Pages</a>，在 <strong>Build and deployment → Source</strong> 选择 <strong>GitHub Actions</strong>。</li>
+<li>返回<a href="https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445">Pages 运行</a>，重新运行失败任务，或手动触发 <code>pages.yml</code>。</li>
+<li>只有工作流成功后，才访问返回的网站地址，检查首页、章节、下载及手机阅读，并更新线上验收记录。</li>
+</ol>
+<p>当前连接器没有 Pages 设置接口；本地浏览器扩展不可用，云浏览器的 GitHub 会话未登录，因此此设置尚需仓库所有者完成。用户已有发布授权，无需重复授权上传；剩余事项是启用 Pages。</p>
+<p>v1.0.0 的 PDF 与两个 ZIP 保持已发布字节，tag 不移动。后续状态记录可单独更新；需要改变成品内容时使用新版本，不能覆盖本版附件。</p>
 <h2 id="官方依据">官方依据</h2>
 <p>核验日：2026-11-13。</p>
 <ul>

@@ -4,7 +4,11 @@
 
 作者：**AI 酋长 Andy**。前腾讯、百度 AI 产品专家，前大模型公司 VP。版本 **1.0.0 · 2026-11-13**。
 
-[GitHub Pages 部署说明（待发布）](DEPLOYMENT.md) · [完整 PDF](downloads/product-jobs-guide-v1.0.0.pdf) · [贯穿案例](content/case/06-end-to-end-case.md) · [完整样例](examples/README.md) · [可编辑模板](templates/README.md) · [交互原型](prototypes/offertrail.html) · [验证记录](verification/VALIDATION.md)
+[正式版本 v1.0.0](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) · [下载 128 页 PDF](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-guide-v1.0.0.pdf) · [下载完整样例与模板](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-workbook-v1.0.0.zip) · [下载完整源码包](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-source-v1.0.0.zip)
+
+[贯穿案例](content/case/06-end-to-end-case.md) · [完整样例](examples/README.md) · [可编辑模板](templates/README.md) · [交互原型源码](prototypes/offertrail.html) · [验证记录](verification/VALIDATION.md) · [GitHub Pages 状态（待启用）](DEPLOYMENT.md)
+
+**发布状态：完整项目与 v1.0.0 Release 已公开，三个附件已核对。GitHub Pages 待启用，尚未上线。** 免费内容可直接在仓库阅读，PDF、模板与源码包可通过上述 Release 入口下载。
 
 ## 适合谁
 

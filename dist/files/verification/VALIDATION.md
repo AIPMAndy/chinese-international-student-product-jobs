@@ -2,9 +2,9 @@
 
 版本：1.0.0。核验日：2026-11-13。作者：AI 酋长 Andy。
 
-**内容、原型、成品 PDF 与发布配置已完成；公开 GitHub 仓库及 README 初始化提交已确认，完整项目文件上传进行中。GitHub Pages 尚未部署或验收，Release 尚未发布。** 用户已授权发布，仓库创建与写入已验证可用。正式部署目标以 [DEPLOYMENT.md](../DEPLOYMENT.md) 为准。
+**完整项目已上传，v1.0.0 Release 已公开，三个附件已核对。GitHub Pages 尚未启用，正式网站尚未上线，Pages 线上验收未执行。** 正式部署目标以 [DEPLOYMENT.md](../DEPLOYMENT.md) 为准。
 
-远端状态更新时间：**2026-11-13 21:48（北京时间，UTC+8）**。仓库 ID `1456653335`，公开，默认分支 `main`，当前连接权限 `admin`。完整 README 写入后的提交 `f4f8324f8960dd39c57a1bf41e160cee30181896`、tree `08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0` 已读回。该记录只证明 README 初始化完成，不证明其他文件已完整上传；后续状态见[发布记录](publication-status.json)。
+远端状态更新时间：**2026-11-13 22:57:48（北京时间，UTC+8）**。仓库 ID `1456653335`，公开，默认分支 `main`。原始发布提交 [`4d1f8923a4a2ee8527838ae9e468bffa3e313b6f`](https://github.com/AIPMAndy/chinese-international-student-product-jobs/commit/4d1f8923a4a2ee8527838ae9e468bffa3e313b6f)、tree `07c1c653fc73dbf5131a6d89f5b32e7873f9a61a` 已读回；317 个 tree entries 中的 286 个 blob 与本地交付文件逐一比较，Git blob SHA 286/286 一致，缺失 0、不同 0。此完整性证据固定到该原始发布提交；本次只同步状态文档，不改变 v1.0.0 下载附件。详细状态见[发布记录](publication-status.json)。
 
 ## 已完成的验证
 
@@ -17,9 +17,11 @@
 | 原型纯逻辑 | 实际HTML中的日期/阻断函数通过10项检查，含无效日期、DST缺失/重复时间 | [结果](prototype-logic.json)；不代替浏览器和真人研究 |
 | 浏览器交互 | 桌面操作、键盘核心任务、窄屏阅读、搜索、背景选择、复制微信、CSV与JSON导出 | [浏览器记录](browser-qa.json)；340 CSS px普通缩放，非移动真机 |
 | PDF | 128页逐页渲染和分段视觉检查；中文可选中，目录与书签可用 | 下节说明范围、最终hash与修复 |
-| 发布包 | ZIP CRC、必需文件、文件哈希与排除项检查 | [打包记录](release-packages.json)；最后内容同步后再次打包 |
+| 发布包 | ZIP CRC、必需文件、文件哈希与排除项检查 | [打包记录](release-packages.json)；已发布附件保持原字节，包内状态为打包时快照 |
 | 全量结构 | 源码与静态站点检查通过，0错误、0警告 | [结构结果](integrity.json)；软件检查不代表线上部署 |
-| GitHub 初始化 | 新公开仓库已可访问，README 创建写入成功，初始化提交及 tree 已读回 | [发布记录](publication-status.json)；完整项目上传进行中，未声明 Pages 或 Release 已发布 |
+| GitHub 完整上传 | 原始发布提交及 tree 已读回；286/286 blob 与本地一致，缺失 0、不同 0 | [发布记录](publication-status.json)；包括正文、模板、案例、PDF、ZIP、dist 与工作流 |
+| GitHub Release | v1.0.0 已公开；三个公开下载 URL 实际 GET 均为 HTTP 200，字节数及 SHA-256 与本地一致 | [成功运行](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137)、[公开版本](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0)；与 Pages 状态独立 |
+| GitHub Pages | attempt 2 在 Configure GitHub Pages 返回 Not Found | [失败运行](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445)；待启用 Pages，未完成部署和线上验收 |
 
 ## 贯穿案例实际检查结果
 
@@ -27,7 +29,7 @@ APP-01 的伦敦时间与 APP-03 的纽约时间正确换算为北京 2026-11-21
 
 完成流程后，界面明确写“尚未向雇主提交”。实际导出的 [JSON](offertrail-export.json) 中，`simulation=true`、`submitted=false`、`work_permission_legally_verified=false`。这些是软件行为，不是工作许可判断，也不是申请结果。
 
-浏览器验证针对制作期的临时验收版本。最终源码另外补了卡片重渲染后的焦点保留；这项小修复以及最终PDF/ZIP在线下载仍需在GitHub Pages部署后回归。没有把旧网站或本地检查伪装成正式线上验收。
+浏览器验证针对制作期的临时验收版本。最终源码另外补了卡片重渲染后的焦点保留；这项小修复以及正式网站上的PDF/ZIP下载仍需在GitHub Pages部署后回归；Release附件已单独核对。没有把旧网站或本地检查伪装成正式线上验收。
 
 ## PDF 逐页验收
 
@@ -63,7 +65,7 @@ PDF复现依赖与操作见 [PUBLISH.md](../PUBLISH.md)、[构建记录](pdf-bui
 
 ## 仍需补齐
 
-1. **完整上传与发布**：继续上传本项目源码、交付物、`dist/` 与工作流，完成后读回最终提交 SHA，并核对远端文件。随后配置和运行 Pages，记录成功运行与实际网站访问结果，再完成 Release 发布。当前只确认 README 初始化提交，不能把上传进行中写成完整项目或网站已发布。
+1. **启用并部署 Pages**：完整上传与 Release 已完成。在[本仓库 Pages 设置](https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages)将 Source 选为 GitHub Actions，再重新运行 Pages。attempt 2 的配置步骤返回 Not Found；当前没有成功部署或线上验收记录。
 2. **最终线上回归**：核对正式项目子路径、手机页面、焦点小修复、PDF与两个ZIP下载。源码中已验收的dist与downloads必须保持相同文件哈希。
 3. **真人研究与真机**：OfferTrail用户访谈、独立任务测试、需求强度和业务效果仍未开展；R01–R03保持计划状态。窄屏CSS检查不等同于iOS/Android真机测试。
 4. **官方冲突与时效**：新西兰公告生效日冲突、韩国新旧官方说明、法国动态门槛和部分动态网页读取限制已在正文披露，申请前按对应机关原文再核对。
