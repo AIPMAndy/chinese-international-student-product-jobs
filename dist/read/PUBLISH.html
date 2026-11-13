@@ -1,0 +1,120 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="中国留学生产品岗位求职攻略：构建、打包与 GitHub 发布"><meta name="author" content="AI 酋长 Andy"><meta name="theme-color" content="#2d4e40"><title>构建、打包与 GitHub 发布 · AI 酋长 Andy</title><link rel="canonical" href="https://aipmandy.github.io/chinese-international-student-product-jobs/read/PUBLISH.html"><meta property="og:title" content="构建、打包与 GitHub 发布"><meta property="og:description" content="中国留学生产品岗位求职攻略：构建、打包与 GitHub 发布"><link rel="stylesheet" href="../assets/site.css"><script src="../assets/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header><div class="topbar"><a class="wordmark" href="../index.html" aria-label="产品求职攻略首页"><span class="monogram">A</span><span><strong>留学生产品求职</strong><small>AI CHIEF ANDY / FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航"><a href="../index.html#chapters">完整攻略</a><a class="hide-mobile" href="../prototype.html">体验原型</a><a href="../resources.html">模板</a><a class="nav-cta" href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载 PDF ↗</a></nav></div></header><main class="container" id="main"><details class="mobile-chapters"><summary>章节目录与当前阅读</summary><nav><a  href="../chapters/00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="../chapters/01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="../chapters/02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="../chapters/03-user-research.html">03 · 从真实用户问题开始</a><a  href="../chapters/04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="../chapters/05-regions.html">05 · 逐国核对申请路径</a><a  href="../chapters/06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="../chapters/07-application-materials.html">07 · 中英文申请材料</a><a  href="../chapters/08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="../chapters/09-interview-lab.html">09 · 产品面试实验室</a><a  href="../chapters/10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="../chapters/11-action-plan.html">11 · 三十天交付计划</a><a  href="../chapters/12-sources.html">12 · 来源与核验边界</a></nav></details><div class="reader-wrap"><aside class="side-nav"><h2>FIELD GUIDE / 完整目录</h2><a  href="../chapters/00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="../chapters/01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="../chapters/02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="../chapters/03-user-research.html">03 · 从真实用户问题开始</a><a  href="../chapters/04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="../chapters/05-regions.html">05 · 逐国核对申请路径</a><a  href="../chapters/06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="../chapters/07-application-materials.html">07 · 中英文申请材料</a><a  href="../chapters/08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="../chapters/09-interview-lab.html">09 · 产品面试实验室</a><a  href="../chapters/10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="../chapters/11-action-plan.html">11 · 三十天交付计划</a><a  href="../chapters/12-sources.html">12 · 来源与核验边界</a><h2 style="margin-top:25px">实践工具</h2><a href="../prototype.html">OfferTrail 交互原型 ↗</a><a href="../resources.html">全部样例与模板</a><a href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载完整 PDF</a></aside><article class="reader"><div class="page-tools"><a href="../index.html">首页</a><a href="../resources.html">完整样例与模板</a><a href="../files/PUBLISH.md" download>下载可编辑源文件</a><span>核验 2026-11-13</span></div><h1 id="构建-打包与-github-发布">构建、打包与 GitHub 发布</h1>
+<p>版本：1.0.0｜核验日期：2026-11-13</p>
+<p>执行前先阅读 <a href="AGENTS.html">AGENTS.md</a> 与 <a href="DEPLOYMENT.html">DEPLOYMENT.md</a>。正式仓库固定为 <code>AIPMAndy/chinese-international-student-product-jobs</code>，正式网站唯一目标为该仓库的 <strong>GitHub Pages</strong>。</p>
+<p>预期网址：<code>https://aipmandy.github.io/chinese-international-student-product-jobs/</code>。这是发布目标，不能仅凭本文件把它称为已上线。只有远端提交读回、Actions 成功和线上访问验收完成，才记录为已发布。</p>
+<h2 id="当前执行边界">当前执行边界</h2>
+<p>截至 <strong>2026-11-13 21:48（北京时间，UTC+8）</strong>，目标公开仓库已创建，仓库 ID 为 <code>1456653335</code>，默认分支为 <code>main</code>，当前连接对该仓库具有 <code>admin</code> 权限。完整 <code>README.md</code> 已成功写入，初始化提交 <code>f4f8324f8960dd39c57a1bf41e160cee30181896</code> 及对应 tree <code>08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0</code> 已读回确认。</p>
+<p><strong>完整项目文件上传进行中；上述提交只证明 README 初始化完成，不代表源码、<code>dist/</code> 和全部交付物已经上传。GitHub Pages 尚未部署或完成线上验收，Release 尚未发布。</strong> 后续实际进度以 <a href="DEPLOYMENT.html">部署记录</a>和<a href="../files/verification/publication-status.json">发布状态</a>为准。</p>
+<p>用户已经授权创建公开项目并发布，无需重复索取同一授权。仓库创建与写入已验证可用；后续继续完成文件上传、提交读回、Pages 部署验收与 Release。不要把 token 写入聊天、脚本、文件、Git 远端 URL 或提交。</p>
+<p><code>tools/publish-github.sh</code> 只接受固定目标，不接受仓库、分支或版本覆盖参数。它从当前项目导出一个独立临时目录，再克隆指定 GitHub 仓库；不会使用当前工作区的 <code>.git</code> 或 <code>.openai</code> 状态，不会推送任何 Sites 私有远程，也不会修改另外三个留学生项目、官网、个人主页或总导航。</p>
+<h2 id="1-本地构建">1. 本地构建</h2>
+<p>网站依赖 Node.js 20 或更新版本，Python 脚本使用 Python 3.11 或更新版本。依赖清单在 <code>package.json</code>；有锁文件时使用 <code>npm ci</code>，没有锁文件时先运行 <code>npm install</code> 并保留生成的锁文件。</p>
+<pre><code class="language-bash">npm install
+python3 -B tools/evaluate_baseline.py
+npm run build
+</code></pre>
+<p>网页构建输出到 <code>dist/</code>。正式构建时，<code>tools/lib.mjs</code> 的网站源地址必须使用本项目 GitHub Pages 地址，不能指向其他网站。项目子路径由 <a href="../files/tools/check_pages_links.py">部署检查脚本</a>核验。</p>
+<h3 id="重新生成-pdf">重新生成 PDF</h3>
+<p>已交付的 PDF 可以直接使用。需要重新排版时，安装渲染依赖和中文字体。例如在独立 Python 环境中：</p>
+<pre><code class="language-bash">python3 -m venv .venv
+. .venv/bin/activate
+python -m pip install -r tools/requirements-pdf.txt
+python -B tools/render_pdf.py
+</code></pre>
+<p>PDF 使用 ReportLab 排版，不启动浏览器。当前字体转换脚本使用 Linux 的 <code>/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc</code> 与 <code>NotoSansCJK-Bold.ttc</code>，Debian/Ubuntu 可安装 <code>fonts-noto-cjk</code>；字体路径不同的环境先调整 <code>tools/prepare_fonts.py</code>。字体转换保留 Unicode 映射，中文可选中。ReportLab 生成目录与页码，PyMuPDF 导出逐页图；可选的 <code>pdffonts</code> 检查来自 Poppler。</p>
+<p>三张原型截图来自实际浏览器操作，已保存在 <code>assets/</code>，PDF 构建直接读取这些经过检查的截图。修改原型后，应重新通过浏览器检查并更新对应截图，不能把旧图当作新界面的验收证据。字体许可见 <code>assets/Noto-CJK-license.txt</code>。</p>
+<p>成品位置：<code>output/pdf/product-jobs-guide-v1.0.0.pdf</code>，同时复制到 <code>downloads/</code>。页面渲染在 <code>verification/pdf-pages/</code>，联系表在 <code>verification/pdf-contact-sheets/</code>。这些中间图不进入发布 ZIP 或源码导出；保留的原型截图位于 <code>assets/</code>。</p>
+<p><strong>验收要求：</strong> 逐页查看最新渲染，确认中文、表格、页码、目录、链接、原型截图与图表。PDF 文本和几何检查不等于视觉验收。将真实执行状态写入 <code>verification/VALIDATION.md</code>，不把“待检查”自动改成“通过”。</p>
+<h2 id="2-生成两个发布包">2. 生成两个发布包</h2>
+<pre><code class="language-bash">python3 -B tools/package_release.py
+</code></pre>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>产物</th>
+<th>内容</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>downloads/product-jobs-workbook-v1.0.0.zip</code></td>
+<td>15 份模板、模板说明、12 个样例文件、两章完整案例、可运行原型、必要图像、离线入口与许可</td>
+</tr>
+<tr>
+<td><code>downloads/product-jobs-source-v1.0.0.zip</code></td>
+<td>完整正文、来源、模板、样例、资产、工具、工作流、部署说明、依赖清单、验证快照与成品 PDF</td>
+</tr>
+</tbody></table></div>
+<p>Workbook 保留原有相对路径。解压后打开 <code>index.html</code> 或 <code>prototypes/offertrail.html</code> 即可运行原型。Markdown 用编辑器阅读，CSV 可用表格软件修改。原型不发送申请，也不验证工作许可。</p>
+<p>源码包包含成品 PDF，不复制可重新生成的 <code>dist/</code>，不递归包含自身或另一个 ZIP。解压后可重新执行打包与网页构建，得到完整网站。每个 ZIP 内有 <code>PACKAGE-MANIFEST.json</code>，列出文件哈希、包范围和模拟性质。</p>
+<p>打包默认排除 <code>.git</code>、<code>.openai</code>、凭证文件、私钥、<code>node_modules</code>、虚拟环境、渲染中间文件、缓存和符号链接。它采用来源目录白名单，并检测常见真实 GitHub token 与私钥标记。该检查不等于通用秘密审计；不要把任何秘密放入公开项目。</p>
+<p>若 PDF 尚未生成，普通命令会先生成 Workbook，并明确跳过不完整的源码包。完整发布使用严格模式：</p>
+<pre><code class="language-bash">python3 -B tools/package_release.py --require-pdf
+npm run build
+python3 -B tools/check_integrity.py
+python3 -B tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf --require downloads/product-jobs-workbook-v1.0.0.zip --require downloads/product-jobs-source-v1.0.0.zip
+</code></pre>
+<p>更新验证记录后，可再运行打包和网页构建，让源码包包含最近的验证快照，并用只读 Pages 检查确认最终 <code>dist/</code>。发布脚本要求 <code>downloads/</code> 与 <code>dist/downloads/</code> 的三份产物逐字节一致；若不一致，先重新构建并验收，不在发布阶段偷偷替换文件。</p>
+<h2 id="3-使用固定目标发布脚本">3. 使用固定目标发布脚本</h2>
+<p>先在具备相应权限的环境登录 <strong>AIPMAndy</strong>：</p>
+<pre><code class="language-bash">gh auth login --hostname github.com
+gh auth status --hostname github.com
+bash tools/publish-github.sh
+</code></pre>
+<p>此处登录由 GitHub CLI 的正常流程完成。脚本本身不读取或打印 token。认证失败、账号不符、网络查询失败、权限不足时会清楚退出，不把查询失败当作仓库不存在。</p>
+<h3 id="脚本实际执行顺序">脚本实际执行顺序</h3>
+<ol>
+<li>校验登录账号、成品 PDF、完整 <code>dist/</code>、结构记录与三个下载文件。</li>
+<li>用安全导出器生成独立临时源目录，保持已验收的静态文件字节不变。</li>
+<li>查询唯一目标仓库。确认 404 后才创建同名公开仓库。</li>
+<li>已有仓库必须是相同用途、公开、非归档、非 fork、可写，且使用 <code>main</code>。有内容时读取 README 和 package 身份；空仓库需要相符描述。用途不明就停止，不覆盖。</li>
+<li>在独立 GitHub clone 中提交源文件、成品、<code>dist/</code>、部署规范和工作流，以普通快进推送提交到 <code>main</code>，随后读回 SHA。</li>
+<li>仅为这个项目配置 Pages 的 workflow 发布源，触发并等待 <code>pages.yml</code>。现有自定义域名不会被覆盖，仓库保护规则不会被绕过。</li>
+<li>读取 Pages 返回的网址，实际访问首页，并下载线上 PDF 与两个 ZIP，逐字节核对提交中的产物。</li>
+<li>创建 <code>v1.0.0</code> 草稿 release，上传三份产物，读回检查，再发布。已有同名资产只核对或补缺，不使用 <code>--clobber</code>；不同内容不能覆盖旧版本。</li>
+</ol>
+<p>Git 命令始终针对临时 clone，远端固定为公开 GitHub 项目。脚本不强推、不重写 tag、不删除既有资产，不操作其他仓库。重复运行时，同一版本与同一内容可以继续验证或补齐中断的发布；如果 <code>v1.0.0</code> 已存在而内容变化，脚本会停止，要求维护者按新版本处理。</p>
+<p>失败时会输出最后完成阶段，保留隔离目录供排查。例如“提交已读回”与“Pages 部署成功”是两个不同状态。不能因为前一项完成就宣称网站已上线。</p>
+<h2 id="4-pages-工作流为何不重新构建">4. Pages 工作流为何不重新构建</h2>
+<p>现有 <a href="../files/.github/workflows/pages.yml">.github/workflows/pages.yml</a>只检查并上传提交中的 <code>dist/</code>，确保线上文件与本地验收对象一致。它只在精确仓库 <code>AIPMAndy/chinese-international-student-product-jobs</code> 的 <code>main</code> 运行，支持 push 和手动触发。</p>
+<p>全局权限为 <code>contents: read</code>；部署任务另外取得 <code>pages: write</code> 和 <code>id-token: write</code>，使用 <code>github-pages</code> 环境。Checkout 不保留 Git 凭据。工作流不会在 CI 重新生成中文 PDF，也不会调用 Sites。</p>
+<p>核验采用的官方 action 主版本：</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>Action</th>
+<th>本项目版本</th>
+</tr>
+</thead>
+<tbody><tr>
+<td><code>actions/checkout</code></td>
+<td><code>v6</code></td>
+</tr>
+<tr>
+<td><code>actions/configure-pages</code></td>
+<td><code>v5</code></td>
+</tr>
+<tr>
+<td><code>actions/upload-pages-artifact</code></td>
+<td><code>v4</code></td>
+</tr>
+<tr>
+<td><code>actions/deploy-pages</code></td>
+<td><code>v4</code></td>
+</tr>
+</tbody></table></div>
+<p>这些版本与 2026-11-13 阅读的 GitHub Pages 官方工作流示例一致；不是声明未来永远无需更新。<a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">官方流程</a></p>
+<h2 id="5-发布成功后的记录">5. 发布成功后的记录</h2>
+<p>保存脚本最后输出的仓库地址、提交 SHA、Actions run URL、实际 Pages URL 和 release URL。再完成线上手机与桌面交互检查：目录、搜索、模板、PDF、源码包、微信复制和两处官网入口。</p>
+<p>脚本能验证 HTTP 内容与下载字节，不能代替真实浏览器交互和逐页 PDF 视觉检查。只有相应动作实际完成，才能更新 <a href="DEPLOYMENT.html">部署状态</a>与验证记录；否则分别保留待办。</p>
+<h2 id="官方依据">官方依据</h2>
+<p>以下资料均在 2026-11-13 核验。部署资料与招聘来源台账分开维护。</p>
+<ul>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">GitHub Pages 自定义工作流</a>：当前 action 版本、artifact、环境与部署权限。</li>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">GitHub Pages 发布源设置</a>：GitHub Actions 作为发布源。</li>
+<li><a href="https://docs.github.com/en/rest/pages/pages">Pages REST API</a>：创建和更新本仓库 Pages 配置，<code>build_type: workflow</code> 与所需权限。</li>
+<li><a href="https://cli.github.com/manual/gh_repo_create">gh repo create</a>：指定完整仓库名与 <code>--public</code>；脚本没有借用当前目录的 source/remote。</li>
+<li><a href="https://cli.github.com/manual/gh_release_create">gh release create</a>：指定提交、草稿、附件与 release 创建过程。</li>
+<li><a href="https://cli.github.com/manual/gh_release_upload">gh release upload</a>：同名覆盖会先删除旧资产，因此本脚本不使用 <code>--clobber</code>。</li>
+</ul>
+<p>作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy<br>个人官网：<a href="https://metaver.vip/">https://metaver.vip/</a> ｜公司官网：<a href="https://www.a6no1.cn/">https://www.a6no1.cn/</a></p>
+</article></div></main><footer><div class="container footer-inner"><div>作者：AI 酋长 Andy · 微信 AIPMAndy · 公众号 AI酋长Andy</div><div><a href="https://metaver.vip/">个人官网</a> · <a href="https://www.a6no1.cn/">公司官网</a> · <a href="../verification.html">验证记录</a> · v1.0.0 / 2026-11-13</div></div></footer></body></html>

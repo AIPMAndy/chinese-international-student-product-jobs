@@ -1,0 +1,20 @@
+{
+  "version": "1.0.0",
+  "checked_date": "2026-11-13",
+  "project": "OfferTrail",
+  "evidence_label": "原创教学模拟；没有真实访谈、上线或业务结果",
+  "scope": "跨时区申请提交前的来源、截止信息与材料核对",
+  "raw_material_count": 6,
+  "raw_material_ids": ["S01", "S02", "S03", "S04", "S05", "S06"],
+  "raw_material_status": "作者编写的模拟情境，不是六位受访者",
+  "options_compared": ["表格和日历", "人工来源核对加规则提示", "AI抽取并自动判断"],
+  "chosen_option": "人工来源核对加规则提示（仅为待验证设计选择）",
+  "applications": [
+    {"id":"APP-01","employer":"示例雇主A（虚构）","role":"Product Intern","deadline_original":"2026-11-20 17:00","deadline_zone":"Europe/London","deadline_utc":"2026-11-20T17:00:00Z","beijing":"2026-11-21 01:00","initial_blockers":["作品集待补","工作许可要求待核实"]},
+    {"id":"APP-02","employer":"示例雇主B（虚构）","role":"APM","deadline_original":"Friday end of day","deadline_zone":null,"deadline_utc":null,"beijing":null,"initial_blockers":["日期待确认","时区待确认"]},
+    {"id":"APP-03","employer":"示例雇主C（虚构）","role":"Junior PM","deadline_original":"2026-11-24 17:00","deadline_zone":"America/New_York","deadline_utc":"2026-11-24T22:00:00Z","beijing":"2026-11-25 06:00","initial_blockers":["简历待更新"]}
+  ],
+  "completed_artifact_categories": ["模拟原始材料包","问题与假设台账","三方案比较","原型规格","指标定义","真实研究计划","申请材料示例"],
+  "not_completed": ["真实访谈","真实用户可用性测试","真实职位申请","真实产品上线","增长或收入验证"],
+  "never_claim": ["访谈六位用户","提升申请成功率","已服务真实用户","已经替用户投递","判断签证或工作许可","拿到Offer"]
+}

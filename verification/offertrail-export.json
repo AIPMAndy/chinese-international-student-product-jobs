@@ -1,0 +1,25 @@
+{
+  "nature": "教学模拟，非真实申请",
+  "version": "1.0.0",
+  "simulation": true,
+  "submitted": false,
+  "application_id": "APP-01",
+  "employer_label": "示例雇主 A（虚构）",
+  "role_title": "Product Intern",
+  "deadline_original": "2026-11-20 17:00 Europe/London",
+  "deadline_local": "2026-11-20T17:00",
+  "deadline_zone": "Europe/London",
+  "deadline_utc": "2026-11-20T17:00:00.000Z",
+  "source_reference": "教学模拟来源，无外部链接",
+  "source_checked_by_user": true,
+  "requirements": {
+    "resume": true,
+    "portfolio": true
+  },
+  "work_permission_checked_by_user": true,
+  "work_permission_legally_verified": false,
+  "reviewer_note": "",
+  "review_status": "manually_checked",
+  "last_checked": "2026-11-13T08:00:57.719Z",
+  "blockers": []
+}

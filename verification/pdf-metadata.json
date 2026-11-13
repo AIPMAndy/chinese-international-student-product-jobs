@@ -1,0 +1,1272 @@
+{
+  "file": "output/pdf/product-jobs-guide-v1.0.0.pdf",
+  "version": "1.0.0",
+  "verified_date": "2026-11-13",
+  "engine": "ReportLab (no browser)",
+  "pages": 128,
+  "bytes": 1486561,
+  "selectable_text_characters": 122611,
+  "text_extraction": "verification/pdf-extracted-text.txt",
+  "missing_section_titles": [],
+  "blank_or_nearly_blank_pages": [],
+  "text_outside_page": [],
+  "links": {
+    "internal": 87,
+    "external": 358
+  },
+  "bookmarks": 430,
+  "section_pages": {
+    "chapter-00": 4,
+    "chapter-01": 7,
+    "chapter-02": 14,
+    "chapter-03": 17,
+    "chapter-04": 20,
+    "chapter-05": 23,
+    "chapter-06": 35,
+    "chapter-07": 48,
+    "chapter-08": 54,
+    "chapter-09": 57,
+    "chapter-10": 70,
+    "chapter-11": 73,
+    "appendix-A": 76,
+    "appendix-B": 81,
+    "appendix-C": 84,
+    "appendix-D": 88,
+    "appendix-E": 93,
+    "chapter-12": 116
+  },
+  "sources_unique_urls": 63,
+  "documents": 35,
+  "templates": 15,
+  "wide_tables_as_record_cards": 0,
+  "csv_records": 7,
+  "csv_blank_records_collapsed": 7,
+  "table_policy": "Repeated header; rows never split across pages; wide CSV tables become key/value record cards.",
+  "images": [
+    {
+      "path": "assets/evidence-chain.svg",
+      "caption": "产品能力证据链：原始材料、方案判断、原型验证与申请表达",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/metric-tree.svg",
+      "caption": "OfferTrail 指标树：结果、过程与护栏，均为设计口径而非实测结果",
+      "kind": "svg"
+    },
+    {
+      "path": "assets/offertrail-overview.png",
+      "caption": "OfferTrail 实际原型截图：APP-01 的原始时间、北京时间和待核对材料",
+      "kind": "png",
+      "pixels": [
+        860,
+        985
+      ],
+      "display_points": [
+        493.27559055118115,
+        564.9726240615272
+      ],
+      "effective_dpi": 125.5
+    },
+    {
+      "path": "assets/offertrail-blocked.png",
+      "caption": "原型状态：原文缺少日期或时区时，阻止确认并提示回到官方来源。",
+      "kind": "png",
+      "pixels": [
+        825,
+        725
+      ],
+      "display_points": [
+        493.27559055118115,
+        433.4846098783107
+      ],
+      "effective_dpi": 120.4
+    },
+    {
+      "path": "assets/offertrail-complete.png",
+      "caption": "原型状态：人工核对完成。此状态不代表已投递，也不代表取得工作许可。",
+      "kind": "png",
+      "pixels": [
+        825,
+        700
+      ],
+      "display_points": [
+        493.27559055118115,
+        418.5368647100931
+      ],
+      "effective_dpi": 120.4
+    },
+    {
+      "path": "assets/four-week-plan.svg",
+      "caption": "四周训练交付计划：目标证据、研究取舍、原型验证、申请面试",
+      "kind": "svg"
+    }
+  ],
+  "missing_images": [],
+  "fonts": [
+    [
+      "n/a",
+      "Type1",
+      "Helvetica",
+      "F1"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAA+AndyCareerGuideSC-Bold",
+      "F3+0"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAA+AndyCareerGuideSC-Regular",
+      "F2+0"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAA+DejaVuSansMono",
+      "F4+0"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAB+AndyCareerGuideSC-Bold",
+      "F3+1"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAB+AndyCareerGuideSC-Regular",
+      "F2+1"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAC+AndyCareerGuideSC-Bold",
+      "F3+2"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAC+AndyCareerGuideSC-Regular",
+      "F2+2"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAD+AndyCareerGuideSC-Regular",
+      "F2+3"
+    ],
+    [
+      "ttf",
+      "TrueType",
+      "AAAAAE+AndyCareerGuideSC-Regular",
+      "F2+4"
+    ]
+  ],
+  "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nHelvetica                            Type 1            WinAnsi          no  no  no       2  0\nAAAAAA+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    582  0\nAAAAAB+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    586  0\nAAAAAC+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    590  0\nAAAAAD+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    594  0\nAAAAAE+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    598  0\nAAAAAA+AndyCareerGuideSC-Bold        TrueType          WinAnsi          yes yes yes    602  0\nAAAAAB+AndyCareerGuideSC-Bold        TrueType          WinAnsi          yes yes yes    606  0\nAAAAAC+AndyCareerGuideSC-Bold        TrueType          WinAnsi          yes yes yes    610  0\nAAAAAA+DejaVuSansMono                TrueType          WinAnsi          yes yes yes    614  0\n",
+  "font_derivation": {
+    "fingerprint": "0f0ee37dcbbb5f13016a7e314fadc1773ab22cb62bcdb17b7d48434773e512c4",
+    "codepoints": 1270,
+    "faces": [
+      {
+        "source": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
+        "font_number": 2,
+        "family": "Andy Career Guide SC",
+        "style": "Regular",
+        "glyph_count": 1271,
+        "output": "/workspace/scratch/c2fef9d5222c/chinese-international-student-product-jobs/tmp/pdf-fonts/AndyCareerGuideSC-Regular.ttf",
+        "license": "SIL Open Font License 1.1",
+        "upstream": "https://github.com/notofonts/noto-cjk",
+        "source_license_file": "/usr/share/doc/fonts-noto-cjk/copyright",
+        "missing_characters": []
+      },
+      {
+        "source": "/usr/share/fonts/opentype/noto/NotoSansCJK-Bold.ttc",
+        "font_number": 2,
+        "family": "Andy Career Guide SC",
+        "style": "Bold",
+        "glyph_count": 1271,
+        "output": "/workspace/scratch/c2fef9d5222c/chinese-international-student-product-jobs/tmp/pdf-fonts/AndyCareerGuideSC-Bold.ttf",
+        "license": "SIL Open Font License 1.1",
+        "upstream": "https://github.com/notofonts/noto-cjk",
+        "source_license_file": "/usr/share/doc/fonts-noto-cjk/copyright",
+        "missing_characters": []
+      }
+    ]
+  },
+  "font_license": {
+    "name": "SIL Open Font License 1.1",
+    "upstream": "https://github.com/notofonts/noto-cjk",
+    "local_license": "tmp/pdf-fonts/Noto-CJK-license.txt",
+    "derived_family": "Andy Career Guide SC",
+    "embedding": "Unicode TrueType subset; CFF curves converted to quadratic curves locally"
+  },
+  "render_dpi": 120,
+  "page_images": "verification/pdf-pages",
+  "contact_sheets": [
+    {
+      "file": "verification/pdf-contact-sheets/sheet-001.png",
+      "pages": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-002.png",
+      "pages": [
+        5,
+        6,
+        7,
+        8
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-003.png",
+      "pages": [
+        9,
+        10,
+        11,
+        12
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-004.png",
+      "pages": [
+        13,
+        14,
+        15,
+        16
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-005.png",
+      "pages": [
+        17,
+        18,
+        19,
+        20
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-006.png",
+      "pages": [
+        21,
+        22,
+        23,
+        24
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-007.png",
+      "pages": [
+        25,
+        26,
+        27,
+        28
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-008.png",
+      "pages": [
+        29,
+        30,
+        31,
+        32
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-009.png",
+      "pages": [
+        33,
+        34,
+        35,
+        36
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-010.png",
+      "pages": [
+        37,
+        38,
+        39,
+        40
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-011.png",
+      "pages": [
+        41,
+        42,
+        43,
+        44
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-012.png",
+      "pages": [
+        45,
+        46,
+        47,
+        48
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-013.png",
+      "pages": [
+        49,
+        50,
+        51,
+        52
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-014.png",
+      "pages": [
+        53,
+        54,
+        55,
+        56
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-015.png",
+      "pages": [
+        57,
+        58,
+        59,
+        60
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-016.png",
+      "pages": [
+        61,
+        62,
+        63,
+        64
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-017.png",
+      "pages": [
+        65,
+        66,
+        67,
+        68
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-018.png",
+      "pages": [
+        69,
+        70,
+        71,
+        72
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-019.png",
+      "pages": [
+        73,
+        74,
+        75,
+        76
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-020.png",
+      "pages": [
+        77,
+        78,
+        79,
+        80
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-021.png",
+      "pages": [
+        81,
+        82,
+        83,
+        84
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-022.png",
+      "pages": [
+        85,
+        86,
+        87,
+        88
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-023.png",
+      "pages": [
+        89,
+        90,
+        91,
+        92
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-024.png",
+      "pages": [
+        93,
+        94,
+        95,
+        96
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-025.png",
+      "pages": [
+        97,
+        98,
+        99,
+        100
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-026.png",
+      "pages": [
+        101,
+        102,
+        103,
+        104
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-027.png",
+      "pages": [
+        105,
+        106,
+        107,
+        108
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-028.png",
+      "pages": [
+        109,
+        110,
+        111,
+        112
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-029.png",
+      "pages": [
+        113,
+        114,
+        115,
+        116
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-030.png",
+      "pages": [
+        117,
+        118,
+        119,
+        120
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-031.png",
+      "pages": [
+        121,
+        122,
+        123,
+        124
+      ]
+    },
+    {
+      "file": "verification/pdf-contact-sheets/sheet-032.png",
+      "pages": [
+        125,
+        126,
+        127,
+        128
+      ]
+    }
+  ],
+  "page_stats": [
+    {
+      "page": 1,
+      "characters": 415,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 2,
+      "characters": 522,
+      "links": 37,
+      "images": 0
+    },
+    {
+      "page": 3,
+      "characters": 531,
+      "links": 20,
+      "images": 0
+    },
+    {
+      "page": 4,
+      "characters": 1024,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 5,
+      "characters": 901,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 531,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "characters": 949,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "characters": 975,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "characters": 1408,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "characters": 1319,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "characters": 1274,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "characters": 942,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "characters": 1140,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "characters": 968,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "characters": 1143,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "characters": 910,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "characters": 1020,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 18,
+      "characters": 1057,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 19,
+      "characters": 414,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 20,
+      "characters": 894,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 21,
+      "characters": 849,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 22,
+      "characters": 994,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 23,
+      "characters": 984,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 24,
+      "characters": 1473,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 25,
+      "characters": 1426,
+      "links": 9,
+      "images": 0
+    },
+    {
+      "page": 26,
+      "characters": 1379,
+      "links": 6,
+      "images": 0
+    },
+    {
+      "page": 27,
+      "characters": 1304,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 28,
+      "characters": 1268,
+      "links": 9,
+      "images": 0
+    },
+    {
+      "page": 29,
+      "characters": 1339,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 30,
+      "characters": 1488,
+      "links": 8,
+      "images": 0
+    },
+    {
+      "page": 31,
+      "characters": 1163,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 32,
+      "characters": 1333,
+      "links": 8,
+      "images": 0
+    },
+    {
+      "page": 33,
+      "characters": 988,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 34,
+      "characters": 939,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 35,
+      "characters": 736,
+      "links": 10,
+      "images": 0
+    },
+    {
+      "page": 36,
+      "characters": 105,
+      "links": 1,
+      "images": 1
+    },
+    {
+      "page": 37,
+      "characters": 94,
+      "links": 1,
+      "images": 1
+    },
+    {
+      "page": 38,
+      "characters": 432,
+      "links": 1,
+      "images": 1
+    },
+    {
+      "page": 39,
+      "characters": 730,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 40,
+      "characters": 676,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 41,
+      "characters": 782,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 42,
+      "characters": 639,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 43,
+      "characters": 881,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 44,
+      "characters": 719,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "characters": 750,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "characters": 1129,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "characters": 413,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "characters": 879,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 49,
+      "characters": 997,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 50,
+      "characters": 1340,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 51,
+      "characters": 1135,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 52,
+      "characters": 785,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 53,
+      "characters": 378,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 54,
+      "characters": 1024,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 55,
+      "characters": 1026,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 56,
+      "characters": 1281,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 57,
+      "characters": 1162,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 58,
+      "characters": 1295,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 59,
+      "characters": 957,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 60,
+      "characters": 1277,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 61,
+      "characters": 1375,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 62,
+      "characters": 1110,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 63,
+      "characters": 1150,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 64,
+      "characters": 1216,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 65,
+      "characters": 1047,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 66,
+      "characters": 1223,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 67,
+      "characters": 1198,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 68,
+      "characters": 623,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 69,
+      "characters": 515,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 70,
+      "characters": 1255,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 71,
+      "characters": 1089,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 72,
+      "characters": 599,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 73,
+      "characters": 888,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 74,
+      "characters": 806,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 75,
+      "characters": 498,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 76,
+      "characters": 850,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 77,
+      "characters": 832,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 78,
+      "characters": 257,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 79,
+      "characters": 793,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 80,
+      "characters": 729,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 81,
+      "characters": 827,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 82,
+      "characters": 963,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 83,
+      "characters": 1105,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 84,
+      "characters": 830,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 85,
+      "characters": 522,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 86,
+      "characters": 1727,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 87,
+      "characters": 1430,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 88,
+      "characters": 1671,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 89,
+      "characters": 1324,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 90,
+      "characters": 2339,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 91,
+      "characters": 1639,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 92,
+      "characters": 306,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 93,
+      "characters": 972,
+      "links": 15,
+      "images": 0
+    },
+    {
+      "page": 94,
+      "characters": 951,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 95,
+      "characters": 858,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 96,
+      "characters": 494,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 97,
+      "characters": 392,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 98,
+      "characters": 761,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 99,
+      "characters": 437,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 100,
+      "characters": 382,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 101,
+      "characters": 407,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 102,
+      "characters": 457,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 103,
+      "characters": 369,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 104,
+      "characters": 866,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 105,
+      "characters": 245,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 106,
+      "characters": 770,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 107,
+      "characters": 345,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 108,
+      "characters": 763,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 109,
+      "characters": 340,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 110,
+      "characters": 837,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 111,
+      "characters": 424,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 112,
+      "characters": 1923,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 113,
+      "characters": 848,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 114,
+      "characters": 768,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 115,
+      "characters": 465,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 116,
+      "characters": 1082,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 117,
+      "characters": 1314,
+      "links": 6,
+      "images": 0
+    },
+    {
+      "page": 118,
+      "characters": 1467,
+      "links": 6,
+      "images": 0
+    },
+    {
+      "page": 119,
+      "characters": 1414,
+      "links": 6,
+      "images": 0
+    },
+    {
+      "page": 120,
+      "characters": 1318,
+      "links": 6,
+      "images": 0
+    },
+    {
+      "page": 121,
+      "characters": 1449,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 122,
+      "characters": 1400,
+      "links": 6,
+      "images": 0
+    },
+    {
+      "page": 123,
+      "characters": 1437,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 124,
+      "characters": 1425,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 125,
+      "characters": 1345,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 126,
+      "characters": 1398,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 127,
+      "characters": 1345,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 128,
+      "characters": 1394,
+      "links": 8,
+      "images": 0
+    }
+  ],
+  "visual_review": {
+    "status": "pass",
+    "coverage": "verification/pdf-visual-coverage.json",
+    "pages": 128
+  }
+}

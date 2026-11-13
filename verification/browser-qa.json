@@ -1,0 +1,130 @@
+{
+  "checked": "2026-11-13",
+  "purpose": "Development browser validation; not a usability study",
+  "tested_build_commit": "8304f13341e7dd74459667437d5e9557a6d7c4f7",
+  "tested_origin": "https://andy-student-product-jobs.andyaipm.chatgpt.site",
+  "deployment_role": "Historical temporary validation build; not the formal website. No further Sites publication after AGENTS.md / DEPLOYMENT.md specified GitHub Pages.",
+  "desktop_viewport_css": {
+    "width": 1363,
+    "height": 936
+  },
+  "narrow_viewport_css": {
+    "width": 340,
+    "height": 234,
+    "document_width": 337,
+    "method": "Ordinary browser 400% page zoom; not mobile hardware or DevTools emulation"
+  },
+  "checks": [
+    {
+      "id": "P01",
+      "subject": "APP-01 时间换算",
+      "observed": "伦敦 2026-11-20 17:00 → 北京 2026-11-21 01:00",
+      "status": "pass"
+    },
+    {
+      "id": "P02",
+      "subject": "缺少材料阻断",
+      "observed": "运行后列出作品集、许可人工核对两项",
+      "status": "pass"
+    },
+    {
+      "id": "P03",
+      "subject": "完成与提交分离",
+      "observed": "先等待人工确认，确认后显示本地核对完成及尚未向雇主提交",
+      "status": "pass"
+    },
+    {
+      "id": "P04",
+      "subject": "模糊时间保持未知",
+      "observed": "APP-02 保留 Friday end of day，日期时区为空，无估算倒计时",
+      "status": "pass"
+    },
+    {
+      "id": "P05",
+      "subject": "材料勾选不能覆盖未知",
+      "observed": "APP-02 全部材料已勾选，仍阻断日期/时区与来源确认",
+      "status": "pass"
+    },
+    {
+      "id": "P06",
+      "subject": "APP-03 时间换算",
+      "observed": "纽约 2026-11-24 17:00 → 北京 2026-11-25 06:00",
+      "status": "pass"
+    },
+    {
+      "id": "P07",
+      "subject": "修改后旧确认失效",
+      "observed": "已确认 APP-01 取消作品集勾选，状态恢复待处理并提示重新运行",
+      "status": "pass"
+    },
+    {
+      "id": "P08",
+      "subject": "重置",
+      "observed": "三个样本恢复初始状态与初始勾选",
+      "status": "pass"
+    },
+    {
+      "id": "P09",
+      "subject": "键盘核心任务",
+      "observed": "以空格、Tab、Enter 完成材料勾选、运行、确认；焦点轮廓 3px 可见",
+      "status": "pass_with_scope"
+    },
+    {
+      "id": "P10",
+      "subject": "窄屏响应式",
+      "observed": "340 CSS px、400%普通页面缩放；文档宽337，无整页水平溢出；按钮在边界内",
+      "status": "pass_with_scope"
+    },
+    {
+      "id": "W01",
+      "subject": "背景路线",
+      "observed": "技术、商科、已有经历切换显示各自产出",
+      "status": "pass"
+    },
+    {
+      "id": "W02",
+      "subject": "章节搜索",
+      "observed": "英国匹配2章；不存在词提示无匹配；清空恢复13章",
+      "status": "pass"
+    },
+    {
+      "id": "W03",
+      "subject": "微信复制",
+      "observed": "点击后显示已复制；剪贴板为 AIPMAndy",
+      "status": "pass"
+    },
+    {
+      "id": "W04",
+      "subject": "窄屏章节",
+      "observed": "章节目录可见；表格在257px容器内独立横滚，表格内容宽480px",
+      "status": "pass"
+    },
+    {
+      "id": "W05",
+      "subject": "CSV真实下载",
+      "observed": "下载OfferTrail决策CSV，与源文件逐字节相同",
+      "status": "pass"
+    },
+    {
+      "id": "W06",
+      "subject": "核对记录导出",
+      "observed": "JSON simulation=true，submitted=false，work_permission_legally_verified=false",
+      "status": "pass"
+    }
+  ],
+  "post_browser_change": "Source now preserves card focus after rerender and moves confirmation focus to the result. This focus refinement has not been rechecked in the final deployed build.",
+  "limitations": [
+    "Final GitHub Pages browser regression and PDF/ZIP online downloads are pending authenticated publication.",
+    "The requested 360px plan was exercised at the narrower 340 CSS px width; no physical iOS/Android device test was performed.",
+    "No real participant research or real application was conducted."
+  ],
+  "evidence": [
+    "assets/site-preview-desktop.jpg",
+    "assets/site-preview-narrow.jpg",
+    "assets/prototype-narrow-result.jpg",
+    "assets/offertrail-overview.png",
+    "assets/offertrail-blocked.png",
+    "assets/offertrail-complete.png",
+    "verification/offertrail-export.json"
+  ]
+}

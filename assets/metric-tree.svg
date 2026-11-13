@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="600" viewBox="0 0 1000 600" role="img" aria-label="OfferTrail指标树，任务正确完成与错误放行分别衡量">
+<rect width="1000" height="600" fill="#f7f9f2"/><g font-family="Noto Sans CJK SC,Arial,sans-serif"><text x="36" y="42" font-size="13" fill="#5e7354" letter-spacing="1.8">OFFERTRAIL / 指标设计，不是已测结果</text>
+<rect x="260" y="70" width="480" height="108" rx="8" fill="#2d4e40"/><text x="500" y="111" text-anchor="middle" font-size="25" fill="#fff">正确完成提交前核对</text><text x="500" y="146" text-anchor="middle" font-size="15" fill="#dce6d4">发现关键缺失，并知道仍需真实提交</text>
+<g fill="none" stroke="#a5b599" stroke-width="2"><path d="M500 178V217M183 217H817M183 217V245M500 217V245M817 217V245"/></g>
+<g fill="#fff" stroke="#cbd6c2"><rect x="38" y="245" width="290" height="255" rx="8"/><rect x="355" y="245" width="290" height="255" rx="8"/><rect x="672" y="245" width="290" height="255" rx="8"/></g>
+<g fill="#294331"><text x="62" y="282" font-size="20">结果指标</text><text x="379" y="282" font-size="20">过程指标</text><text x="696" y="282" font-size="20">护栏指标</text></g>
+<g font-size="16" fill="#53654b"><text x="62" y="327">正确处理全部关键项</text><text x="62" y="354">÷ 全部有效核对任务</text><text x="62" y="400">独立任务基准核验</text><text x="62" y="427">不能只看按钮点击</text>
+<text x="379" y="327">完成耗时与超时</text><text x="379" y="354">求助次数与求助率</text><text x="379" y="400">失败任务保留记录</text><text x="379" y="427">不只分析成功者</text>
+<text x="696" y="327">含关键缺失却被放行</text><text x="696" y="354">÷ 含关键缺失的任务</text><text x="696" y="400">区分核对与申请</text><text x="696" y="427">未知信息保持待核实</text></g>
+<text x="36" y="550" font-size="14" fill="#6b795f">口径先定义，结果再测量。点击“已核对”不等于任务正确，更不等于获得工作许可或 Offer。</text></g></svg>

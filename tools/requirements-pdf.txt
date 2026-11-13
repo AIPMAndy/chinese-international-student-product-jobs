@@ -1,0 +1,5 @@
+# Versions used for the verified v1.0.0 PDF build (Python 3.12).
+reportlab==4.4.9
+fonttools==4.61.1
+PyMuPDF==1.26.6
+Pillow==13.0.0

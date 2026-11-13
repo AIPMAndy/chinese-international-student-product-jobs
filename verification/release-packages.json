@@ -1,0 +1,31 @@
+{
+  "checked": "2026-11-13",
+  "status": "pass",
+  "scope": "Reproducible packaging checks; source ZIP checksum is intentionally external to avoid self-reference",
+  "templates": 15,
+  "example_files_including_readme": 12,
+  "final_pdf_sha256": "2a1abf1a37f1a75f1e6265737a4ae23e71cbeba12df5d0a75408e334e0e1df1c",
+  "packages": [
+    {
+      "file": "downloads/product-jobs-workbook-v1.0.0.zip",
+      "entries": 49,
+      "payload_entries": 48,
+      "crc": "pass",
+      "per_file_manifest_sha256": "pass",
+      "excluded_state_and_cache": "pass"
+    },
+    {
+      "file": "downloads/product-jobs-source-v1.0.0.zip",
+      "entries": 109,
+      "payload_entries": 108,
+      "crc": "pass",
+      "per_file_manifest_sha256": "pass",
+      "excluded_state_and_cache": "pass"
+    }
+  ],
+  "notes": [
+    "Source ZIP includes complete build inputs and final PDF; dist is reproducibly generated.",
+    "Workbook includes all 15 templates and 12 example files, relative dependencies and offline prototype.",
+    "All scenario data are explicitly synthetic; no real participant or business result is included."
+  ]
+}

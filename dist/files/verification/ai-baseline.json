@@ -1,0 +1,156 @@
+{
+  "nature": "12 authored synthetic software checks; not a live-model benchmark or user-study result",
+  "checked": "2026-11-13",
+  "rule": "strict exact format; candidate always requires human source review",
+  "sealed_holdout": false,
+  "passed": 12,
+  "total": 12,
+  "model_evaluation": "not_performed",
+  "business_outcomes": "not_measured",
+  "rows": [
+    {
+      "id": "E01",
+      "split": "development",
+      "expected": {
+        "status": "candidate",
+        "local": "2026-11-20T17:00",
+        "zone": "Europe/London"
+      },
+      "actual": {
+        "status": "candidate",
+        "local": "2026-11-20T17:00",
+        "zone": "Europe/London"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E02",
+      "split": "development",
+      "expected": {
+        "status": "candidate",
+        "local": "2026-11-24T17:00",
+        "zone": "America/New_York"
+      },
+      "actual": {
+        "status": "candidate",
+        "local": "2026-11-24T17:00",
+        "zone": "America/New_York"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E03",
+      "split": "development",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E04",
+      "split": "development",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E05",
+      "split": "development",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E06",
+      "split": "development",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E07",
+      "split": "development",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E08",
+      "split": "development",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E09",
+      "split": "holdout_demo_only",
+      "expected": {
+        "status": "candidate",
+        "local": "2026-12-01T09:00",
+        "zone": "Asia/Tokyo"
+      },
+      "actual": {
+        "status": "candidate",
+        "local": "2026-12-01T09:00",
+        "zone": "Asia/Tokyo"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E10",
+      "split": "holdout_demo_only",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E11",
+      "split": "holdout_demo_only",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    },
+    {
+      "id": "E12",
+      "split": "holdout_demo_only",
+      "expected": {
+        "status": "review"
+      },
+      "actual": {
+        "status": "review"
+      },
+      "matches_expected": true
+    }
+  ]
+}

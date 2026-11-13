@@ -1,0 +1,43 @@
+name: Deploy verified guide to GitHub Pages
+# Official GitHub Pages action versions checked on 2026-11-13.
+# Deploy committed dist bytes only; do not rebuild the site or PDF in this job.
+
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: github-pages
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    if: github.repository == 'AIPMAndy/chinese-international-student-product-jobs' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Check out the committed project
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Validate the committed static site and downloads
+        run: python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf --require downloads/product-jobs-workbook-v1.0.0.zip --require downloads/product-jobs-source-v1.0.0.zip
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+      - name: Upload the verified static site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: dist
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

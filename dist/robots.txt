@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://aipmandy.github.io/chinese-international-student-product-jobs/sitemap.xml

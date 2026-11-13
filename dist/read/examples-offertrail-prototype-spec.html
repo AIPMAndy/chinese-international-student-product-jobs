@@ -1,0 +1,199 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="中国留学生产品岗位求职攻略：OfferTrail 原型规格"><meta name="author" content="AI 酋长 Andy"><meta name="theme-color" content="#2d4e40"><title>OfferTrail 原型规格 · AI 酋长 Andy</title><link rel="canonical" href="https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-prototype-spec.html"><meta property="og:title" content="OfferTrail 原型规格"><meta property="og:description" content="中国留学生产品岗位求职攻略：OfferTrail 原型规格"><link rel="stylesheet" href="../assets/site.css"><script src="../assets/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header><div class="topbar"><a class="wordmark" href="../index.html" aria-label="产品求职攻略首页"><span class="monogram">A</span><span><strong>留学生产品求职</strong><small>AI CHIEF ANDY / FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航"><a href="../index.html#chapters">完整攻略</a><a class="hide-mobile" href="../prototype.html">体验原型</a><a href="../resources.html">模板</a><a class="nav-cta" href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载 PDF ↗</a></nav></div></header><main class="container" id="main"><details class="mobile-chapters"><summary>章节目录与当前阅读</summary><nav><a  href="../chapters/00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="../chapters/01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="../chapters/02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="../chapters/03-user-research.html">03 · 从真实用户问题开始</a><a  href="../chapters/04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="../chapters/05-regions.html">05 · 逐国核对申请路径</a><a  href="../chapters/06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="../chapters/07-application-materials.html">07 · 中英文申请材料</a><a  href="../chapters/08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="../chapters/09-interview-lab.html">09 · 产品面试实验室</a><a  href="../chapters/10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="../chapters/11-action-plan.html">11 · 三十天交付计划</a><a  href="../chapters/12-sources.html">12 · 来源与核验边界</a></nav></details><div class="reader-wrap"><aside class="side-nav"><h2>FIELD GUIDE / 完整目录</h2><a  href="../chapters/00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="../chapters/01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="../chapters/02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="../chapters/03-user-research.html">03 · 从真实用户问题开始</a><a  href="../chapters/04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="../chapters/05-regions.html">05 · 逐国核对申请路径</a><a  href="../chapters/06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="../chapters/07-application-materials.html">07 · 中英文申请材料</a><a  href="../chapters/08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="../chapters/09-interview-lab.html">09 · 产品面试实验室</a><a  href="../chapters/10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="../chapters/11-action-plan.html">11 · 三十天交付计划</a><a  href="../chapters/12-sources.html">12 · 来源与核验边界</a><h2 style="margin-top:25px">实践工具</h2><a href="../prototype.html">OfferTrail 交互原型 ↗</a><a href="../resources.html">全部样例与模板</a><a href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载完整 PDF</a></aside><article class="reader"><div class="page-tools"><a href="../index.html">首页</a><a href="../resources.html">完整样例与模板</a><a href="../files/examples/offertrail-prototype-spec.md" download>下载可编辑源文件</a><span>核验 2026-11-13</span></div><h1 id="offertrail-原型规格">OfferTrail 原型规格</h1>
+<p>版本：1.0.0｜2026-11-13｜作者：AI 酋长 Andy</p>
+<p><strong>性质：原创教学模拟。</strong> 示例雇主、申请、材料和截止日期均为虚构。原型只演示本地核对，不连接招聘系统，不发送申请，不判断工作许可。</p>
+<h2 id="1-一句话范围">1. 一句话范围</h2>
+<p>帮助跨时区申请者在提交前看清：截止信息是否明确、材料是否齐备、仍有什么需要人工核对。</p>
+<h2 id="2-固定样本">2. 固定样本</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>ID</th>
+<th>虚构岗位</th>
+<th>原始截止信息</th>
+<th>时区</th>
+<th>北京时间示例</th>
+<th>初始阻塞</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>APP-01</td>
+<td>示例雇主 A · Product Intern</td>
+<td>2026-11-20 17:00</td>
+<td>Europe/London</td>
+<td>2026-11-21 01:00</td>
+<td>作品集待补；工作许可要求待核实</td>
+</tr>
+<tr>
+<td>APP-02</td>
+<td>示例雇主 B · APM</td>
+<td>Friday end of day</td>
+<td>未确认</td>
+<td>不展示推定时间</td>
+<td>日期与时区待确认</td>
+</tr>
+<tr>
+<td>APP-03</td>
+<td>示例雇主 C · Junior PM</td>
+<td>2026-11-24 17:00</td>
+<td>America/New_York</td>
+<td>2026-11-25 06:00</td>
+<td>简历待更新</td>
+</tr>
+</tbody></table></div>
+<p>此处转换仅用于原型测试。生产系统应使用 IANA 时区数据库，处理夏令时、无效本地时间与重复本地时间；不要把城市名写死成全年固定 UTC 偏移。</p>
+<h2 id="3-数据字段">3. 数据字段</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>字段</th>
+<th>类型 / 示例</th>
+<th>规则</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>application_id</td>
+<td>APP-01</td>
+<td>稳定 ID</td>
+</tr>
+<tr>
+<td>employer_label</td>
+<td>示例雇主 A（虚构）</td>
+<td>不对应真实雇主</td>
+</tr>
+<tr>
+<td>role_title</td>
+<td>Product Intern</td>
+<td>展示原始岗位名称</td>
+</tr>
+<tr>
+<td>deadline_original</td>
+<td>2026-11-20 17:00</td>
+<td>保留原文，不静默改写</td>
+</tr>
+<tr>
+<td>deadline_zone</td>
+<td>Europe/London</td>
+<td>缺失时不得猜测</td>
+</tr>
+<tr>
+<td>deadline_utc</td>
+<td>2026-11-20T17:00:00Z</td>
+<td>只有日期、时间、时区明确才生成</td>
+</tr>
+<tr>
+<td>source_status</td>
+<td>simulated / pending / checked</td>
+<td>示例始终保留 simulated 标记</td>
+</tr>
+<tr>
+<td>source_reference</td>
+<td>教学模拟来源，无外部链接</td>
+<td>真实使用时保存官方 URL、访问日和截图路径</td>
+</tr>
+<tr>
+<td>requirements</td>
+<td>材料清单</td>
+<td>required / completed / needs_review 三态</td>
+</tr>
+<tr>
+<td>work_permission_status</td>
+<td>pending / checked</td>
+<td>checked 仅指本人已核对来源，不代表系统认可资格</td>
+</tr>
+<tr>
+<td>reviewer_note</td>
+<td>自由文本</td>
+<td>不收集证件号等敏感信息</td>
+</tr>
+<tr>
+<td>review_status</td>
+<td>blocked / ready_for_manual_check / manually_checked</td>
+<td>不得使用 submitted，除非另有真实提交回执</td>
+</tr>
+<tr>
+<td>last_checked</td>
+<td>ISO 时间或空</td>
+<td>本地演示时间，不能冒充雇主记录</td>
+</tr>
+</tbody></table></div>
+<h2 id="4-四个状态与动作">4. 四个状态与动作</h2>
+<ol>
+<li><strong>申请列表。</strong> 三张卡片展示岗位、原始截止信息和阻塞数量。点击进入具体申请。</li>
+<li><strong>来源与材料核对。</strong> 原文、时区、本地时间并列；勾选材料准备状态，填写核对笔记。</li>
+<li><strong>提交前检查。</strong> 点击“运行核对”。缺少时区、必需材料或许可核对时，显示逐条原因及返回修改入口。</li>
+<li><strong>人工核对完成。</strong> 仅当阻塞清空且用户主动确认后，显示“本地核对已完成”。明确“尚未向雇主提交，请回到官方申请系统提交并保存回执”。</li>
+</ol>
+<h2 id="5-必须保持的交互边界">5. 必须保持的交互边界</h2>
+<ul>
+<li>APP-02 不自动把 Friday 解释成最近的周五，也不把 end of day 解释成 23:59。</li>
+<li>缺失信息用“待核实”，不能用绿色状态或估算倒计时掩盖。</li>
+<li>原型中的“工作许可已核对”是用户确认字段。它不推荐许可、不验证许可，也不代表取得工作权。</li>
+<li>勾选作品集仅改变本地清单，不上传文件。</li>
+<li>不要求注册、邮箱、护照、学校证明或真实申请材料。</li>
+<li>“重置演示”恢复三条初始样本；不会声称撤回真实申请。</li>
+<li>若使用 localStorage，只存模拟状态，清楚说明可清空；若不持久化，刷新后恢复初始样本。</li>
+<li>键盘可访问按钮和复选框；状态变化用文字而非仅靠颜色。</li>
+<li>360px 宽度应能完成核对；表格可横向滚动，主要动作不应被遮挡。</li>
+</ul>
+<h2 id="6-验收测试">6. 验收测试</h2>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>编号</th>
+<th>操作</th>
+<th>预期</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>P01</td>
+<td>打开 APP-01</td>
+<td>同时看到伦敦原始时间与北京 2026-11-21 01:00</td>
+</tr>
+<tr>
+<td>P02</td>
+<td>APP-01 保持初始状态，运行核对</td>
+<td>阻塞；列出作品集和许可核对</td>
+</tr>
+<tr>
+<td>P03</td>
+<td>APP-01 完成材料与人工核对项，再运行</td>
+<td>可进入人工确认，但不得显示已申请</td>
+</tr>
+<tr>
+<td>P04</td>
+<td>打开 APP-02</td>
+<td>原文 Friday end of day；日期和时区待核实；无精确倒计时</td>
+</tr>
+<tr>
+<td>P05</td>
+<td>APP-02 仅勾完材料</td>
+<td>仍因截止信息不明而阻塞</td>
+</tr>
+<tr>
+<td>P06</td>
+<td>打开 APP-03</td>
+<td>北京时间 2026-11-25 06:00；简历待更新</td>
+</tr>
+<tr>
+<td>P07</td>
+<td>完成人工确认</td>
+<td>明示本地核对完成、未真实提交</td>
+</tr>
+<tr>
+<td>P08</td>
+<td>点击重置</td>
+<td>恢复初始样本与缺失项</td>
+</tr>
+<tr>
+<td>P09</td>
+<td>用 Tab 与空格完成勾选</td>
+<td>焦点可见、控件可操作</td>
+</tr>
+<tr>
+<td>P10</td>
+<td>360px 屏幕</td>
+<td>无水平整页溢出；按钮、核对结果完整可见</td>
+</tr>
+</tbody></table></div>
+<p>验收记录应区分“实际跑过”和“计划测试”。作者不得把本规格表当作执行结果。</p>
+</article></div></main><footer><div class="container footer-inner"><div>作者：AI 酋长 Andy · 微信 AIPMAndy · 公众号 AI酋长Andy</div><div><a href="https://metaver.vip/">个人官网</a> · <a href="https://www.a6no1.cn/">公司官网</a> · <a href="../verification.html">验证记录</a> · v1.0.0 / 2026-11-13</div></div></footer></body></html>

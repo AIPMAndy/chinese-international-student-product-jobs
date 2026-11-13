@@ -1,0 +1,13 @@
+node_modules/
+__pycache__/
+*.pyc
+tmp/
+.venv/
+output/
+verification/pdf-pages/
+verification/pdf-contact-sheets/
+verification/browser-artifacts/
+*.tar.gz
+downloads/product-jobs-source-v*.zip
+downloads/product-jobs-workbook-v*.zip
+.DS_Store

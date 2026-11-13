@@ -1,0 +1,77 @@
+{
+  "checked": "2026-11-13",
+  "scope": "Actual pure functions extracted from prototypes/offertrail.html; no browser, no real users, no application submission",
+  "passed": true,
+  "checks": [
+    {
+      "id": "L01",
+      "description": "London winter time to Beijing",
+      "actual": "2026-11-21 01:00",
+      "expected": "2026-11-21 01:00",
+      "passed": true
+    },
+    {
+      "id": "L02",
+      "description": "New York winter time to Beijing",
+      "actual": "2026-11-25 06:00",
+      "expected": "2026-11-25 06:00",
+      "passed": true
+    },
+    {
+      "id": "L03",
+      "description": "Missing date stays unknown",
+      "actual": "日期或时区待确认",
+      "expected": "日期或时区待确认",
+      "passed": true
+    },
+    {
+      "id": "L04",
+      "description": "Missing zone stays unknown",
+      "actual": "日期或时区待确认",
+      "expected": "日期或时区待确认",
+      "passed": true
+    },
+    {
+      "id": "L05",
+      "description": "Impossible calendar date is rejected",
+      "actual": "日期或时间无效",
+      "expected": "日期或时间无效",
+      "passed": true
+    },
+    {
+      "id": "L06",
+      "description": "New York DST spring gap is rejected",
+      "actual": "该当地时间不存在或无法解析，请人工核实",
+      "expected": "该当地时间不存在或无法解析，请人工核实",
+      "passed": true
+    },
+    {
+      "id": "L07",
+      "description": "New York DST repeated hour requires review",
+      "actual": "夏令时切换产生重复时间，请补充明确偏移后人工核实",
+      "expected": "夏令时切换产生重复时间，请补充明确偏移后人工核实",
+      "passed": true
+    },
+    {
+      "id": "L08",
+      "description": "Invalid IANA zone is rejected",
+      "actual": "无效 IANA 时区，请重新选择",
+      "expected": "无效 IANA 时区，请重新选择",
+      "passed": true
+    },
+    {
+      "id": "L09",
+      "description": "Complete materials cannot cover unknown time and source",
+      "actual": 2,
+      "expected": 2,
+      "passed": true
+    },
+    {
+      "id": "L10",
+      "description": "Explicit information removes blockers only",
+      "actual": 0,
+      "expected": 0,
+      "passed": true
+    }
+  ]
+}

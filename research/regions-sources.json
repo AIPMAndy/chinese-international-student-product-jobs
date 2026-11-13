@@ -1,0 +1,712 @@
+[
+  {
+    "id": "R01",
+    "title": "Post-Completion OPT",
+    "url": "https://ois.usc.edu/employment/post-completion-opt/",
+    "issuer": "University of Southern California, Office of International Services",
+    "checked": "2026-11-13",
+    "claims": [
+      "毕业后 OPT 最长通常为12个月",
+      "工作需与专业直接相关",
+      "开工需要符合批准文件和开始日期"
+    ],
+    "scope": "美国 F-1 学生毕业后 OPT",
+    "caveat": "学校说明用于核对方法；个人资格和本校流程应向本校 DSO 核实",
+    "verification": "official_body"
+  },
+  {
+    "id": "R02",
+    "title": "SEVP Practical Training Overview",
+    "url": "https://www.ice.gov/doclib/sevis/pdf/SEVPPracticalTrainingOverview.pdf",
+    "issuer": "U.S. Immigration and Customs Enforcement / SEVP",
+    "checked": "2026-11-13",
+    "claims": [
+      "CPT、普通OPT和STEM OPT有不同条件",
+      "STEM OPT涉及合资格学位和雇主要求"
+    ],
+    "scope": "美国 F-1 实践训练类型比较",
+    "caveat": "检索取到官方 PDF 摘录；不是个人授权结论；未整页复制原文",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R03",
+    "title": "Post-graduation work permit: Who can apply",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/study-canada/work/after-graduation/eligibility.html",
+    "issuer": "Immigration, Refugees and Citizenship Canada",
+    "checked": "2026-11-13",
+    "claims": [
+      "PGWP须满足学校、项目、学习和申请时点条件",
+      "学士、硕士、博士无专业领域要求但有语言及其他条件",
+      "其他课程类别可能有专业领域要求"
+    ],
+    "scope": "加拿大 PGWP",
+    "caveat": "不根据学位名称推断个人许可期限；日期、课程类别与例外需逐项核对",
+    "verification": "official_body"
+  },
+  {
+    "id": "R04",
+    "title": "Graduate visa: Overview",
+    "url": "https://www.gov.uk/graduate-visa",
+    "issuer": "UK Government / Home Office",
+    "checked": "2026-11-13",
+    "claims": [
+      "2026-12-31及之前申请的非博士期限2年",
+      "2027-01-01起申请的非博士期限18个月",
+      "博士3年",
+      "申请须在英国、学校报告课程完成并在学生签证到期前"
+    ],
+    "scope": "英国 Graduate visa",
+    "caveat": "不是英国所有工作路线；不能以赶政策日期代替完成课程事实",
+    "verification": "official_body"
+  },
+  {
+    "id": "R05",
+    "title": "Prospects after Graduation",
+    "url": "https://www.make-it-in-germany.com/en/study-vocational-training/studying-in-germany/prospects-after",
+    "issuer": "German Federal Government, Make it in Germany",
+    "checked": "2026-11-13",
+    "claims": [
+      "德国高校第三国毕业生可核对最长18个月找合格工作的居留",
+      "须有毕业证明、保险与生活保障",
+      "已有适当Offer时核对对应工作居留"
+    ],
+    "scope": "德国当地毕业生",
+    "caveat": "居留由主管外国人管理机构决定；与境外毕业生机会卡不可混用",
+    "verification": "official_body"
+  },
+  {
+    "id": "R06",
+    "title": "Carte de séjour ou VLS-TS - Recherche d'emploi/création d'entreprise",
+    "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F17319?lang=fr",
+    "issuer": "Service Public, Direction de l’information légale et administrative",
+    "checked": "2026-11-13",
+    "claims": [
+      "部分法国学历毕业生可申请找工作/创业居留",
+      "工作与学历和薪资条件一起判断",
+      "当前页面标注2026-06-01核查"
+    ],
+    "scope": "法国符合条件毕业生",
+    "caveat": "Campus France旧页薪资金额不同；正文不固定金额，使用时重核主管机关现行条件",
+    "verification": "official_body"
+  },
+  {
+    "id": "R07",
+    "title": "Residence permit for orientation year",
+    "url": "https://ind.nl/en/residence-permits/work/residence-permit-for-orientation-year",
+    "issuer": "Immigration and Naturalisation Service, Netherlands",
+    "checked": "2026-11-13",
+    "claims": [
+      "orientation year有效期1年",
+      "荷兰学历与指定境外院校学历条件不同",
+      "境外学历涉及毕业窗口、排名、语言、学历评估"
+    ],
+    "scope": "荷兰 orientation year",
+    "caveat": "页面更新2026-10-07；不要只凭一份排名判断资格",
+    "verification": "official_body"
+  },
+  {
+    "id": "R08",
+    "title": "Third level graduate programme",
+    "url": "https://www.irishimmigration.ie/my-situation-has-changed-since-i-arrived-in-ireland/third-level-graduate-programme/",
+    "issuer": "Immigration Service Delivery, Ireland",
+    "checked": "2026-11-13",
+    "claims": [
+      "Level8和Level9及以上期限安排不同",
+      "Level9及以上先12个月，续12个月另有条件",
+      "须核对当前身份、申请时间和既往停留上限"
+    ],
+    "scope": "爱尔兰毕业生安排",
+    "caveat": "不得写为所有硕士毕业自动无条件两年",
+    "verification": "official_body"
+  },
+  {
+    "id": "R09",
+    "title": "FAQ - Working",
+    "url": "https://www.sem.admin.ch/en/faq-working",
+    "issuer": "State Secretariat for Migration, Switzerland",
+    "checked": "2026-11-13",
+    "claims": [
+      "第三国公民有Offer不等于可立即工作",
+      "瑞士高校毕业生找合格工作有6个月安排",
+      "其他欧洲国家居留不自动赋予瑞士工作权"
+    ],
+    "scope": "瑞士非 EU/EFTA 工作/毕业生",
+    "caveat": "后续工作仍有条件且涉及州主管机关；不是所有欧洲毕业生均适用",
+    "verification": "official_body"
+  },
+  {
+    "id": "R10",
+    "title": "Look for work after completing your studies in Sweden",
+    "url": "https://www.migrationsverket.se/en/you-want-to-extend/study/look-for-work-after-completing-your-studies-in-sweden.html",
+    "issuer": "Swedish Migration Agency",
+    "checked": "2026-11-13",
+    "claims": [
+      "须在现有许可到期前申请并满足完成学业等条件",
+      "学士/硕士通常最长一年；博士另列时长"
+    ],
+    "scope": "瑞典当地高等教育毕业生",
+    "caveat": "须按学历类别和个人许可核对；不得推成全北欧规则",
+    "verification": "official_body"
+  },
+  {
+    "id": "R11",
+    "title": "Work pass exemption for foreign students",
+    "url": "https://www.mom.gov.sg/passes-and-permits/work-pass-exemption-for-foreign-students",
+    "issuer": "Ministry of Manpower, Singapore",
+    "checked": "2026-11-13",
+    "claims": [
+      "学生免工作准证安排限定学校、身份与工作模式",
+      "毕业后用工须核对适用 work pass",
+      "学生阶段安排不能自动延续为毕业后工作权"
+    ],
+    "scope": "新加坡外国学生",
+    "caveat": "不同学校/实习形式不同；须核对具体雇佣与课程安排",
+    "verification": "official_body"
+  },
+  {
+    "id": "R12",
+    "title": "For Former International Students",
+    "url": "https://www.studyinjapan.go.jp/en/faq/after/",
+    "issuer": "JASSO, Study in Japan official information site",
+    "checked": "2026-11-13",
+    "claims": [
+      "毕业后继续求职需核对特定活动等在留资格",
+      "通常六个月且原则上可续一次，学校推荐等条件适用",
+      "全职就业须核对工作在留资格"
+    ],
+    "scope": "日本毕业后求职",
+    "caveat": "特定地方项目和其他资格可能有不同安排；不能视作自动转换",
+    "verification": "official_body"
+  },
+  {
+    "id": "R13",
+    "title": "Job Seeker (D-10) Visa Scheme Improvements",
+    "url": "https://www.immigration.go.kr/bbs/moj/189/601114/artclView.do",
+    "issuer": "Ministry of Justice / Korea Immigration Service",
+    "checked": "2026-11-13",
+    "claims": [
+      "2025-12-02官方说明对韩国国内高校外国毕业生将求职上限扩至3年",
+      "按年延长，实习安排亦有改变"
+    ],
+    "scope": "韩国国内高校外国毕业生 D-10 改善",
+    "caveat": "与部分 Study in Korea 旧页不一致；按主管机关确认适用对象与实际条件，不承诺自动获批三年",
+    "verification": "official_body"
+  },
+  {
+    "id": "R14",
+    "title": "Residence and Stay Information",
+    "url": "https://studyinkorea.go.kr/en/life/residenceAndStayInfo.do",
+    "issuer": "NIIED, Ministry of Education, Korea",
+    "checked": "2026-11-13",
+    "claims": [
+      "仍可读到D-10最长两年、半年延长等旧表述"
+    ],
+    "scope": "韩国 D-10 信息一致性核对",
+    "caveat": "仅作为新旧冲突证据；正文不采用其旧上限作为当前唯一结论",
+    "verification": "official_search_excerpt_conflict"
+  },
+  {
+    "id": "R15",
+    "title": "Immigration Arrangements for Non-local Graduates (IANG)",
+    "url": "https://www.immd.gov.hk/eng/services/visas/IANG.html",
+    "issuer": "Hong Kong Immigration Department",
+    "checked": "2026-11-13",
+    "claims": [
+      "六个月内外区分应届与非应届",
+      "符合条件应届申请可不先有Offer",
+      "非应届通常需合适Offer",
+      "符合条件者可获24个月"
+    ],
+    "scope": "中国香港 IANG",
+    "caveat": "仅符合课程及其他要求的人适用；不是所有海外学历通用路线",
+    "verification": "official_body"
+  },
+  {
+    "id": "R16",
+    "title": "Temporary Graduate visa (subclass 485) Post-Higher Education Work stream",
+    "url": "https://immi.homeaffairs.gov.au/visas/getting-a-visa/visa-listing/temporary-graduate-485/post-higher-education-work",
+    "issuer": "Australian Department of Home Affairs",
+    "checked": "2026-11-13",
+    "claims": [
+      "须核对年龄、学历、签证记录、地点和英语等",
+      "期限与学历类别相关，年龄存在列明例外"
+    ],
+    "scope": "澳大利亚485高等教育毕业后工作类别",
+    "caveat": "直接打开为动态框架；规则通过官方搜索摘录核对。申请前须读取完整现行页面，正文未固定年龄/期限数字",
+    "verification": "official_search_excerpt_dynamic_body"
+  },
+  {
+    "id": "R17",
+    "title": "Post-Study Work Visa",
+    "url": "https://www.immigration.govt.nz/visas/post-study-work-visa/",
+    "issuer": "Immigration New Zealand",
+    "checked": "2026-11-13",
+    "claims": [
+      "工作条件按学历类别不同",
+      "最长可达3年且通常只能获一次",
+      "主申请页未来Level7扩展显示2026-11-23"
+    ],
+    "scope": "新西兰 PSWV 当前规则与未来公告",
+    "caveat": "与R18的2026-11-16冲突；两日期均晚于核验日2026-11-13。新增范围本版不据以判断合格",
+    "verification": "official_body_conflict"
+  },
+  {
+    "id": "R18",
+    "title": "Post-Study Work Visa eligibility extended from 16 November 2026",
+    "url": "https://www.immigration.govt.nz/about-us/news-centre/post-study-work-visa-eligibility-extended-from-16-november-2026/",
+    "issuer": "Immigration New Zealand",
+    "checked": "2026-11-13",
+    "claims": [
+      "2026-09-10公告写Level7 graduate diploma扩展于2026-11-16生效"
+    ],
+    "scope": "新西兰未来 PSWV 扩展公告",
+    "caveat": "与主申请页11-23存在冲突，未擅选日期；核验日尚未到生效日",
+    "verification": "official_body_conflict"
+  },
+  {
+    "id": "R19",
+    "title": "Jobseeker visit visa",
+    "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/residence-visas/jobseeker-visit-visa",
+    "issuer": "Official Platform of the UAE Government",
+    "checked": "2026-11-13",
+    "claims": [
+      "求职访问签证有教育/技能与其他条件",
+      "用于寻找工作机会"
+    ],
+    "scope": "阿联酋求职访问",
+    "caveat": "官方检索内容可读，动态正文未提取；不能当作工作许可",
+    "verification": "official_search_excerpt_dynamic_body"
+  },
+  {
+    "id": "R20",
+    "title": "Tips to stay safe from labour and visa fraud",
+    "url": "https://u.ae/en/information-and-services/visa-and-emirates-id/tips-to-avoid-labour-and-visa-fraud",
+    "issuer": "Official Platform of the UAE Government",
+    "checked": "2026-11-13",
+    "claims": [
+      "访问/旅游签证不赋予工作权",
+      "应核验真实雇佣文件与适用手续"
+    ],
+    "scope": "阿联酋工作身份边界",
+    "caveat": "官方检索摘录；正文未细化不同自由区/雇佣实体流程",
+    "verification": "official_search_excerpt_dynamic_body"
+  },
+  {
+    "id": "R21",
+    "title": "国（境）外学历学位认证指南",
+    "url": "https://zwfw.cscse.edu.cn/zwfw/lxfwzxwsfwdt2020/xlxwrz32/qtxx/2026042823585825550/index.html",
+    "issuer": "教育部留学服务中心",
+    "checked": "2026-11-13",
+    "claims": [
+      "申请人本人通过官方平台提交",
+      "材料包括学位证、旅行证件、照片、授权声明等",
+      "认证材料和进度不代替雇主届别要求"
+    ],
+    "scope": "回国学历材料准备",
+    "caveat": "页面正文发布日期2025-04-02；不承诺认证时长或加急，不将认证作为所有岗位统一前置条件",
+    "verification": "official_body"
+  },
+  {
+    "id": "R22",
+    "title": "腾讯2027海外校园招聘启动公告及FAQ",
+    "url": "https://careers.tencent.com/m/zh-cn/faqdetail.html",
+    "issuer": "Tencent Careers",
+    "checked": "2026-11-13",
+    "claims": [
+      "海外base与大陆投递入口区分",
+      "海外实习仍需当地在读/用工条件",
+      "具体毕业窗口属于该批次而非全国规则"
+    ],
+    "scope": "腾讯海外校招样例",
+    "caveat": "官方搜索索引可读，动态详情页本次未完整提取；投递前须确认准确批次与当前JD，不把旧索引当开放保证",
+    "verification": "official_search_excerpt_dynamic_body"
+  },
+  {
+    "id": "R23",
+    "title": "Product Manager Technical (PMT) Intern - Summer 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10509639/product-manager-technical-pmt-intern-summer-2027",
+    "issuer": "Amazon Jobs",
+    "checked": "2026-11-13",
+    "claims": [
+      "MBA在读",
+      "毕业区间2027-12至2028-06",
+      "2027-05或06开始并连续12周"
+    ],
+    "scope": "美国 PMT 实习 JD 10509639",
+    "caveat": "特定学位/批次样例；不代表全部美国PM实习",
+    "verification": "official_body"
+  },
+  {
+    "id": "R24",
+    "title": "AI Product Manager Graduate (Live Streaming Safety) - 2027 Start",
+    "url": "https://lifeattiktok.com/search/7698970869205666053",
+    "issuer": "TikTok Careers",
+    "checked": "2026-11-13",
+    "claims": [
+      "新加坡AI产品毕业生职位接收多专业背景",
+      "要求毕业与到岗信息"
+    ],
+    "scope": "新加坡 AI PM 毕业生职位",
+    "caveat": "原文by the end of the year不明确年份；不自行推断；需确认当前开放与许可支持",
+    "verification": "official_body"
+  },
+  {
+    "id": "R25",
+    "title": "Early careers at Atlassian",
+    "url": "https://www.atlassian.com/company/careers/earlycareers",
+    "issuer": "Atlassian",
+    "checked": "2026-11-13",
+    "claims": [
+      "滚动审核",
+      "澳新招聘2-6月，graduate于2/8月，intern11月至2月",
+      "美加日程不同"
+    ],
+    "scope": "雇主 Early Careers 地区项目概览",
+    "caveat": "以open正文为准，搜索摘要较旧；不是2027APM具体JD或当前岗位开放证明",
+    "verification": "official_body"
+  },
+  {
+    "id": "R26",
+    "title": "Technical Product Owner - Robot-Factory Integration (f/m/div.)",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160877424-technical-product-owner-robot-factory-integration-f-m-div-",
+    "issuer": "Bosch Group official recruitment platform",
+    "checked": "2026-11-13",
+    "claims": [
+      "技术PO正式岗位涉及产品结果、backlog和接口验收",
+      "要求相关学位、实际交付经验与德英沟通"
+    ],
+    "scope": "德国 Renningen 技术PO样例",
+    "caveat": "非毕业生专属/零经验岗位；不得使用已失效旧编号744000159866789",
+    "verification": "official_body"
+  },
+  {
+    "id": "R27",
+    "title": "Finding advertised opportunities",
+    "url": "https://www.ox.ac.uk/careers/careers-guidance/job-search-and-applications/job-search-strategies/finding-advertised-opportunities",
+    "issuer": "University of Oxford Careers",
+    "checked": "2026-11-13",
+    "claims": [
+      "部分graduate schemes提前开放",
+      "滚动招聘宜尽早核对与申请"
+    ],
+    "scope": "英国招聘节奏搜索指引",
+    "caveat": "学校的一般指引，不是每家雇主的固定窗口；正文不固化全国秋招日期",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R28",
+    "title": "Stage d'un étudiant en milieu professionnel",
+    "url": "https://www.service-public.gouv.fr/particuliers/vosdroits/F16734",
+    "issuer": "Service Public, France",
+    "checked": "2026-11-13",
+    "claims": [
+      "学生实习须有convention de stage",
+      "学校、接收方等签署并列明学习任务与日期"
+    ],
+    "scope": "法国学生实习",
+    "caveat": "须区分stage、alternance和正式工作；不从此页推所有人的签证资格",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R29",
+    "title": "Chapter 3. Job Hunting Schedule",
+    "url": "https://www.studyinjapan.go.jp/en/work-in-japan/employment/schedule.html",
+    "issuer": "JASSO, Study in Japan",
+    "checked": "2026-11-13",
+    "claims": [
+      "新卒选考在在学期间开展",
+      "可能有entry sheet、笔试/适性测试、多轮面试",
+      "秋季毕业与入社可能存在时间衔接"
+    ],
+    "scope": "日本新卒一般流程",
+    "caveat": "通用指导日程不覆盖全部企业，尤其不能替代外企/互联网具体JD",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R30",
+    "title": "Employment in Korea",
+    "url": "https://www.studyinkorea.go.kr/en/work/aboutKoreaEmployment.do",
+    "issuer": "NIIED, Ministry of Education, Korea",
+    "checked": "2026-11-13",
+    "claims": [
+      "有企业指定表格时按格式填写",
+      "申请材料与面试问题关联",
+      "提交前保存表单内容"
+    ],
+    "scope": "韩国申请材料与流程",
+    "caveat": "其中签证说明可能旧，正文只采用申请格式与保存材料部分",
+    "verification": "official_body"
+  },
+  {
+    "id": "R31",
+    "title": "Recruitment & Job / Internship",
+    "url": "https://www.cedars.hku.hk/careers/jobs",
+    "issuer": "The University of Hong Kong, CEDARS",
+    "checked": "2026-11-13",
+    "claims": [
+      "列出NETjobs、JIJIS、校招活动等入口",
+      "部分服务针对相应学生与毕业生群体"
+    ],
+    "scope": "香港学校招聘渠道样例",
+    "caveat": "不是任何学校学生都能登录；不宣称每个入口都在招产品岗",
+    "verification": "official_body"
+  },
+  {
+    "id": "R32",
+    "title": "How to apply for a job",
+    "url": "https://ethz.ch/en/the-eth-zurich/working-teaching-and-research/welcome-center/job-search-and-application/how-to-apply-for-a-job.html",
+    "issuer": "ETH Zurich Welcome Center",
+    "checked": "2026-11-13",
+    "claims": [
+      "申请文件可包含CV、动机信、经历和学历证明",
+      "提交方式服从雇主要求"
+    ],
+    "scope": "瑞士申请材料的学校指引",
+    "caveat": "不将旧式个人信息建议或学校指引当作全国强制规定；正文只采用材料组合",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R33",
+    "title": "Searching for a job",
+    "url": "https://u.ae/en/information-and-services/jobs/searching-for-a-job",
+    "issuer": "Official Platform of the UAE Government",
+    "checked": "2026-11-13",
+    "claims": [
+      "提供企业官网、招聘活动等渠道",
+      "本国国民项目与一般招聘渠道分开"
+    ],
+    "scope": "阿联酋求职入口",
+    "caveat": "官方索引可读，动态正文未提取；不保证任何具体PM岗位开放或接受外国毕业生",
+    "verification": "official_search_excerpt_dynamic_body"
+  },
+  {
+    "id": "R34",
+    "title": "Residence permit to look for work or start a business",
+    "url": "https://migri.fi/en/application-for-students-and-researchers-residence-permit-to-look-for-work",
+    "issuer": "Finnish Immigration Service",
+    "checked": "2026-11-13",
+    "claims": [
+      "最长可达2年",
+      "主申请页申请窗口按学习/研究许可到期后五年核对"
+    ],
+    "scope": "芬兰毕业/研究后求职",
+    "caveat": "页面重定向至 https://migri.fi/en/residence-permit-to-look-for-work ；不同FAQ可能简写毕业后，正文采用主申请页锚点",
+    "verification": "official_body"
+  },
+  {
+    "id": "R35",
+    "title": "Job seeking residence permit for 1 or 3 years after a completed educational programme",
+    "url": "https://nyidanmark.dk/en-GB/You-want-to-apply/Study/Study---job-seeking/Study---3-years-job-seeking",
+    "issuer": "Danish Agency for International Recruitment and Integration (SIRI)",
+    "checked": "2026-11-13",
+    "claims": [
+      "按2026-10-01前后申请学生居留等区分1/3年",
+      "博士等情形另有条件",
+      "须核对求职期及工作权限"
+    ],
+    "scope": "丹麦毕业后求职",
+    "caveat": "页面同时存在通用旧式三年措辞；依据前置分类并要求读取个人许可决定，不作单一期限保证",
+    "verification": "official_body"
+  },
+  {
+    "id": "R36",
+    "title": "Want to apply: Job seekers",
+    "url": "https://www.udi.no/en/want-to-apply/work-immigration/job-seekers",
+    "issuer": "Norwegian Directorate of Immigration (UDI)",
+    "checked": "2026-11-13",
+    "claims": [
+      "适用毕业生/研究者求职许可最长一年",
+      "须在现许可到期前申请并有生活保障"
+    ],
+    "scope": "挪威毕业/研究后求职",
+    "caveat": "网页需按国籍选择核验；一般外国求职者不能据此直接迁入",
+    "verification": "official_body"
+  },
+  {
+    "id": "R37",
+    "title": "Obtención de permiso de trabajo",
+    "url": "https://www.gob.mx/public/tramites/detalleTramite.xhtml?homoclave=INM-03-005-A",
+    "issuer": "Instituto Nacional de Migración, Mexico",
+    "checked": "2026-11-13",
+    "claims": [
+      "临时居民/学生工作许可材料",
+      "学生情况涉及学校同意"
+    ],
+    "scope": "墨西哥补充核验入口",
+    "caveat": "未完成该市场产品岗位专项研究；仅供建立资格卡，不推断毕业后自动工作权",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R38",
+    "title": "Who does what? EU Immigration Portal",
+    "url": "https://home-affairs.ec.europa.eu/policies/migration-and-asylum/eu-immigration-portal/who-does-what_en",
+    "issuer": "European Commission, Migration and Home Affairs",
+    "checked": "2026-11-13",
+    "claims": [
+      "欧盟与成员国共享权限，规则不完全一致",
+      "居留申请由目的国机关处理",
+      "丹麦和爱尔兰有相应例外"
+    ],
+    "scope": "欧洲跨国核验方法",
+    "caveat": "不替代任一国家具体资格条件",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R39",
+    "title": "Employment Pass (EP)",
+    "url": "https://esd.imi.gov.my/portal/expatriates/myxpats/key-services/employment-pass/",
+    "issuer": "Immigration Department of Malaysia / ESD",
+    "checked": "2026-11-13",
+    "claims": [
+      "Employment Pass与雇主绑定",
+      "正式就业须核对雇主与准证条件"
+    ],
+    "scope": "马来西亚正式工作入口",
+    "caveat": "未完成PM毕业生招聘专项；不采用可能变动的薪资金额或年限",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R40",
+    "title": "Non-Immigrant Visa B (for Business and Work)",
+    "url": "https://mfa.go.th/en/publicservice/non-immigrant-visa-b-for-business-and-work?cate=5d5bcb4e15e39c30600068d3",
+    "issuer": "Ministry of Foreign Affairs, Thailand",
+    "checked": "2026-11-13",
+    "claims": [
+      "签证与工作许可须区分",
+      "开始工作前需获适用工作许可"
+    ],
+    "scope": "泰国补充核验入口",
+    "caveat": "页面较早，正文只用于区分签证与工作许可；具体流程与资格须主管机构最新确认",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R44",
+    "title": "Find your new job in Sweden",
+    "url": "https://arbetsformedlingen.se/other-languages/english-engelska/find-your-new-job-in-sweden",
+    "issuer": "Swedish Public Employment Service",
+    "checked": "2026-11-13",
+    "claims": [
+      "介绍CV与cover letter等申请方式",
+      "岗位材料语言按广告要求处理"
+    ],
+    "scope": "瑞典一般申请方式",
+    "caveat": "不把概括性建议强制套到所有英语产品岗；个别雇主可能不要求求职信",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R45",
+    "title": "Look for jobs in Canada",
+    "url": "https://www.canada.ca/en/immigration-refugees-citizenship/services/settle-canada/job-search.html",
+    "issuer": "Immigration, Refugees and Citizenship Canada",
+    "checked": "2026-11-13",
+    "claims": [
+      "介绍résumé、cover letter及面试的申请流程"
+    ],
+    "scope": "加拿大一般招聘材料",
+    "caveat": "不是所有雇主必交求职信的法律规则",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R46",
+    "title": "Foreign candidates from outside Canada",
+    "url": "https://www.jobbank.gc.ca/findajob/foreign-candidates",
+    "issuer": "Government of Canada, Job Bank",
+    "checked": "2026-11-13",
+    "claims": [
+      "境外外国申请人须区分接受国际申请者与已具工作权职位",
+      "工作许可与投递入口分开判断"
+    ],
+    "scope": "加拿大境外候选人",
+    "caveat": "不用于将已经持有效加拿大工作许可的人一概排除",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R47",
+    "title": "Help and support - EURES",
+    "url": "https://eures.europa.eu/eures-services/help-and-support_en",
+    "issuer": "European Labour Authority / EURES",
+    "checked": "2026-11-13",
+    "claims": [
+      "非欧盟人士可使用部分匹配服务",
+      "找到工作不改变国家工作/居留许可规则",
+      "关键词语言影响职位检索"
+    ],
+    "scope": "欧洲招聘检索与身份边界",
+    "caveat": "EURES不授予工作权；不许诺服务或资助资格",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R48",
+    "title": "Living and working conditions: Netherlands",
+    "url": "https://eures.europa.eu/living-and-working/living-and-working-conditions-europe/living-and-working-conditions-netherlands_en",
+    "issuer": "European Labour Authority / EURES Netherlands",
+    "checked": "2026-11-13",
+    "claims": [
+      "公司官网及UWV等招聘路径",
+      "CV与申请信按岗位定制",
+      "语言按岗位要求"
+    ],
+    "scope": "荷兰申请方式",
+    "caveat": "仅采用求职材料部分；不复述缺乏原始统计说明的招聘比例",
+    "verification": "official_body"
+  },
+  {
+    "id": "R49",
+    "title": "Living and working conditions: Ireland",
+    "url": "https://eures.europa.eu/living-and-working/living-and-working-conditions-europe/living-and-working-conditions-ireland_en",
+    "issuer": "European Labour Authority / EURES Ireland",
+    "checked": "2026-11-13",
+    "claims": [
+      "招聘可能使用专用表单",
+      "申请内容与面试追问关联",
+      "截止日期和材料要求须遵守"
+    ],
+    "scope": "爱尔兰申请方式",
+    "caveat": "不把EEA求职者服务资格套到中国留学生；只使用招聘流程部分",
+    "verification": "official_body"
+  },
+  {
+    "id": "R50",
+    "title": "Living and working conditions: Sweden",
+    "url": "https://eures.europa.eu/living-and-working/living-and-working-conditions-europe/living-and-working-conditions-sweden_en",
+    "issuer": "European Labour Authority / EURES Sweden",
+    "checked": "2026-11-13",
+    "claims": [
+      "部分雇主不要求personal letter",
+      "应读取广告中的实际申请材料要求"
+    ],
+    "scope": "瑞典申请方式补充",
+    "caveat": "不把“通常”推成全国统一要求",
+    "verification": "official_search_excerpt"
+  },
+  {
+    "id": "R51",
+    "title": "Product Manager Intern (AI & Ecosystem Governance - TikTok LIVE) - 2027 Start",
+    "url": "https://lifeattiktok.com/search/7681183714051131701",
+    "issuer": "TikTok Careers",
+    "checked": "2026-11-13",
+    "claims": [
+      "新加坡Spring2027连续12周",
+      "每周4天现场",
+      "须已有新加坡工作授权"
+    ],
+    "scope": "新加坡 AI PM 实习样例",
+    "caveat": "特定JD的时间和身份条件；不代表所有TikTok或新加坡实习",
+    "verification": "official_body"
+  },
+  {
+    "id": "R52",
+    "title": "Graduate Pass",
+    "url": "https://visa.educationmalaysia.gov.my/graduate-pass/",
+    "issuer": "Education Malaysia Global Services (EMGS)",
+    "checked": "2026-11-13",
+    "claims": [
+      "Graduate Pass有学位、国籍、有效学生身份等条件",
+      "中国公民扩展有效期当前写至2026-12-31",
+      "可工作范围不能直接写成任意正式产品岗位"
+    ],
+    "scope": "马来西亚毕业生补充核验",
+    "caveat": "未向2027外推政策；正式产品工作另核工作范围和Employment Pass",
+    "verification": "official_search_excerpt"
+  }
+]

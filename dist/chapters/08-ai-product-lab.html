@@ -1,0 +1,119 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="中国留学生产品岗位求职攻略：AI 产品专项证据"><meta name="author" content="AI 酋长 Andy"><meta name="theme-color" content="#2d4e40"><title>AI 产品专项证据 · AI 酋长 Andy</title><link rel="canonical" href="https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/08-ai-product-lab.html"><meta property="og:title" content="AI 产品专项证据"><meta property="og:description" content="中国留学生产品岗位求职攻略：AI 产品专项证据"><link rel="stylesheet" href="../assets/site.css"><script src="../assets/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header><div class="topbar"><a class="wordmark" href="../index.html" aria-label="产品求职攻略首页"><span class="monogram">A</span><span><strong>留学生产品求职</strong><small>AI CHIEF ANDY / FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航"><a href="../index.html#chapters">完整攻略</a><a class="hide-mobile" href="../prototype.html">体验原型</a><a href="../resources.html">模板</a><a class="nav-cta" href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载 PDF ↗</a></nav></div></header><main class="container" id="main"><details class="mobile-chapters"><summary>章节目录与当前阅读</summary><nav><a  href="00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="03-user-research.html">03 · 从真实用户问题开始</a><a  href="04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="05-regions.html">05 · 逐国核对申请路径</a><a  href="06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="07-application-materials.html">07 · 中英文申请材料</a><a class="current" aria-current="page" href="08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="09-interview-lab.html">09 · 产品面试实验室</a><a  href="10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="11-action-plan.html">11 · 三十天交付计划</a><a  href="12-sources.html">12 · 来源与核验边界</a></nav></details><div class="reader-wrap"><aside class="side-nav"><h2>FIELD GUIDE / 完整目录</h2><a  href="00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="03-user-research.html">03 · 从真实用户问题开始</a><a  href="04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="05-regions.html">05 · 逐国核对申请路径</a><a  href="06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="07-application-materials.html">07 · 中英文申请材料</a><a class="current" aria-current="page" href="08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="09-interview-lab.html">09 · 产品面试实验室</a><a  href="10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="11-action-plan.html">11 · 三十天交付计划</a><a  href="12-sources.html">12 · 来源与核验边界</a><h2 style="margin-top:25px">实践工具</h2><a href="../prototype.html">OfferTrail 交互原型 ↗</a><a href="../resources.html">全部样例与模板</a><a href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载完整 PDF</a></aside><article class="reader"><div class="page-tools"><a href="../index.html">首页</a><a href="../resources.html">完整样例与模板</a><a href="../files/content/08-ai-product-lab.md" download>下载可编辑源文件</a><span>核验 2026-11-13</span></div><h1 id="08-ai-产品经理-拿出评测与失败处理证据">08 AI 产品经理：拿出评测与失败处理证据</h1>
+<p>AI 产品经理仍然需要理解用户、做取舍和推进交付。AI 部分新增的问题是：输出不稳定时如何定义可用，错误怎样被发现，成本与延迟是否值得，用户如何纠正与接管。实际要求以 01 章的雇主 JD 为准，不把“会写提示词”当作通用任职标准。</p>
+<p>本章提供产品评测练习，不涉及训练模型或申请算法岗。Google PAIR 建议先判断 AI 是否带来独特价值；微软 HAX 强调系统出错时应支持用户修改与恢复。这两点是本章的设计参考。[R-M03][R-M04]</p>
+<h2 id="1-先交一页-是否应该用-ai">1. 先交一页“是否应该用 AI”</h2>
+<p><strong>输入：</strong> 用户任务、已有非 AI 方案、失败后果和可用资料。</p>
+<p><strong>操作：</strong> 对比人工填写、确定性规则、AI 辅助三条路径。区分“不知道答案”和“无法安全自动决定”。例如 OfferTrail 的截止时间换算适合明确规则；从模糊描述里猜一个时区并自动投递不可接受。</p>
+<p><strong>产出：</strong> 使用/暂不用 AI 的判断页，写清期望收益、额外成本、主要错误和退回人工的条件。</p>
+<p><strong>验收：</strong> 能解释为什么不直接用一个表格；也能解释为什么不是所有步骤都交给模型。没有实际测量时不声称比人工快。</p>
+<p><strong>失败处理：</strong> 找不到 AI 的增量价值，就提交非 AI 方案和后续验证条件。产品判断包含不做的决定。</p>
+<h2 id="2-一个可面试的-ai-扩展题">2. 一个可面试的 AI 扩展题</h2>
+<p><strong>题目：</strong> 为 OfferTrail 设计“从岗位原文提取截止日期和时区”的辅助功能。原始内容可能缺日期、使用含糊缩写、包含多份相互冲突的通知。不得自动提交申请，也不得判定工作许可资格。</p>
+<p><strong>产品约束：</strong> 原文可回看；每个字段附证据片段；缺信息返回待核实；用户确认后才写入核对表；来源更新后旧确认失效。把网页里“忽略之前指令”的文字当文档内容，不能让它改变产品规则。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>层级</th>
+<th>最小交付</th>
+<th>具体说明</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>用户价值</td>
+<td>任务与替代路径</td>
+<td>只减少重复阅读和填写的负担，不替代最终核验</td>
+</tr>
+<tr>
+<td>输入</td>
+<td>授权使用的岗位文字</td>
+<td>不抓取私人邮箱，不上传护照或申请凭证</td>
+</tr>
+<tr>
+<td>输出</td>
+<td>日期、时间、IANA 时区、证据片段、状态</td>
+<td>未知值保留 null，不能补猜</td>
+</tr>
+<tr>
+<td>检索</td>
+<td>是否有必要</td>
+<td>只抽给定短文时不需要先堆 RAG；查最新政策需另有受控官方来源</td>
+</tr>
+<tr>
+<td>失败处理</td>
+<td>拒绝推断、人工更正、重试</td>
+<td>超时保留手工入口；更正不等于模型已经学会</td>
+</tr>
+<tr>
+<td>产品验证</td>
+<td>正确提取与错误放行分开</td>
+<td>“能输出 JSON”不等于用户能正确完成任务</td>
+</tr>
+</tbody></table></div>
+<p>上表是设计练习，当前原型没有接入真实模型。不要在简历中写“训练了高准确率模型”。</p>
+<h2 id="3-评测集不是一串好看的问题">3. 评测集不是一串好看的问题</h2>
+<p><strong>输入：</strong> 明确的任务定义、允许公开的文字、错误分类。</p>
+<p><strong>操作：</strong> 覆盖清晰时间、缺少日期、缺少时区、CST 等多义缩写、相对日期、来源冲突、非截止时间、带干扰指令的文本。提取基线只输出当地时间与时区；跨日换算另由原型用例验证，不能混为同一个检查。每条由人独立写期望输出，并标记分歧。开发用样例与最后验证用样例分开；不能只挑成功案例。本包的 8 条开发示例与 4 条留出示例均已公开，不能再当作盲测集。真实评测须另建独立、未参与调试的数据。</p>
+<p><strong>产出：</strong> <code>research/ai-eval-cases.json</code> 的 12 条合成练习数据；<code>tools/evaluate_baseline.py</code> 的确定性基线；运行后的检查报告。模型输出列暂未生成。</p>
+<p><strong>验收：</strong> 每个样本可解释为什么应提取或转人工。全部样本明确为合成，不来自用户申请。测试只覆盖这里写出的规则，不代表真实世界准确率。</p>
+<p><strong>失败处理：</strong> 标注人意见不同，先修标准或增加“无法判断”标签。没有真实合法样本时保留合成边界。不要把模型自己生成的标准答案当独立评测依据。</p>
+<h3 id="产品评测口径">产品评测口径</h3>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>口径</th>
+<th>定义</th>
+<th>对产品决策的作用</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>严格字段正确率</td>
+<td>所有关键字段都与人工基准一致的样本数 / 可判定样本数</td>
+<td>发现“部分正确”被包装为整体成功</td>
+</tr>
+<tr>
+<td>错误放行率</td>
+<td>本应待核实却被标可确认的样本数 / 本应待核实样本数</td>
+<td>关注高代价错误</td>
+</tr>
+<tr>
+<td>人工接管率</td>
+<td>请求人工处理的样本数 / 全部样本数</td>
+<td>与节省时间一起看，不能越低越好</td>
+</tr>
+<tr>
+<td>修订耗时</td>
+<td>从看到输出到完成正确更正的时间</td>
+<td>发现 AI 反而增加负担的情形</td>
+</tr>
+<tr>
+<td>延迟与失败</td>
+<td>端到端延迟分布、超时与失败计数</td>
+<td>包含检索、调用、校验和重试</td>
+</tr>
+<tr>
+<td>单次有效完成成本</td>
+<td>总调用与重试费用 / 正确完成的任务数</td>
+<td>不用单个 token 价格代替任务成本</td>
+</tr>
+</tbody></table></div>
+<p>这些是训练口径。人工能写出明确期望输出的样本均纳入“可判定样本”，包括期望转人工的缺信息/歧义文本。无法标注的样本须在测试前单列原因，不能按输出好坏事后删除。分母为零时写“不适用”。成本、延迟、人工修订时间必须实际测量后再填。</p>
+<p>本包 12 条检查含 3 条提取候选、9 条应转人工。<code>candidate</code> 只表示待人工核对的提取候选，不代表允许完成界面核对。基线完全匹配率、错误候选提取率与产品最终错误放行率应分别报告。12/12 软件检查通过也不是模型准确率，更不是用户完成率。</p>
+<h2 id="4-一个独立的成本计算练习">4. 一个独立的成本计算练习</h2>
+<p>以下仅为教学假设，既不是供应商报价，也不是本项目测试数据：100 次任务产生 120 次调用，总费用 6 元，其中 80 次任务正确完成。每次任务的平均调用数为 1.2；每次正确完成的调用费用为 6÷80=0.075 元。若另有人工修订时间，应单列，不能宣称总成本只有 0.075 元。</p>
+<p>面试追问可以是：“错误率降低，但接管率翻倍，是否上线？”回答需要看错误严重性、节省的总时间、用户信任和业务约束，不能只看平均准确率。</p>
+<h2 id="5-设计一个发布门槛">5. 设计一个发布门槛</h2>
+<p><strong>输入：</strong> 基线结果、风险类别、真实任务观察和资源上限。</p>
+<p><strong>操作：</strong> 在测试前规定何时继续、收缩或停止。对涉及截止日期的高代价错误，先要求测试集中没有已知错误放行；这不证明真实错误率为零。将模型输出视为待确认建议，保留原文与人工入口。安排模型/提示词/数据源版本记录，变化后重新评测。</p>
+<p><strong>产出：</strong> 一页上线评审草案：范围、已知错误、未测场景、监测口径、回退开关、负责人和复查时间。</p>
+<p><strong>验收：</strong> 任何单项“通过”都不应被表述为整个产品可靠。读者能清楚区分软件测试、模型评测、可用性测试与实际业务效果。</p>
+<p><strong>失败处理：</strong> 某个语言或格式表现差，缩小支持范围并明确展示。模型不可用则退回手工流程。发生错误放行先阻止确认、保留记录和修正，不通过增加营销文案掩盖。</p>
+<h2 id="6-如何写进申请材料">6. 如何写进申请材料</h2>
+<p>可用的表述是：“为截止时间提取功能设计 12 条合成边界样例与错误放行口径，建立确定性基线和人工复核流程；尚未接入模型或开展真实用户评测。”如果实际没有跑过基线，要把“建立”改成“设计”。</p>
+<p>英文：“Designed a 12-case synthetic evaluation set and a human-review flow for deadline extraction; documented a deterministic baseline, error-release criteria, and untested scenarios. No live model or user study has been conducted.”</p>
+<p>面试时先演示一个失败样例，再解释产品为什么阻止确认。这比展示一条幸运的成功输出更能说明你如何处理不确定性。</p>
+<h3 id="参考来源">参考来源</h3>
+<ul>
+<li><a href="https://pair.withgoogle.com/guidebook-v2/chapter/user-needs/">R-M03 Google PAIR：User Needs + Defining Success</a>，核验 2026-11-13。</li>
+<li><a href="https://www.microsoft.com/en-us/haxtoolkit/guideline/support-efficient-correction/">R-M04 Microsoft HAX：Support efficient correction</a>，核验 2026-11-13。</li>
+</ul>
+<div class="page-bottom-nav"><a href="07-application-materials.html">← 07 中英文申请材料</a><a href="09-interview-lab.html">09 产品面试实验室 →</a></div></article></div></main><footer><div class="container footer-inner"><div>作者：AI 酋长 Andy · 微信 AIPMAndy · 公众号 AI酋长Andy</div><div><a href="https://metaver.vip/">个人官网</a> · <a href="https://www.a6no1.cn/">公司官网</a> · <a href="../verification.html">验证记录</a> · v1.0.0 / 2026-11-13</div></div></footer></body></html>

@@ -1,0 +1,91 @@
+<!doctype html><html lang="zh-CN"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="中国留学生产品岗位求职攻略：GitHub Pages 部署"><meta name="author" content="AI 酋长 Andy"><meta name="theme-color" content="#2d4e40"><title>GitHub Pages 部署 · AI 酋长 Andy</title><link rel="canonical" href="https://aipmandy.github.io/chinese-international-student-product-jobs/read/DEPLOYMENT.html"><meta property="og:title" content="GitHub Pages 部署"><meta property="og:description" content="中国留学生产品岗位求职攻略：GitHub Pages 部署"><link rel="stylesheet" href="../assets/site.css"><script src="../assets/site.js" defer></script></head><body><a class="skip-link" href="#main">跳到正文</a><header><div class="topbar"><a class="wordmark" href="../index.html" aria-label="产品求职攻略首页"><span class="monogram">A</span><span><strong>留学生产品求职</strong><small>AI CHIEF ANDY / FIELD GUIDE</small></span></a><nav class="nav" aria-label="主导航"><a href="../index.html#chapters">完整攻略</a><a class="hide-mobile" href="../prototype.html">体验原型</a><a href="../resources.html">模板</a><a class="nav-cta" href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载 PDF ↗</a></nav></div></header><main class="container" id="main"><details class="mobile-chapters"><summary>章节目录与当前阅读</summary><nav><a  href="../chapters/00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="../chapters/01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="../chapters/02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="../chapters/03-user-research.html">03 · 从真实用户问题开始</a><a  href="../chapters/04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="../chapters/05-regions.html">05 · 逐国核对申请路径</a><a  href="../chapters/06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="../chapters/07-application-materials.html">07 · 中英文申请材料</a><a  href="../chapters/08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="../chapters/09-interview-lab.html">09 · 产品面试实验室</a><a  href="../chapters/10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="../chapters/11-action-plan.html">11 · 三十天交付计划</a><a  href="../chapters/12-sources.html">12 · 来源与核验边界</a></nav></details><div class="reader-wrap"><aside class="side-nav"><h2>FIELD GUIDE / 完整目录</h2><a  href="../chapters/00-start-here.html">00 · 先完成一条能投递的证据链</a><a  href="../chapters/01-role-evidence.html">01 · 看懂真实产品岗位要求</a><a  href="../chapters/02-route-and-gap.html">02 · 按背景判断申请路线</a><a  href="../chapters/03-user-research.html">03 · 从真实用户问题开始</a><a  href="../chapters/04-product-judgment.html">04 · 用方案取舍证明判断</a><a  href="../chapters/05-regions.html">05 · 逐国核对申请路径</a><a  href="../chapters/06-end-to-end-case.html">06 · 贯穿案例：OfferTrail</a><a  href="../chapters/07-application-materials.html">07 · 中英文申请材料</a><a  href="../chapters/08-ai-product-lab.html">08 · AI 产品专项证据</a><a  href="../chapters/09-interview-lab.html">09 · 产品面试实验室</a><a  href="../chapters/10-application-operations.html">10 · 定向申请与毕业衔接</a><a  href="../chapters/11-action-plan.html">11 · 三十天交付计划</a><a  href="../chapters/12-sources.html">12 · 来源与核验边界</a><h2 style="margin-top:25px">实践工具</h2><a href="../prototype.html">OfferTrail 交互原型 ↗</a><a href="../resources.html">全部样例与模板</a><a href="../downloads/product-jobs-guide-v1.0.0.pdf" download>下载完整 PDF</a></aside><article class="reader"><div class="page-tools"><a href="../index.html">首页</a><a href="../resources.html">完整样例与模板</a><a href="../files/DEPLOYMENT.md" download>下载可编辑源文件</a><span>核验 2026-11-13</span></div><h1 id="github-pages-部署">GitHub Pages 部署</h1>
+<p>部署要求更新：2026-11-13。用户已明确授权推送本项目，正式网站使用 GitHub Pages。</p>
+<h2 id="正式目标">正式目标</h2>
+<ul>
+<li>仓库：<code>AIPMAndy/chinese-international-student-product-jobs</code>。</li>
+<li>分支：<code>main</code>。</li>
+<li>工作流：<code>.github/workflows/pages.yml</code>。</li>
+<li>静态目录：<code>dist/</code>。</li>
+<li>预期项目地址：<code>https://aipmandy.github.io/chinese-international-student-product-jobs/</code>。<strong>此地址待发布，不代表已经上线。</strong> 最终以部署返回值与实际访问结果为准。</li>
+</ul>
+<p>已记录公开仓库创建及 README 初始化提交的读回结果；完整文件上传进行中，尚未记录完整项目上传完成、Pages 部署或线上验收成功。ChatGPT Pages / Sites 不作为本项目的正式部署目标。</p>
+<h2 id="发布步骤">发布步骤</h2>
+<ol>
+<li>确认 GitHub 账号为 AIPMAndy，且上述仓库存在并可写。不存在时创建同名公开空仓库；不覆盖已有仓库。</li>
+<li>完成网站和下载打包，保证以下文件非空：<ul>
+<li><code>dist/downloads/product-jobs-guide-v1.0.0.pdf</code></li>
+<li><code>dist/downloads/product-jobs-workbook-v1.0.0.zip</code></li>
+<li><code>dist/downloads/product-jobs-source-v1.0.0.zip</code></li>
+</ul>
+</li>
+<li>在项目根目录检查提交中的静态网站：</li>
+</ol>
+<pre><code class="language-bash">python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf --require downloads/product-jobs-workbook-v1.0.0.zip --require downloads/product-jobs-source-v1.0.0.zip
+</code></pre>
+<p>检查脚本仅使用 Python 标准库，按仓库子路径解析本地 HTML 链接、锚点与 CSS 资源，也检查 PDF / ZIP 文件是否存在。它不验证外部来源、JavaScript 动态加载、交互或真实线上状态。</p>
+<ol start="4">
+<li>完成原有内容、案例、PDF 和浏览器验收。实际打开手机与桌面页面，验证目录、搜索、模板、PDF、源码下载、微信复制和官网入口。</li>
+<li>将本项目源码、交付物、<code>dist/</code>、本部署规范及工作流提交并推送到目标仓库 <code>main</code>。确认成品下载未因忽略规则漏掉。不得在源码、提交或远端 URL 写入凭据。</li>
+<li>在 <strong>Settings → Pages → Build and deployment → Source</strong> 选择 <strong>GitHub Actions</strong>。之后由 <code>main</code> 推送触发工作流，也可手动运行。</li>
+<li>等待部署成功，实际打开工作流返回的网站地址，核验首页 HTTP 200、子路径资源、章节、PDF / ZIP 和手机阅读。完成后再将 README 的网站标为已上线。</li>
+</ol>
+<h2 id="部署已验收产物">部署已验收产物</h2>
+<p>工作流检查并上传提交中的 <code>dist/</code>。发布阶段不重新生成中文 PDF，也不执行依赖当前工作区路径的构建。内容修改后先按项目原有构建说明更新和验收 <code>dist/</code>，再提交；这样部署的文件与本地验收对象一致。</p>
+<p>工作流限制为本项目精确仓库的 <code>main</code>，支持 push 和手动触发，使用 <code>github-pages</code> 环境。全局仅授予 <code>contents: read</code>，部署任务额外取得 <code>pages: write</code> 和 <code>id-token: write</code>。</p>
+<h2 id="线上验收记录">线上验收记录</h2>
+<p>状态更新时间：<strong>2026-11-13 21:48（北京时间，UTC+8）</strong>。初始化提交只包含已写入的完整 README；不能据此认定全部项目文件已上传。</p>
+<div class="table-wrap"><table>
+<thead>
+<tr>
+<th>项目</th>
+<th>状态</th>
+</tr>
+</thead>
+<tbody><tr>
+<td>远端仓库可访问</td>
+<td>已核实为公开仓库，ID <code>1456653335</code>，默认分支 <code>main</code></td>
+</tr>
+<tr>
+<td>当前连接仓库权限</td>
+<td><code>admin</code>；README 创建写入成功</td>
+</tr>
+<tr>
+<td>README 初始化提交 SHA</td>
+<td><code>f4f8324f8960dd39c57a1bf41e160cee30181896</code>，已读回</td>
+</tr>
+<tr>
+<td>README 初始化 tree</td>
+<td><code>08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0</code>，已读回</td>
+</tr>
+<tr>
+<td>完整项目文件上传</td>
+<td>进行中；源码、交付物与 <code>dist/</code> 的完整上传及最终提交尚待确认</td>
+</tr>
+<tr>
+<td>Pages Actions 成功运行链接</td>
+<td>尚未部署，待记录成功运行</td>
+</tr>
+<tr>
+<td>实际网站 URL</td>
+<td>待部署返回与访问确认</td>
+</tr>
+<tr>
+<td>首页、章节、PDF / ZIP 线上检查</td>
+<td>待完成</td>
+</tr>
+<tr>
+<td>手机页面与关键交互检查</td>
+<td>待完成</td>
+</tr>
+<tr>
+<td>GitHub Release</td>
+<td>尚未发布</td>
+</tr>
+</tbody></table></div>
+<h2 id="官方依据">官方依据</h2>
+<p>核验日：2026-11-13。</p>
+<ul>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages">GitHub Pages 自定义工作流</a></li>
+<li><a href="https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site">配置 Pages 发布源</a></li>
+</ul>
+</article></div></main><footer><div class="container footer-inner"><div>作者：AI 酋长 Andy · 微信 AIPMAndy · 公众号 AI酋长Andy</div><div><a href="https://metaver.vip/">个人官网</a> · <a href="https://www.a6no1.cn/">公司官网</a> · <a href="../verification.html">验证记录</a> · v1.0.0 / 2026-11-13</div></div></footer></body></html>

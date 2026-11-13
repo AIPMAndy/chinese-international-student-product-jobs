@@ -1,0 +1,46 @@
+{
+  "checked": "2026-11-13",
+  "status_updated_at": "2026-11-13T21:48:00+08:00",
+  "target_repository": "AIPMAndy/chinese-international-student-product-jobs",
+  "target_website": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
+  "github_repository": "created_public_and_accessible",
+  "repository_id": 1456653335,
+  "repository_visibility": "public",
+  "default_branch": "main",
+  "current_repository_permission": "admin",
+  "github_commit": "f4f8324f8960dd39c57a1bf41e160cee30181896",
+  "github_tree": "08a6e7ce05b798a8875168bbf2e589dd3ca3bcf0",
+  "github_commit_scope": "Verified initialization containing the complete README.md only; not a completed upload of the full project.",
+  "commit_read_back_verified": true,
+  "tree_read_back_verified": true,
+  "full_project_upload": "in_progress",
+  "full_project_upload_verified": false,
+  "github_pages": "not_deployed",
+  "github_pages_online_validation": "not_performed",
+  "release": "not_published",
+  "authorization": "User explicitly authorized public repository creation, commit, release and website deployment for this new project only.",
+  "blocker": null,
+  "current_stage": "Repository creation and README write verified; full project file upload in progress. Pages deployment, online validation and Release publication remain incomplete.",
+  "remaining": [
+    "Complete the full project upload and read back the final commit and files",
+    "Deploy GitHub Pages and verify the actual website and downloads",
+    "Complete final desktop and mobile-width browser regression",
+    "Publish the GitHub Release and verify its assets"
+  ],
+  "prepared_scope": "Reviewed local artifacts; this list does not imply complete remote upload.",
+  "prepared": [
+    "Complete sources and dist",
+    "128-page reviewed PDF",
+    "15 editable templates and coherent worked example",
+    "Fixed-target publication script",
+    "Pages workflow for committed dist"
+  ],
+  "scope": "No changes were made to other GitHub projects or personal/company websites.",
+  "connected_github_account": "AIPMAndy",
+  "verified_remote_write": {
+    "operation": "create_file",
+    "path": "README.md",
+    "result": "success",
+    "read_back": "commit and tree verified"
+  }
+}

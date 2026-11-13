@@ -1,0 +1,250 @@
+[
+  {
+    "id": "J01",
+    "title": "Product Manager Technical (PMT) Intern - Summer 2027",
+    "url": "https://www.amazon.jobs/en/jobs/10509639/product-manager-technical-pmt-intern-summer-2027",
+    "issuer": "Amazon",
+    "checked": "2026-11-13",
+    "claims": [
+      "职位10509639为MBA在读实习，学位授予时间2027-12至2028-06",
+      "2027年5-6月起连续12周，每周至少40小时",
+      "3年以上非实习专业经验列为preferred；职责含需求、路线图、跨团队推进和数据决策"
+    ],
+    "scope": "美国产品技术实习；主要地点西雅图/Arlington",
+    "caveat": "不是普通本科统一入口；JD未承诺所有申请者可获工作签证担保。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J02",
+    "title": "Associate Product Manager Program",
+    "url": "https://www.atlassian.com/company/careers/graduates/apm",
+    "issuer": "Atlassian",
+    "checked": "2026-11-13",
+    "claims": [
+      "项目介绍两段各12个月轮岗，不限定单一学位背景",
+      "列出客户理解、解决问题、沟通、学习与领导经历",
+      "项目地点介绍覆盖北美/加拿大/澳大利亚/新西兰；底部出现2019职位文字"
+    ],
+    "scope": "APM项目介绍，不是当届职位公告",
+    "caveat": "不能用该页推出2027招聘开放状态、资格或签证担保；当期JD优先。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J03",
+    "title": "AI Product Manager Graduate (Live Streaming Safety) - 2027 Start",
+    "url": "https://lifeattiktok.com/search/7698970869205666053",
+    "issuer": "TikTok",
+    "checked": "2026-11-13",
+    "claims": [
+      "新加坡A36834；列出相关本科学位完成中或近期毕业，包括计算机、AI、数据科学、统计、信息管理、公共政策、法律、传播",
+      "职责含安全产品闭环、准确率/召回率/用户打扰与跨团队推进",
+      "滚动审阅，关联公司全球最多两个申请；须写毕业与到岗日期"
+    ],
+    "scope": "新加坡AI产品毕业生岗位",
+    "caveat": "正文by the end of the year未明确该句年份，必须向招聘方确认；未给出个人工作授权结论。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J04",
+    "title": "Product Manager Intern (AI & Ecosystem Governance - TikTok LIVE) - 2027 Start",
+    "url": "https://lifeattiktok.com/search/7681183714051131701",
+    "issuer": "TikTok",
+    "checked": "2026-11-13",
+    "claims": [
+      "新加坡A193593；本科在读或项目/研究/实习/创业等效经历",
+      "Spring2027连续12周、每周4天现场、当地工作授权；硕士和继续暑期属preferred",
+      "职责含用户研究、规则/AI/人工比较、评测与失败模式、人工介入、延迟/成本/质量"
+    ],
+    "scope": "新加坡AI产品实习",
+    "caveat": "不是远程实习承诺；转正需表现、资格和业务需要，不是保证。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J05",
+    "title": "Principal Product Manager",
+    "url": "https://job-boards.greenhouse.io/microsoftcorporation/jobs/4391316009",
+    "issuer": "Microsoft AI",
+    "checked": "2026-11-13",
+    "claims": [
+      "地点Mountain View/Redmond/New York",
+      "最低条件本科学位及8年以上产品/服务/项目管理或软件开发经验，或等效经历",
+      "职责含模型路线图、评测、产品需求转换和上线判断"
+    ],
+    "scope": "美国有经验AI产品岗位",
+    "caveat": "高级岗位样本，不能泛化为所有AI PM门槛；更长经验与AI背景项属于preferred。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J06",
+    "title": "Technical Product Owner - Robot-Factory Integration (f/m/div.)",
+    "url": "https://jobs.smartrecruiters.com/BoschGroup/744000160877424-technical-product-owner-robot-factory-integration-f-m-div-",
+    "issuer": "Bosch",
+    "checked": "2026-11-13",
+    "claims": [
+      "德国Renningen正式岗；相关本科或硕士，实际部署产品范围/优先级/验收经验",
+      "要求德英语言，泛化敏捷协调与管理backlog本身不足",
+      "要求可公开或脱敏交付案例，说明决策、被否决方案、验收和实测；证据不足可推迟发布"
+    ],
+    "scope": "德国技术Product Owner",
+    "caveat": "正文未列统一最低年限；相似旧链接744000159866789已显示expired，不能混用。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J07",
+    "title": "Sr. Product Manager, EU Everyday Essentials (12-month Contract)",
+    "url": "https://www.amazon.jobs/en/jobs/10453769/sr-product-manager-eu-everyday-essentials-12-month-contract",
+    "issuer": "Amazon",
+    "checked": "2026-11-13",
+    "claims": [
+      "职位10453769，12个月固定期合同；正式有经验岗位",
+      "职责含产品路线图、端到端交付、功能取舍、商业论证和跨团队项目",
+      "正文法国地点优先且EU5地点可用，搜索London标签不能替代地点核实"
+    ],
+    "scope": "欧洲常规产品岗位样本",
+    "caveat": "不是Graduate项目；工作地点、合同与授权支持以当前申请入口核实。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J08",
+    "title": "Product Marketing Manager",
+    "url": "https://handbook.gitlab.com/job-description-library/marketing/product-marketing-manager/",
+    "issuer": "GitLab",
+    "checked": "2026-11-13",
+    "claims": [
+      "官方岗位族说明，不是单一职位空缺",
+      "P3说明列出3-4年产品营销经历",
+      "职责含买家研究、价值表达、销售赋能、竞争/赢丢单分析"
+    ],
+    "scope": "Product Marketing职责对照",
+    "caveat": "具体地点与资格须查看当期JD；本页不能证明有实时空缺。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J09",
+    "title": "Business Analyst, Amazon Global Logistics",
+    "url": "https://www.amazon.jobs/en-gb/jobs/10538315/business-analyst-amazon-global-logistics",
+    "issuer": "Amazon",
+    "checked": "2026-11-13",
+    "claims": [
+      "职位10538315，上海/深圳",
+      "基础资格含本科或等效、2年以上复杂Excel VBA经验、SQL/ETL、可视化与业务洞察",
+      "主要职责数据分析、报表自动化、指标、数据质量和经营建议"
+    ],
+    "scope": "中国大陆Business Analyst职责对照",
+    "caveat": "按实际主要职责归商科训练；和PM协作不等于负责产品路线图。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "J10",
+    "title": "Early careers at Atlassian",
+    "url": "https://www.atlassian.com/company/careers/earlycareers",
+    "issuer": "Atlassian",
+    "checked": "2026-11-13",
+    "claims": [
+      "一般early-career项目页，说明滚动审阅和多批次",
+      "当前正文澳新Recruitment February-June；Grad February/August；Intern November-February",
+      "当前正文美加Recruitment September-June；Grad February-September；Intern May-September及September-December"
+    ],
+    "scope": "地区招聘日历的雇主特定例子",
+    "caveat": "搜索摘要与当前正文有差异，采用正文；不是某届APM开放公告；不得推广为整个国家招聘窗口。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/01-role-evidence.md"
+    ]
+  },
+  {
+    "id": "I01",
+    "title": "PM-T Interview Prep",
+    "url": "https://amazon.jobs/content/en/how-we-hire/pm-t-interview-prep",
+    "issuer": "Amazon",
+    "checked": "2026-11-13",
+    "claims": [
+      "PM-T公开准备页说明技术电话筛选、书面任务、面试循环；部分团队可能增加电话筛选",
+      "强调技术深度、产品、相关方与行为经历；建议STAR"
+    ],
+    "scope": "Amazon PM-T面试准备",
+    "caveat": "不外推为所有雇主流程；具体轮次以招聘方本次安排为准。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/09-interview-lab.md"
+    ]
+  },
+  {
+    "id": "I02",
+    "title": "Atlassian product interview handbook",
+    "url": "https://www.atlassian.com/company/careers/resources/career-growth/product-managers",
+    "issuer": "Atlassian",
+    "checked": "2026-11-13",
+    "claims": [
+      "能力方向为带动团队、产品能力、交付结果和贯穿全程的沟通",
+      "页面描述初始招聘经理交流后3场能力访谈加1场价值观访谈"
+    ],
+    "scope": "Atlassian产品面试准备",
+    "caveat": "不是全球产品岗位统一题型；本书题目与评分是作者训练设计。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/09-interview-lab.md"
+    ]
+  },
+  {
+    "id": "I03",
+    "title": "Interview Preparation",
+    "url": "https://careers.usc.edu/channels/prepare-for-an-interview/",
+    "issuer": "University of Southern California Career Center",
+    "checked": "2026-11-13",
+    "claims": [
+      "行为问题需具体事实、个人角色与结果",
+      "准备不同经历，课程/专业/学生领导或社区服务可提供材料",
+      "STAR及失败后的学习、改变与应用"
+    ],
+    "scope": "大学官方行为面试训练建议",
+    "caveat": "只采用该页行为面试指导；本书模拟故事与训练量表为作者原创。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/09-interview-lab.md"
+    ]
+  },
+  {
+    "id": "T01",
+    "title": "Date And Time Functions",
+    "url": "https://www.sqlite.org/lang_datefunc.html",
+    "issuer": "SQLite",
+    "checked": "2026-11-13",
+    "claims": [
+      "datetime函数及hours等modifier可用于本书SQLite示例的24小时观察窗"
+    ],
+    "scope": "SQL时间窗口实现参考",
+    "caveat": "本书业务口径与数据是教学合成；数据库语法不替代指标定义。",
+    "verification": "official_body_opened",
+    "used_in": [
+      "content/roles/09-interview-lab.md"
+    ]
+  }
+]

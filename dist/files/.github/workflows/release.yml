@@ -1,0 +1,40 @@
+name: Publish verified v1.0.0 release
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/release.yml'
+      - 'tools/release_github.py'
+      - 'downloads/**'
+      - 'dist/downloads/**'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: product-jobs-release-v1.0.0
+  cancel-in-progress: false
+
+jobs:
+  release:
+    if: github.repository == 'AIPMAndy/chinese-international-student-product-jobs' && github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    permissions:
+      contents: write
+    steps:
+      - name: Check out the exact committed release inputs
+        uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - name: Validate committed downloads and acceptance records
+        run: python3 -B tools/release_github.py --check-only
+      - name: Create draft, verify assets, then publish
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: python3 -B tools/release_github.py
+
+# Independent of Pages: no needs, site rebuild, deployment API or extra secret.
+# Official release/assets/refs API documentation checked on 2026-11-13.
