@@ -1,0 +1,349 @@
+{
+  "target_url": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
+  "started_at": "2026-11-13T16:03:20.401Z",
+  "checks": [
+    {
+      "id": "W01",
+      "subject": "实际首页桌面布局",
+      "status": "pass",
+      "observed": {
+        "bodyWidth": 1348,
+        "documentWidth": 1348,
+        "height": 936,
+        "title": "中国留学生产品岗位求职保姆级攻略 · AI 酋长 Andy",
+        "width": 1363
+      }
+    },
+    {
+      "id": "W02",
+      "subject": "章节搜索、无匹配和清空恢复",
+      "status": "pass",
+      "observed": {
+        "matching": {
+          "count": "找到 2 个章节",
+          "titles": [
+            "逐国核对申请路径",
+            "来源与核验边界"
+          ]
+        },
+        "no_match": {
+          "count": "没有匹配章节。试试“毕业”“研究”“AI”或“面试”。",
+          "visible": 0
+        },
+        "restored": 13,
+        "search_query": "英国"
+      }
+    },
+    {
+      "id": "W03",
+      "subject": "三种背景路线切换（键盘激活）",
+      "status": "pass",
+      "observed": {
+        "business": {
+          "heading": "把分析结论，落到可执行方案。",
+          "selected": "business"
+        },
+        "experienced": {
+          "heading": "把参与经历，讲清自己的贡献。",
+          "selected": "experienced"
+        },
+        "tech": {
+          "heading": "把实现能力，补成产品判断。",
+          "selected": "tech"
+        }
+      }
+    },
+    {
+      "id": "W04",
+      "subject": "微信复制按钮与实际剪贴板",
+      "status": "pass",
+      "observed": {
+        "button": "已复制",
+        "clipboard_matches_expected": true,
+        "expected": "AIPMAndy"
+      }
+    },
+    {
+      "id": "W05",
+      "subject": "个人官网与公司官网入口",
+      "status": "pass",
+      "observed": [
+        {
+          "href": "https://metaver.vip/",
+          "text": "个人官网 metaver.vip ↗"
+        },
+        {
+          "href": "https://www.a6no1.cn/",
+          "text": "公司官网 a6no1.cn ↗"
+        }
+      ]
+    },
+    {
+      "id": "W06",
+      "subject": "模板页面与CSV实际下载",
+      "status": "pass",
+      "observed": {
+        "title": "岗位拆解表",
+        "bytes": 561,
+        "sha256": "0597d033bea76b85f33b3c083a90354f745f0ff9918d017d3943682710305c27",
+        "filename": "jd-breakdown.csv",
+        "matches_repository_source": true
+      }
+    },
+    {
+      "id": "W07",
+      "subject": "地区章节阅读与桌面目录导航",
+      "status": "pass",
+      "observed": {
+        "documentWidth": 1348,
+        "heading": "地区申请路径：先通过资格门，再投入作品集",
+        "tableCount": 5,
+        "title": "逐国核对申请路径 · AI 酋长 Andy",
+        "width": 1363
+      }
+    },
+    {
+      "id": "P01",
+      "subject": "伦敦时间换算",
+      "status": "pass",
+      "observed": "换算为北京时间 · Asia/Shanghai2026-11-21 01:00UTC 时间2026-11-20 17:00Z"
+    },
+    {
+      "id": "P02",
+      "subject": "缺少材料时阻断",
+      "status": "pass",
+      "observed": {
+        "confirmExists": false,
+        "text": "还有 2 项需要处理作品集尚未准备完成工作许可要求尚未人工核对先补充和核实信息。材料全部打勾也不能覆盖不明确的截止时间。"
+      }
+    },
+    {
+      "id": "P03",
+      "subject": "人工确认、未提交边界与结果焦点",
+      "status": "pass",
+      "observed": {
+        "ready": "核对项已齐备，等待人工确认确认只改变本地状态，不会发送申请或判断资格。确认本地核对",
+        "confirmed": {
+          "focused": "result",
+          "text": "本地核对已完成尚未向雇主提交。请回到官方申请系统提交，并保存真实回执。此结果只属于教学模拟，不能证明工作许可或录用资格。"
+        }
+      }
+    },
+    {
+      "id": "P04",
+      "subject": "核对记录真实导出",
+      "status": "pass",
+      "observed": {
+        "nature": "教学模拟，非真实申请",
+        "simulation": true,
+        "submitted": false,
+        "application_id": "APP-01",
+        "deadline_utc": "2026-11-20T17:00:00.000Z",
+        "source_checked_by_user": true,
+        "requirements": {
+          "resume": true,
+          "portfolio": true
+        },
+        "work_permission_checked_by_user": true,
+        "work_permission_legally_verified": false,
+        "review_status": "manually_checked",
+        "blockers": []
+      }
+    },
+    {
+      "id": "P05",
+      "subject": "编辑材料后旧确认失效",
+      "status": "pass",
+      "observed": {
+        "changed": "内容已变更，请重新运行核对。",
+        "rerun": {
+          "confirmExists": false,
+          "text": "还有 1 项需要处理作品集尚未准备完成先补充和核实信息。材料全部打勾也不能覆盖不明确的截止时间。"
+        }
+      }
+    },
+    {
+      "id": "P06",
+      "subject": "卡片重渲染焦点保留与未知日期阻断",
+      "status": "pass",
+      "observed": {
+        "before": {
+          "deadline": "",
+          "focusedApp": "1",
+          "materials": {
+            "permission": true,
+            "portfolio": true,
+            "resume": true
+          },
+          "original": "原始情境文字 · 教学模拟Friday end of day",
+          "zone": ""
+        },
+        "after": {
+          "confirmExists": false,
+          "source": true,
+          "text": "还有 1 项需要处理日期或时区待确认先补充和核实信息。材料全部打勾也不能覆盖不明确的截止时间。"
+        }
+      }
+    },
+    {
+      "id": "M01",
+      "subject": "340 CSS 像素原型布局与未知截止阻断",
+      "status": "pass",
+      "observed": {
+        "bodyWidth": 337,
+        "confirmExists": false,
+        "documentWidth": 337,
+        "dpr": 4,
+        "height": 234,
+        "result": "还有 1 项需要处理日期或时区待确认先补充和核实信息。材料全部打勾也不能覆盖不明确的截止时间。",
+        "width": 340
+      }
+    },
+    {
+      "id": "M02",
+      "subject": "340 CSS 像素首页没有整页横向溢出",
+      "status": "pass",
+      "observed": {
+        "bodyWidth": 337,
+        "documentWidth": 337,
+        "dpr": 4,
+        "height": 234,
+        "width": 340
+      }
+    },
+    {
+      "id": "M03",
+      "subject": "340 CSS 像素章节目录展开及表格局部横向滚动容器",
+      "status": "pass",
+      "observed": {
+        "documentWidth": 337,
+        "height": 234,
+        "menuLinkCount": 13,
+        "menuOpen": true,
+        "tables": [
+          {
+            "clientWidth": 257,
+            "overflowX": "auto",
+            "scrollWidth": 480
+          },
+          {
+            "clientWidth": 257,
+            "overflowX": "auto",
+            "scrollWidth": 480
+          },
+          {
+            "clientWidth": 257,
+            "overflowX": "auto",
+            "scrollWidth": 480
+          },
+          {
+            "clientWidth": 257,
+            "overflowX": "auto",
+            "scrollWidth": 480
+          },
+          {
+            "clientWidth": 257,
+            "overflowX": "auto",
+            "scrollWidth": 480
+          }
+        ],
+        "width": 340
+      }
+    },
+    {
+      "id": "M04",
+      "subject": "手机目录从地区章节切换到产品面试实验室",
+      "status": "pass",
+      "observed": {
+        "documentWidth": 337,
+        "heading": "09 产品面试实验室：把判断讲到能被追问",
+        "url": "https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/09-interview-lab.html",
+        "width": 340
+      }
+    },
+    {
+      "id": "M05",
+      "subject": "340 CSS 像素地区表格可通过键盘横向滚动且页面不横移",
+      "status": "pass",
+      "observed": {
+        "documentWidth": 337,
+        "pageScrollX": 0,
+        "tableClientWidth": 257,
+        "tableScrollLeft": 84.25,
+        "tableScrollWidth": 480,
+        "width": 340
+      }
+    }
+  ],
+  "screenshots": [
+    {
+      "file": "verification/live-site/homepage-desktop.jpg",
+      "bytes": 78397,
+      "sha256": "840c28a3d46cc985816e53056a552c9af9be34e12000a3354746fa1ad45d890b",
+      "image_pixels": {
+        "width": 1348,
+        "height": 926
+      },
+      "capture": "实际浏览器视口截图；未拼接、未生成、未修改图片。",
+      "viewport_css": {
+        "width": 1363,
+        "height": 936
+      }
+    },
+    {
+      "file": "verification/live-site/chapter-narrow.jpg",
+      "description": "Chrome 400% 缩放的实际 340 CSS 像素视口，手机目录展开；非手机真机。",
+      "bytes": 10979,
+      "sha256": "ff76b0dce76932af9043c9cb789a578f0722f790b470711168749b954f6269e5",
+      "image_pixels": {
+        "width": 337,
+        "height": 231
+      },
+      "capture": "实际浏览器视口截图；未拼接、未生成、未修改图片。",
+      "viewport_css": {
+        "width": 340,
+        "height": 234
+      }
+    }
+  ],
+  "browser": {
+    "name": "Chrome",
+    "environment": "共享云浏览器",
+    "desktop_viewport_css": {
+      "width": 1363,
+      "height": 936
+    },
+    "narrow_viewport_css": {
+      "width": 340,
+      "height": 234
+    },
+    "narrow_method": "原生 Chrome 缩放 400%；桌面浏览器响应式模拟，非设备仿真或真机。"
+  },
+  "finished_at": "2026-11-13T16:11:00.513Z",
+  "verified_at_shanghai": "2026-11-14 00:11:00 Asia/Shanghai",
+  "final_home_state": {
+    "documentWidth": 1348,
+    "height": 936,
+    "title": "中国留学生产品岗位求职保姆级攻略 · AI 酋长 Andy",
+    "url": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
+    "width": 1363
+  },
+  "status": "pass",
+  "summary": {
+    "passed": 18,
+    "failed": 0,
+    "total": 18
+  },
+  "deployment": {
+    "commit": "45e863333f86a68c4dae82b08e315699567ea516",
+    "pages_run_id": 43447871895,
+    "attempt": 2
+  },
+  "scope_notes": [
+    "全部 18 项结果来自本次正式站点的真实云 Chrome 浏览器交互，不复用历史验收结果。",
+    "最初独立本地 Chromium 因 socket() Operation not permitted 未能启动，随后使用可正常访问正式站点的云 Chrome 完成本次验收，未调整安全或网络保护。",
+    "窄屏实际视口为 340×234 CSS 像素，来自 Chrome 400% 普通缩放；未单独复核 390 像素，未进行 iOS/Android 真机测试。",
+    "官网入口核验链接目标；未审计外部官网内容。仅使用原型内置教学模拟数据，没有真实申请或对外提交。",
+    "本记录聚焦交互；全站 HTTP 与全部下载字节/哈希验收由独立 HTTP 记录负责。"
+  ]
+}

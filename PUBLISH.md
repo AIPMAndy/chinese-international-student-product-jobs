@@ -4,15 +4,15 @@
 
 执行前先阅读 [AGENTS.md](AGENTS.md) 与 [DEPLOYMENT.md](DEPLOYMENT.md)。正式仓库固定为 `AIPMAndy/chinese-international-student-product-jobs`，正式网站唯一目标为该仓库的 **GitHub Pages**。
 
-预期网址：`https://aipmandy.github.io/chinese-international-student-product-jobs/`。这是发布目标，不能仅凭本文件把它称为已上线。只有远端提交读回、Actions 成功和线上访问验收完成，才记录为已发布。
+正式网址：[https://aipmandy.github.io/chinese-international-student-product-jobs/](https://aipmandy.github.io/chinese-international-student-product-jobs/)。Pages 工作流已成功并返回该地址，首页实际 GET 为 HTTP 200；106 个线上 URL 与文件哈希、18 项桌面与窄屏浏览器检查均通过。
 
-## 当前执行边界
+## 当前发布状态
 
-截至 **2026-11-13 22:57:48（北京时间，UTC+8）**，完整项目已上传至公开仓库，ID `1456653335`，默认分支 `main`。原始发布提交 `4d1f8923a4a2ee8527838ae9e468bffa3e313b6f`、tree `07c1c653fc73dbf5131a6d89f5b32e7873f9a61a` 已读回；远端 317 个 tree entries 中的 286 个 blob 与本地交付文件逐一比对，286/286 一致，缺失 0、不同 0。PDF、两个 ZIP 与对应 `dist/downloads/` 文件全部上传且 blob 相同。
+截至 **2026-11-14 00:11:05（北京时间，UTC+8）**，完整项目已上传至公开仓库，ID `1456653335`，默认分支 `main`。原始发布提交 `4d1f8923a4a2ee8527838ae9e468bffa3e313b6f`、tree `07c1c653fc73dbf5131a6d89f5b32e7873f9a61a` 已读回；远端 317 个 tree entries 中的 286 个 blob 与本地交付文件逐一比对，286/286 一致，缺失 0、不同 0。PDF、两个 ZIP 与对应 `dist/downloads/` 文件全部上传且 blob 相同。
 
 **[v1.0.0 Release](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) 已公开。** 发布时间为 2026-11-13 21:55:40（北京时间）；三个公开下载 URL 已实际 GET，均返回 HTTP 200，下载字节数及 SHA-256 与本地成品一致，[Release 工作流](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137)成功。
 
-**GitHub Pages 待启用，正式网站尚未上线，线上验收未执行。** [Pages 工作流 attempt 2](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445)在 Configure GitHub Pages 步骤返回 `Not Found`。需在[本仓库 Settings → Pages](https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages)将 **Build and deployment → Source** 选为 **GitHub Actions**，再重跑部署并检查实际网站。当前连接器没有 Pages 设置接口，本地浏览器扩展不可用，云浏览器 GitHub 未登录，因此该设置尚需仓库所有者完成。
+**GitHub Pages 已上线并完成验收，106 个线上 URL 与文件哈希、18 项桌面与窄屏浏览器检查均通过。** 用户启用 Pages 后，[Pages 工作流 attempt 2](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43447871895/attempts/2)于 2026-11-13 23:57:35（北京时间）完成部署，提交为 `45e863333f86a68c4dae82b08e315699567ea516`。此前未启用时的 `Not Found` 已解决。[HTTP 验收](verification/live-http-qa.json)覆盖 106 个唯一 URL，最终全部 HTTP 200 且 SHA-256 与本地一致，含 62 个 HTML 和三个下载文件；两次读取超时分别重试一次后通过。[正式域名浏览器验收](verification/live-browser-qa.json)有 18 项通过：桌面 1363 × 936 CSS px，Chrome 400% 缩放的窄屏为 340 × 234 CSS px；覆盖目录、搜索、路线、剪贴板、下载与原型关键交互。没有执行 iOS/Android 真机或 Safari/WebKit 测试。
 
 v1.0.0 的三个附件与 tag 保持不变。此次仅同步发布状态；源码 ZIP 内保留打包时的验证快照，最新远端状态以 [DEPLOYMENT.md](DEPLOYMENT.md)与[发布状态](verification/publication-status.json)为准。需要变更成品时发布新版本，不覆盖已有附件。
 

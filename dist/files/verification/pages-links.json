@@ -1,14 +1,11 @@
 {
-  "site": "dist",
+  "site": "/workspace/scratch/c2fef9d5222c/chinese-international-student-product-jobs/dist",
   "simulated_base_url": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
   "html_pages": 62,
-  "local_references_checked": 2827,
-  "external_references_not_checked": 385,
+  "local_references_checked": 2849,
+  "external_references_not_checked": 380,
   "error_count": 0,
   "errors": [],
   "omitted_errors": 0,
-  "checked": "2026-11-13",
-  "status_updated_at": "2026-11-13T22:57:48+08:00",
-  "status": "pass",
-  "scope": "Local committed-site candidate only; does not establish Pages deployment or live access."
+  "checked": "2026-11-14"
 }

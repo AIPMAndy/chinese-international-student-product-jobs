@@ -4,11 +4,11 @@
 
 作者：**AI 酋长 Andy**。前腾讯、百度 AI 产品专家，前大模型公司 VP。版本 **1.0.0 · 2026-11-13**。
 
-[正式版本 v1.0.0](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) · [下载 128 页 PDF](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-guide-v1.0.0.pdf) · [下载完整样例与模板](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-workbook-v1.0.0.zip) · [下载完整源码包](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-source-v1.0.0.zip)
+[正式网站](https://aipmandy.github.io/chinese-international-student-product-jobs/) · [正式版本 v1.0.0](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) · [下载 128 页 PDF](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-guide-v1.0.0.pdf) · [下载完整样例与模板](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-workbook-v1.0.0.zip) · [下载完整源码包](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-source-v1.0.0.zip)
 
-[贯穿案例](content/case/06-end-to-end-case.md) · [完整样例](examples/README.md) · [可编辑模板](templates/README.md) · [交互原型源码](prototypes/offertrail.html) · [验证记录](verification/VALIDATION.md) · [在线阅读（GitHub Pages）](https://aipmandy.github.io/chinese-international-student-product-jobs/) · [部署说明](DEPLOYMENT.md)
+[贯穿案例](content/case/06-end-to-end-case.md) · [完整样例](examples/README.md) · [可编辑模板](templates/README.md) · [交互原型源码](prototypes/offertrail.html) · [验证记录](verification/VALIDATION.md) · [部署与验收记录](DEPLOYMENT.md)
 
-**发布状态：完整项目与 v1.0.0 Release 已公开，GitHub Pages 已上线。** 2026-11-14 已实际核验网站首页、章节、模板页面及 PDF、模板包、源码包下载；三个下载文件与已发布成品逐字节一致。免费内容可在网站或仓库阅读，PDF、模板与源码包也可通过上述 Release 入口下载。
+**发布状态：完整项目与 v1.0.0 Release 已公开，GitHub Pages 已上线。** 2026-11-14 已实际核验网站首页、章节、模板页面与 PDF、模板包、源码包下载：106 个线上 URL 与文件哈希检查、18 项桌面和窄屏浏览器检查均通过；三个下载文件与已发布成品逐字节一致。免费内容可在正式网站或仓库阅读，PDF、模板与源码包也可通过上述入口下载。
 
 ## 适合谁
 

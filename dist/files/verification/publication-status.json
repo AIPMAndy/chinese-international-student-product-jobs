@@ -1,6 +1,6 @@
 {
-  "checked": "2026-11-13",
-  "status_updated_at": "2026-11-13T22:57:48+08:00",
+  "checked": "2026-11-14",
+  "status_updated_at": "2026-11-14T00:11:05+08:00",
   "target_repository": "AIPMAndy/chinese-international-student-product-jobs",
   "target_website": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
   "github_repository": "created_public_and_accessible",
@@ -15,17 +15,13 @@
   "tree_read_back_verified": true,
   "full_project_upload": "completed_and_verified",
   "full_project_upload_verified": true,
-  "github_pages": "not_enabled",
-  "github_pages_online_validation": "not_performed",
+  "github_pages": "deployed_and_verified",
+  "github_pages_online_validation": "passed",
   "release": "published_and_assets_verified",
   "authorization": "User explicitly authorized public repository creation, commit, release and website deployment for this new project only.",
-  "blocker": "Enable GitHub Pages in this repository Settings > Pages > Build and deployment > Source: GitHub Actions. The connector has no Pages settings operation; the local browser extension is unavailable and cloud GitHub browser session is logged out.",
-  "current_stage": "Full repository upload and public v1.0.0 Release are verified. GitHub Pages is not enabled; deployment and live website validation remain incomplete.",
-  "remaining": [
-    "Repository owner selects GitHub Actions as Pages Source",
-    "Rerun pages.yml and verify successful deployment",
-    "Verify actual Pages website, desktop and mobile-width interactions, and all three download hashes"
-  ],
+  "blocker": null,
+  "current_stage": "Full repository upload, v1.0.0 Release and formal GitHub Pages deployment are complete. All 106 formal-site URLs match local SHA-256 bytes, and 18 desktop/narrow-viewport browser checks passed at deployed commit 45e863333f86a68c4dae82b08e315699567ea516.",
+  "remaining": [],
   "prepared_scope": "Complete deliverables verified at the original full-publication commit; deployed website status remains separate.",
   "prepared": [
     "Complete sources and dist",
@@ -55,14 +51,6 @@
       ".openai/hosting.json"
     ],
     "root_and_dist_download_blobs_match": true
-  },
-  "pages_attempt": {
-    "run_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445",
-    "attempt": 2,
-    "conclusion": "failure",
-    "failed_step": "Configure GitHub Pages",
-    "error": "Not Found",
-    "reason": "GitHub Pages is not enabled for the repository"
   },
   "release_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0",
   "release_workflow_run": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137",
@@ -112,5 +100,102 @@
     "sha256_matches_local": true,
     "method": "Actual GET requests to each GitHub Release browser_download_url",
     "scope": "GitHub Release downloads only; does not verify GitHub Pages deployment or website downloads"
-  }
+  },
+  "content_verified_date": "2026-11-13",
+  "pages_attempt_history": [
+    {
+      "run_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445",
+      "attempt": 2,
+      "conclusion": "failure",
+      "failed_step": "Configure GitHub Pages",
+      "error": "Not Found",
+      "reason": "GitHub Pages is not enabled for the repository"
+    }
+  ],
+  "pages_attempt": {
+    "run_url": "https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43447871895/attempts/2",
+    "run_id": 43447871895,
+    "attempt": 2,
+    "job_id": 131996331036,
+    "conclusion": "success",
+    "all_steps": "success",
+    "commit_sha": "45e863333f86a68c4dae82b08e315699567ea516",
+    "completed_at": "2026-11-13T23:57:35+08:00",
+    "page_url": "https://aipmandy.github.io/chinese-international-student-product-jobs/"
+  },
+  "pages_homepage_validation": {
+    "status": "pass",
+    "method": "GET",
+    "url": "https://aipmandy.github.io/chinese-international-student-product-jobs/",
+    "http_status": 200,
+    "bytes": 224244,
+    "sha256": "396a0f9834c75afbbe4f93da1a47509ee8ee8ce0bfe15936cce01a84a5bc710c",
+    "matches_local_dist": true,
+    "tested_commit": "45e863333f86a68c4dae82b08e315699567ea516"
+  },
+  "pages_full_http_validation": {
+    "status": "pass",
+    "record": "verification/live-http-qa.json",
+    "tested_commit": "45e863333f86a68c4dae82b08e315699567ea516",
+    "checked_at": "2026-11-14T00:01:40+08:00",
+    "unique_urls": 106,
+    "passed": 106,
+    "html_pages": 62,
+    "static_assets": 13,
+    "downloads": 3,
+    "template_files_including_readme": 16,
+    "example_files_including_readme": 12,
+    "all_final_statuses": 200,
+    "all_sha256_match_local": true,
+    "retry_requests": 2,
+    "total_http_requests_including_retry": 108,
+    "retry_note": "Only the two initial connection/read timeouts were retried once; successful URLs were not repeated."
+  },
+  "pages_browser_validation": {
+    "status": "pass",
+    "record": "verification/live-browser-qa.json",
+    "tested_commit": "45e863333f86a68c4dae82b08e315699567ea516",
+    "checks_passed": 18,
+    "desktop_viewport_css": {
+      "width": 1363,
+      "height": 936
+    },
+    "narrow_viewport_css": {
+      "width": 340,
+      "height": 234
+    },
+    "method": "Native Chrome at 400% zoom for the narrow viewport; desktop simulation, not physical mobile hardware",
+    "narrow_document_width_css": 337,
+    "narrow_pages_checked": [
+      "homepage",
+      "prototype",
+      "regions chapter",
+      "interview chapter"
+    ],
+    "whole_page_horizontal_overflow": false,
+    "mobile_chapter_navigation": "13 chapter links; navigation to chapter 09 verified",
+    "region_tables": {
+      "count": 5,
+      "overflow": "auto",
+      "container_width_css": 257,
+      "content_width_css": 480
+    },
+    "scope": [
+      "Search and three background routes",
+      "Clipboard value AIPMAndy and official website anchors",
+      "Actual CSV and JSON downloads",
+      "Unknown-date and missing-material blocking",
+      "Manual confirmation without employer submission",
+      "Invalidating prior confirmation after material edits",
+      "Focus retention and visible completion state"
+    ],
+    "checks_failed": 0,
+    "checked_at": "2026-11-14T00:11:00+08:00"
+  },
+  "publication_acceptance_scope": "Acceptance is pinned to the stated deployed commit. This documentation-only update preserves all published v1.0.0 assets; subsequent documentation deployments have their own Actions results.",
+  "non_blocking_limitations": [
+    "No physical iOS/Android device or Safari/WebKit test was performed.",
+    "OfferTrail uses teaching simulations; no real-user research, production business outcomes or real job applications are claimed.",
+    "External official sources retain their 2026-11-13 content verification date and must be rechecked before real applications."
+  ]
 }

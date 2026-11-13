@@ -8,9 +8,9 @@
 - 分支：`main`。
 - 工作流：`.github/workflows/pages.yml`。
 - 静态目录：`dist/`。
-- 预期项目地址：`https://aipmandy.github.io/chinese-international-student-product-jobs/`。**此地址待发布，不代表已经上线。** 最终以部署返回值与实际访问结果为准。
+- 正式网站：[https://aipmandy.github.io/chinese-international-student-product-jobs/](https://aipmandy.github.io/chinese-international-student-product-jobs/)。工作流返回该地址，实际首页 GET 为 HTTP 200，内容与已部署的 `dist/index.html` 一致。
 
-**完整项目已上传，v1.0.0 Release 已公开并核对三个附件。GitHub Pages 尚未启用，正式网站尚未上线。** Pages 工作流在 Configure GitHub Pages 步骤返回 `Not Found`；需先在[本仓库 Pages 设置](https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages)中将 Source 选为 **GitHub Actions**，再重新运行部署。ChatGPT Pages / Sites 不作为本项目的正式部署目标。
+**完整项目已上传，v1.0.0 Release 已公开，GitHub Pages 已上线并完成验收：106 个线上 URL 与文件哈希检查、18 项桌面和窄屏浏览器检查均通过。** 用户启用 Pages 后，[成功运行 attempt 2](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43447871895/attempts/2)完成配置、上传与部署。正式网站使用本仓库的 GitHub Pages。
 
 ## 发布步骤
 
@@ -40,7 +40,7 @@ python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0
 
 ## 发布与线上验收记录
 
-状态更新时间：**2026-11-13 22:57:48（北京时间，UTC+8）**。以下完整文件核对固定到原始发布提交 `4d1f8923a4a2ee8527838ae9e468bffa3e313b6f`；本次状态文档同步不改变该提交或 v1.0.0 附件。
+状态更新时间：**2026-11-14 00:11:05（北京时间，UTC+8）**。以下完整文件核对固定到原始发布提交 `4d1f8923a4a2ee8527838ae9e468bffa3e313b6f`；本次状态文档同步不改变该提交或 v1.0.0 附件。
 
 | 项目 | 状态 |
 | --- | --- |
@@ -51,18 +51,18 @@ python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0
 | 下载文件 | 根目录与 `dist/downloads/` 的 PDF、模板 ZIP、源码 ZIP 全部上传，同名文件 blob 相同 |
 | GitHub Release | [v1.0.0](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) 已公开，发布时间 2026-11-13 21:55:40（北京时间）；三个公开下载 URL 实际 GET 均为 HTTP 200，下载字节数与 SHA-256 均与本地成品一致 |
 | Release Actions | [成功运行](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918137) |
-| Pages Actions | [运行 attempt 2](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445) 失败；Configure GitHub Pages 返回 `Not Found`，仓库尚未启用 Pages |
-| 实际网站 URL | 尚未部署成功；上方 URL 仅为目标地址 |
-| 首页、章节、PDF / ZIP 的 Pages 线上检查 | 未执行；Release 附件核对不等于 Pages 下载验收 |
-| 手机页面与关键交互的 Pages 线上检查 | 未执行；制作期浏览器检查另见验证记录 |
+| Pages Actions | [运行 43447871895 / attempt 2](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43447871895/attempts/2)成功；部署提交 `45e863333f86a68c4dae82b08e315699567ea516`，全部步骤成功，完成于 2026-11-13 23:57:35（北京时间） |
+| 实际网站 URL | [https://aipmandy.github.io/chinese-international-student-product-jobs/](https://aipmandy.github.io/chinese-international-student-product-jobs/)，与部署返回地址相同；首页实际 GET 为 HTTP 200 |
+| 首页、章节、PDF / ZIP 的 Pages 线上检查 | [HTTP 记录](verification/live-http-qa.json)：106/106 个 URL 最终均 HTTP 200，SHA-256 与本地已部署文件一致；覆盖 62 个 HTML、13 个静态资源、3 个下载、16 个模板文件（含 README）、12 个样例文件。两次首轮读取超时各重试一次通过，共 108 次请求 |
+| 窄屏页面与关键交互的 Pages 线上检查 | [浏览器记录](verification/live-browser-qa.json)：18 项通过；桌面 1363 × 936 CSS px，Chrome 400% 缩放后为 340 × 234 CSS px。首页、原型与抽查章节无整页横向溢出；窄屏模拟不等同于移动真机 |
 
-### 完成 Pages 的剩余操作
+### 本次线上验收
 
-1. 打开[本仓库 Settings → Pages](https://github.com/AIPMAndy/chinese-international-student-product-jobs/settings/pages)，在 **Build and deployment → Source** 选择 **GitHub Actions**。
-2. 返回[Pages 运行](https://github.com/AIPMAndy/chinese-international-student-product-jobs/actions/runs/43437918445)，重新运行失败任务，或手动触发 `pages.yml`。
-3. 只有工作流成功后，才访问返回的网站地址，检查首页、章节、下载及手机阅读，并更新线上验收记录。
+Pages 已启用，部署及正式域名验收完成。正式项目子路径的章节、静态资源、模板、样例和三个下载文件已通过 HTTP 与 SHA-256 核对；18 项浏览器检查覆盖搜索、背景路线、复制微信、目录与阅读、实际 CSV/JSON 下载，以及原型中的阻断、人工确认、修改后失效和焦点保留。
 
-当前连接器没有 Pages 设置接口；本地浏览器扩展不可用，云浏览器的 GitHub 会话未登录，因此此设置尚需仓库所有者完成。用户已有发布授权，无需重复授权上传；剩余事项是启用 Pages。
+窄屏以原生 Chrome 400% 缩放得到 340 × 234 CSS px，首页、原型、地区和面试章节的 documentWidth 为 337 CSS px，无整页横向溢出。地区章五个表格在宽 257 CSS px 的独立滚动容器中展示 480 CSS px 内容。此记录没有把桌面窄屏模拟称为 iOS/Android 真机测试。
+
+此前的 `Not Found` 来自启用 Pages 前的运行，属于历史失败记录。启用后重跑已成功。
 
 v1.0.0 的 PDF 与两个 ZIP 保持已发布字节，tag 不移动。后续状态记录可单独更新；需要改变成品内容时使用新版本，不能覆盖本版附件。
 
