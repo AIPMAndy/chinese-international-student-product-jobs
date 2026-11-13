@@ -37,6 +37,8 @@ verify+='<h2>可下载的检查记录</h2>'+list(allFiles('verification').filter
 write('verification.html',readerPage('验证记录',verify,'verification.html'));
 write('prototype.html',read('prototypes/offertrail.html').replace('href="../index.html"','href="index.html"'));
 copyDir(path.join(ROOT,'assets'),path.join(DIST,'assets'));
+// Web v2: independent HTML homepage, while preserving all handbook chapter pages.
+write('index.html',fs.readFileSync(path.join(ROOT,'site/home.html'),'utf8'));
 for(const dir of ['content','templates','examples','research','verification','tools'])copyDir(path.join(ROOT,dir),path.join(DIST,'files',dir));
 copyDir(path.join(ROOT,'downloads'),path.join(DIST,'downloads'));
 copyDir(path.join(ROOT,'.github'),path.join(DIST,'files','.github'));
