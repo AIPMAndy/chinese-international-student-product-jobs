@@ -41,6 +41,8 @@ jobs:
           npm run build
       - name: Verify current release integrity
         run: python3 tools/check_integrity.py
+      - name: Verify all published chapter metadata and downloadable PDF
+        run: python3 tools/check_seo.py
       - name: Validate generated static site and downloads
         run: python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf --require downloads/product-jobs-workbook-v1.0.0.zip --require downloads/product-jobs-source-v1.0.0.zip
       - name: Configure GitHub Pages
