@@ -1,6 +1,6 @@
 name: Deploy verified guide to GitHub Pages
 # Official GitHub Pages action versions checked on 2026-11-13.
-# Deploy committed dist bytes only; do not rebuild the site or PDF in this job.
+# Regenerate current website and downloads from source. Reuse reviewed PDF unchanged.
 
 on:
   push:
@@ -30,7 +30,18 @@ jobs:
         uses: actions/checkout@v6
         with:
           persist-credentials: false
-      - name: Validate the committed static site and downloads
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+      - name: Install pinned site build dependency
+        run: npm install --ignore-scripts --no-audit --no-fund --package-lock=false
+      - name: Repackage complete source (including standalone home) and build current Pages artifact
+        run: |
+          python3 tools/package_release.py --require-pdf
+          npm run build
+      - name: Verify current release integrity
+        run: python3 tools/check_integrity.py
+      - name: Validate generated static site and downloads
         run: python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf --require downloads/product-jobs-workbook-v1.0.0.zip --require downloads/product-jobs-source-v1.0.0.zip
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
