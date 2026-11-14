@@ -99,16 +99,16 @@ bash tools/publish-github.sh
 4. 已有仓库必须是相同用途、公开、非归档、非 fork、可写，且使用 `main`。有内容时读取 README 和 package 身份；空仓库需要相符描述。用途不明就停止，不覆盖。
 5. 在独立 GitHub clone 中提交源文件、成品、`dist/`、部署规范和工作流，以普通快进推送提交到 `main`，随后读回 SHA。
 6. 仅为这个项目配置 Pages 的 workflow 发布源，触发并等待 `pages.yml`。现有自定义域名不会被覆盖，仓库保护规则不会被绕过。
-7. 读取 Pages 返回的网址，实际访问首页，并下载线上 PDF 与两个 ZIP，逐字节核对提交中的产物。
+7. 读取 Pages 返回的网址，实际访问首页，并下载线上 PDF 与两个 ZIP，逐字节核对本轮实际构建产物。
 8. 创建 `v1.0.0` 草稿 release，上传三份产物，读回检查，再发布。已有同名资产只核对或补缺，不使用 `--clobber`；不同内容不能覆盖旧版本。
 
 Git 命令始终针对临时 clone，远端固定为公开 GitHub 项目。脚本不强推、不重写 tag、不删除既有资产，不操作其他仓库。重复运行时，同一版本与同一内容可以继续验证或补齐中断的发布；如果 `v1.0.0` 已存在而内容变化，脚本会停止，要求维护者按新版本处理。
 
 失败时会输出最后完成阶段，保留隔离目录供排查。例如“提交已读回”与“Pages 部署成功”是两个不同状态。不能因为前一项完成就宣称网站已上线。
 
-## 4. Pages 工作流为何不重新构建
+## 4. Pages 工作流：从源码重建网站与模板包，保持已审阅 PDF 不变
 
-现有 [.github/workflows/pages.yml](.github/workflows/pages.yml)只检查并上传提交中的 `dist/`，确保线上文件与本地验收对象一致。它只在精确仓库 `AIPMAndy/chinese-international-student-product-jobs` 的 `main` 运行，支持 push 和手动触发。
+自 2026-11-14 起，[.github/workflows/pages.yml](.github/workflows/pages.yml) 在精确仓库 `AIPMAndy/chinese-international-student-product-jobs` 的 `main` 上运行：先安装固定版本的网站构建依赖，再从包含 `site/home.html` 的完整源文件重新生成模板包、源码 ZIP 和 `dist/`，运行完整性、全页 canonical/OG/JSON-LD/sitemap 与 PDF 检查，最后部署并以本轮实际生成物的 SHA-256 验证在线文件。旧 `dist/` 为历史快照，不能代表本次上线字节。
 
 全局权限为 `contents: read`；部署任务另外取得 `pages: write` 和 `id-token: write`，使用 `github-pages` 环境。Checkout 不保留 Git 凭据。工作流不会在 CI 重新生成中文 PDF，也不会调用 Sites。
 
