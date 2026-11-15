@@ -34,7 +34,7 @@ python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0
 
 ## 部署已验收产物
 
-工作流检查并上传提交中的 `dist/`。发布阶段不重新生成中文 PDF，也不执行依赖当前工作区路径的构建。内容修改后先按项目原有构建说明更新和验收 `dist/`，再提交；这样部署的文件与本地验收对象一致。
+自 2026-11-14 起，Pages 工作流从本次 GitHub 主分支的源文件重新打包可编辑资料与源码 ZIP，并生成静态网站 `dist/`；检查全页 SEO 元数据、项目子路径、PDF 和下载包完整性，发布后逐文件执行 HTTP 200 / SHA-256 验收。已审阅的 v1.0.0 PDF 不在 Pages 作业中重排；仓库提交的 `dist/` 只是历史构建快照，线上以当轮 Actions 产物为准。
 
 工作流限制为本项目精确仓库的 `main`，支持 push 和手动触发，使用 `github-pages` 环境。全局仅授予 `contents: read`，部署任务额外取得 `pages: write` 和 `id-token: write`。
 

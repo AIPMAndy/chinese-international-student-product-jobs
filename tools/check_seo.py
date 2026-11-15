@@ -40,6 +40,11 @@ for file in pages:
     check('<meta name="description"' in content, rel + ": no description")
     check('<meta property="og:title"' in content, rel + ": no OG title")
     check('<meta property="og:url" content="' + expected + '"' in content, rel + ": wrong OG URL")
+    image = base + "assets/social-preview.png"
+    check('<meta property="og:image" content="' + image + '"' in content, rel + ": missing og:image")
+    check('<meta property="og:image:width" content="1280"' in content, rel + ": missing og:image width")
+    check('<meta property="og:image:height" content="640"' in content, rel + ": missing og:image height")
+    check('<meta name="twitter:card" content="summary_large_image"' in content, rel + ": missing summary_large_image")
     check('<meta name="robots" content="' + ("noindex,follow" if rel == "404.html" else "index,follow") + '"' in content, rel + ": wrong robots")
     data = re.search(r'<script type="application/ld\+json">(.*?)</script>', content, re.S)
     if not data:
@@ -49,6 +54,8 @@ for file in pages:
             obj = json.loads(html.unescape(data.group(1)))
             check(obj.get("@type") == "WebPage" and obj.get("url") == expected, rel + ": invalid JSON-LD identity")
             check(obj.get("isAccessibleForFree") is True, rel + ": incorrectly describes free content")
+            check(obj.get("image") == image, rel + ": JSON-LD image missing")
+            check("aggregateRating" not in obj and "reviewRating" not in obj, rel + ": unexpected rating")
             check(obj.get("author", {}).get("name") == "AI 酋长 Andy", rel + ": no known author")
             check(obj.get("publisher", {}).get("url") == "https://www.a6no1.cn/", rel + ": no known company")
         except (ValueError, TypeError) as exc:
@@ -58,6 +65,8 @@ for file in pages:
 homepage = (site / "index.html").read_text(encoding="utf-8")
 for token in ("AIPMAndy", "https://metaver.vip/", "https://www.a6no1.cn/"):
     check(token in homepage, "homepage missing public business reference: " + token)
+preview = site / "assets/social-preview.png"
+check(preview.is_file() and preview.stat().st_size > 1000, "social preview missing")
 pdf = site / ("downloads/business-careers-guide.pdf" if business else "downloads/product-jobs-guide-v1.0.0.pdf")
 check(pdf.is_file() and pdf.stat().st_size > 100_000 and pdf.open("rb").read(5) == b"%PDF-", "PDF missing/invalid")
 print(json.dumps({"site": name, "pages_checked": len(pages), "sitemap_entries": len(locs), "error_count": len(errors), "errors": errors[:30]}, ensure_ascii=False))

@@ -1,14 +1,34 @@
 # 中国留学生产品岗位求职保姆级攻略
 
-**全新网站首页（2026-11-14 改版）**：独立产品化首页、浏览器内求职路径规划、岗位轨道、地区导航、13 章内容索引与 15 份模板。正式网站入口：[中国留学生产品求职 · 实战工作台](https://aipmandy.github.io/chinese-international-student-product-jobs/)。完整教材、PDF 和案例继续免费开放；没有更改版本 1.0.0 的资料事实与文件。
+产品实习、APM / 毕业生项目与正式产品岗位：从真实 JD 到作品集、模板和 PDF。
 
 **从真实 JD 出发，拿出能证明用户理解、产品判断、方案取舍与推进能力的材料。**
 
-作者：**AI 酋长 Andy**。前腾讯、百度 AI 产品专家，前大模型公司 VP。版本 **1.0.0 · 2026-11-13**。
+作者：**AI酋长Andy**，流量 AI 联合创始人、星觉 AI 创始人。星觉科技，北京。微信号 **AIPMAndy**。不承诺录用。版本 **1.0.0 · 2026-11-13**。
 
 [正式网站](https://aipmandy.github.io/chinese-international-student-product-jobs/) · [正式版本 v1.0.0](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/tag/v1.0.0) · [下载 128 页 PDF](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-guide-v1.0.0.pdf) · [下载完整样例与模板](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-workbook-v1.0.0.zip) · [下载完整源码包](https://github.com/AIPMAndy/chinese-international-student-product-jobs/releases/download/v1.0.0/product-jobs-source-v1.0.0.zip)
 
 [贯穿案例](content/case/06-end-to-end-case.md) · [完整样例](examples/README.md) · [可编辑模板](templates/README.md) · [交互原型源码](prototypes/offertrail.html) · [验证记录](verification/VALIDATION.md) · [部署与验收记录](DEPLOYMENT.md)
+
+## 第一小时
+
+1. 打开 [00 开始](content/00-start-here.md)，填写毕业时间、地区和可到岗日。
+2. 选择 3 条官网 JD，填 [岗位拆解表](templates/jd-breakdown.csv)。
+3. 给每条职责找一个材料位置，填 [能力证据表](templates/capability-evidence.csv)。
+4. 分清缺经历、能力还是表达，只选一个最重要的缺口开始补。
+
+## 常见问题
+
+**OfferTrail 是读者本人的经历吗？**  
+不是。OfferTrail 的申请者、雇主、岗位数据和情境是教学模拟，不是读者的访谈、申请、上线或录用经历。
+
+**AI 产品经理在本册吗？算法岗呢？**  
+AI 产品经理在本册。算法和模型工程归 AI 求职册。
+
+**核验日表示岗位仍在招聘吗？**  
+不是。核验日只标记当时核对过的官方资料，不代表岗位持续开放。
+
+**全新网站首页（2026-11-14 改版）**：独立产品化首页、浏览器内求职路径规划、岗位轨道、地区导航、13 章内容索引与 15 份模板。正式网站入口：[中国留学生产品求职 · 实战工作台](https://aipmandy.github.io/chinese-international-student-product-jobs/)。完整教材、PDF 和案例继续免费开放；没有更改版本 1.0.0 的资料事实与文件。
 
 **发布状态：完整项目与 v1.0.0 Release 已公开，GitHub Pages 已上线。** 2026-11-14 已实际核验网站首页、章节、模板页面与 PDF、模板包、源码包下载：106 个线上 URL 与文件哈希检查、18 项桌面和窄屏浏览器检查均通过；三个下载文件与已发布成品逐字节一致。免费内容可在正式网站或仓库阅读，PDF、模板与源码包也可通过上述入口下载。
 
@@ -23,13 +43,6 @@
 - 用 **OfferTrail** 从六条原始模拟材料走到研究计划、方案取舍、关键原型、指标、作品集、双语简历与面试讲解。
 - 直接编辑 **15 份模板**，训练产品设计、指标/SQL、执行、AI 判断、项目深挖与行为面试。
 - 下载完整中文 PDF；网站适配手机，免费内容全部开放。
-
-## 第一小时
-
-1. 打开 [00 开始](content/00-start-here.md)，填写毕业时间、地区和可到岗日。
-2. 选择 3 条官网 JD，填 [岗位拆解表](templates/jd-breakdown.csv)。
-3. 给每条职责找一个材料位置，填 [能力证据表](templates/capability-evidence.csv)。
-4. 分清缺经历、能力还是表达，只选一个最重要的缺口开始补。
 
 ## 完整章节
 
@@ -78,9 +91,7 @@ PDF 的可重复构建说明见 [PUBLISH.md](PUBLISH.md)。浏览器原型仅在
 
 ## 作者与咨询
 
-**AI 酋长 Andy** · 微信 **AIPMAndy** · 公众号 **AI酋长Andy**
-
-[个人官网 https://metaver.vip/](https://metaver.vip/) · [公司官网 https://www.a6no1.cn/](https://www.a6no1.cn/)
+**AI酋长Andy** · 流量 AI 联合创始人、星觉 AI 创始人 · 星觉科技 · 北京 · 微信号 **AIPMAndy**
 
 免费正文、模板、样例和 PDF 完整开放。咨询承接岗位定位、作品集诊断和模拟面试；不承诺录用或涨薪。联系前请准备目标地区、毕业月份、3 条 JD 和当前作品。
 
