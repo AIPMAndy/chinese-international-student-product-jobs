@@ -4,8 +4,8 @@
   "verified_date": "2026-11-13",
   "engine": "ReportLab (no browser)",
   "pages": 128,
-  "bytes": 1486561,
-  "selectable_text_characters": 122611,
+  "bytes": 1487187,
+  "selectable_text_characters": 122599,
   "text_extraction": "verification/pdf-extracted-text.txt",
   "missing_section_titles": [],
   "blank_or_nearly_blank_pages": [],
@@ -166,16 +166,16 @@
   ],
   "pdffonts": "name                                 type              encoding         emb sub uni object ID\n------------------------------------ ----------------- ---------------- --- --- --- ---------\nHelvetica                            Type 1            WinAnsi          no  no  no       2  0\nAAAAAA+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    582  0\nAAAAAB+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    586  0\nAAAAAC+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    590  0\nAAAAAD+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    594  0\nAAAAAE+AndyCareerGuideSC-Regular     TrueType          WinAnsi          yes yes yes    598  0\nAAAAAA+AndyCareerGuideSC-Bold        TrueType          WinAnsi          yes yes yes    602  0\nAAAAAB+AndyCareerGuideSC-Bold        TrueType          WinAnsi          yes yes yes    606  0\nAAAAAC+AndyCareerGuideSC-Bold        TrueType          WinAnsi          yes yes yes    610  0\nAAAAAA+DejaVuSansMono                TrueType          WinAnsi          yes yes yes    614  0\n",
   "font_derivation": {
-    "fingerprint": "0f0ee37dcbbb5f13016a7e314fadc1773ab22cb62bcdb17b7d48434773e512c4",
-    "codepoints": 1270,
+    "fingerprint": "c2ef339102d1f63409e8b5bf4993e62e1a2acdbb69da35c524f84954b7fa4fe0",
+    "codepoints": 1271,
     "faces": [
       {
         "source": "/usr/share/fonts/opentype/noto/NotoSansCJK-Regular.ttc",
         "font_number": 2,
         "family": "Andy Career Guide SC",
         "style": "Regular",
-        "glyph_count": 1271,
-        "output": "/workspace/scratch/c2fef9d5222c/chinese-international-student-product-jobs/tmp/pdf-fonts/AndyCareerGuideSC-Regular.ttf",
+        "glyph_count": 1272,
+        "output": "/workspace/tmp/pdf-fonts/AndyCareerGuideSC-Regular.ttf",
         "license": "SIL Open Font License 1.1",
         "upstream": "https://github.com/notofonts/noto-cjk",
         "source_license_file": "/usr/share/doc/fonts-noto-cjk/copyright",
@@ -186,8 +186,8 @@
         "font_number": 2,
         "family": "Andy Career Guide SC",
         "style": "Bold",
-        "glyph_count": 1271,
-        "output": "/workspace/scratch/c2fef9d5222c/chinese-international-student-product-jobs/tmp/pdf-fonts/AndyCareerGuideSC-Bold.ttf",
+        "glyph_count": 1272,
+        "output": "/workspace/tmp/pdf-fonts/AndyCareerGuideSC-Bold.ttf",
         "license": "SIL Open Font License 1.1",
         "upstream": "https://github.com/notofonts/noto-cjk",
         "source_license_file": "/usr/share/doc/fonts-noto-cjk/copyright",
@@ -202,302 +202,13 @@
     "derived_family": "Andy Career Guide SC",
     "embedding": "Unicode TrueType subset; CFF curves converted to quadratic curves locally"
   },
-  "render_dpi": 120,
+  "render_dpi": null,
   "page_images": "verification/pdf-pages",
-  "contact_sheets": [
-    {
-      "file": "verification/pdf-contact-sheets/sheet-001.png",
-      "pages": [
-        1,
-        2,
-        3,
-        4
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-002.png",
-      "pages": [
-        5,
-        6,
-        7,
-        8
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-003.png",
-      "pages": [
-        9,
-        10,
-        11,
-        12
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-004.png",
-      "pages": [
-        13,
-        14,
-        15,
-        16
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-005.png",
-      "pages": [
-        17,
-        18,
-        19,
-        20
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-006.png",
-      "pages": [
-        21,
-        22,
-        23,
-        24
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-007.png",
-      "pages": [
-        25,
-        26,
-        27,
-        28
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-008.png",
-      "pages": [
-        29,
-        30,
-        31,
-        32
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-009.png",
-      "pages": [
-        33,
-        34,
-        35,
-        36
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-010.png",
-      "pages": [
-        37,
-        38,
-        39,
-        40
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-011.png",
-      "pages": [
-        41,
-        42,
-        43,
-        44
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-012.png",
-      "pages": [
-        45,
-        46,
-        47,
-        48
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-013.png",
-      "pages": [
-        49,
-        50,
-        51,
-        52
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-014.png",
-      "pages": [
-        53,
-        54,
-        55,
-        56
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-015.png",
-      "pages": [
-        57,
-        58,
-        59,
-        60
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-016.png",
-      "pages": [
-        61,
-        62,
-        63,
-        64
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-017.png",
-      "pages": [
-        65,
-        66,
-        67,
-        68
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-018.png",
-      "pages": [
-        69,
-        70,
-        71,
-        72
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-019.png",
-      "pages": [
-        73,
-        74,
-        75,
-        76
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-020.png",
-      "pages": [
-        77,
-        78,
-        79,
-        80
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-021.png",
-      "pages": [
-        81,
-        82,
-        83,
-        84
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-022.png",
-      "pages": [
-        85,
-        86,
-        87,
-        88
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-023.png",
-      "pages": [
-        89,
-        90,
-        91,
-        92
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-024.png",
-      "pages": [
-        93,
-        94,
-        95,
-        96
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-025.png",
-      "pages": [
-        97,
-        98,
-        99,
-        100
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-026.png",
-      "pages": [
-        101,
-        102,
-        103,
-        104
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-027.png",
-      "pages": [
-        105,
-        106,
-        107,
-        108
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-028.png",
-      "pages": [
-        109,
-        110,
-        111,
-        112
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-029.png",
-      "pages": [
-        113,
-        114,
-        115,
-        116
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-030.png",
-      "pages": [
-        117,
-        118,
-        119,
-        120
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-031.png",
-      "pages": [
-        121,
-        122,
-        123,
-        124
-      ]
-    },
-    {
-      "file": "verification/pdf-contact-sheets/sheet-032.png",
-      "pages": [
-        125,
-        126,
-        127,
-        128
-      ]
-    }
-  ],
+  "contact_sheets": [],
   "page_stats": [
     {
       "page": 1,
-      "characters": 415,
+      "characters": 410,
       "links": 2,
       "images": 0
     },
@@ -515,7 +226,7 @@
     },
     {
       "page": 4,
-      "characters": 1024,
+      "characters": 1022,
       "links": 1,
       "images": 0
     },
@@ -527,7 +238,7 @@
     },
     {
       "page": 6,
-      "characters": 531,
+      "characters": 526,
       "links": 4,
       "images": 0
     },
@@ -1264,9 +975,5 @@
       "images": 0
     }
   ],
-  "visual_review": {
-    "status": "pass",
-    "coverage": "verification/pdf-visual-coverage.json",
-    "pages": 128
-  }
+  "visual_review": "Pending independent page-by-page review; automated checks do not replace visual inspection."
 }

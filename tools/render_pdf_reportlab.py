@@ -291,7 +291,7 @@ class BookDoc(BaseDocTemplate):
         c.drawString(LEFT, y-46, f"15 份可编辑模板 / 1 套完整贯穿样例 / {self.book['sourceCount']} 个官方资料链接")
         c.setStrokeColor(RULE); c.line(LEFT, 218, PAGE_W-RIGHT, 218)
         c.setFillColor(INK); c.setFont("Guide-Bold", 14); c.drawString(LEFT, 189, self.book["author"])
-        c.setFont("Guide", 9.1); c.drawString(LEFT, 167, "前腾讯、百度 AI 产品专家 · 前大模型公司 VP")
+        c.setFont("Guide", 9.1); c.drawString(LEFT, 167, "流量 AI 联合创始人、星觉 AI 创始人")
         c.drawString(LEFT, 143, "微信：AIPMAndy  ·  公众号：AI酋长Andy")
         c.setFont("Guide", 8.6)
         c.drawString(LEFT, 123, "个人官网：https://metaver.vip/")
