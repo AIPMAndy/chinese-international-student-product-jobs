@@ -234,7 +234,7 @@ class SimpleSVG(Flowable):
 
 class BookDoc(BaseDocTemplate):
     def __init__(self, target, book, styles):
-        BaseDocTemplate.__init__(self, str(target), pagesize=A4, leftMargin=LEFT, rightMargin=RIGHT, topMargin=TOP, bottomMargin=BOTTOM, title=book["title"], author=book["author"], subject="中国留学生产品岗位申请、产品案例与面试训练", creator="AI 酋长 Andy / ReportLab", pageCompression=1, allowSplitting=1)
+        BaseDocTemplate.__init__(self, str(target), pagesize=A4, leftMargin=LEFT, rightMargin=RIGHT, topMargin=TOP, bottomMargin=BOTTOM, title=book["title"], author=book["author"], subject="中国留学生产品岗位申请、产品案例与面试训练", creator="AI酋长Andy / ReportLab", pageCompression=1, allowSplitting=1)
         self.book, self.styles = book, styles
         self.section_name = "阅读地图"
         self.section_pages = {}
@@ -256,7 +256,7 @@ class BookDoc(BaseDocTemplate):
         c.line(LEFT, PAGE_H-35, PAGE_W-RIGHT, PAGE_H-35)
         c.setFillColor(MUTED); c.setFont("Guide", 7.5)
         c.drawString(LEFT, PAGE_H-27, "中国留学生 · 产品岗位求职")
-        c.drawRightString(PAGE_W-RIGHT, PAGE_H-27, "AI 酋长 Andy")
+        c.drawRightString(PAGE_W-RIGHT, PAGE_H-27, "AI酋长Andy")
         c.line(LEFT, 40, PAGE_W-RIGHT, 40)
         c.setFont("Guide", 7.1)
         c.drawString(LEFT, 26, f"完整免费开放  ·  V{self.book['version']}  ·  {self.book['date']}")

@@ -59,6 +59,6 @@
 
 ---
 
-教材作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
+教材作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/  
 以上为教材署名，不能替代申请者联系方式。实际投递请移除本教学说明与署名区。

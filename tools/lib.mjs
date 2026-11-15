@@ -52,13 +52,13 @@ export const friendly={
 export function titleFor(file){if(friendly[path.basename(file)])return friendly[path.basename(file)];const m=read(file).match(/^#\s+(.+)$/m);return m?m[1]:path.basename(file);}
 export function csvHTML(file){const [head,...rows]=parseCSV(read(file));return `<h1>${esc(titleFor(file))}</h1><p>可编辑 CSV。下载后保留示例的教学标签，再填入自己的真实材料。空白不代表已经完成。</p>`+rows.map((r,i)=>`<section class="data-card"><h3>记录 ${i+1}${i===0?' · 填写示例 / 说明':''}</h3><dl>${head.map((h,j)=>`<dt>${esc(h)}</dt><dd>${esc(r[j]||'待填')}</dd>`).join('')}</dl></section>`).join('');}
 export function makeSourcesMarkdown(){
- let out='# 12 来源、核验日期与更新方法\n\n版本：1.0.0。统一核验日：2026-11-13。作者：AI 酋长 Andy。\n\n';
+ let out='# 12 来源、核验日期与更新方法\n\n版本：1.0.0。统一核验日：2026-11-13。作者：AI酋长Andy。\n\n';
  out+='## 如何判断证据强度\n\n岗位要求使用雇主原文；招聘方式与资格使用政府、学校、雇主官方资料。记录核验日期不代表岗位仍开放，也不代表所有规则都在当天生效。读取状态分为官方正文已读、官方检索摘录、动态页面受限。来源冲突保留双方，不能凭偏好选择一条。\n\n';
  out+='正文中的路线、练习数量、评分锚点和交付计划是作者教学设计；不是雇主招聘标准。OfferTrail 和独立数据题均为教学模拟。官网链接与引用用于核验，不表示对本项目的背书。\n\n';
  out+='## 更新一次国家或岗位卡\n\n**输入：** 原官方来源、现有卡片和上次核验日期。**操作：** 打开官方页面，对比适用对象、生效日、毕业区间与职责；把变化单独记录。**产出：** 新日期、变更内容、旧版本范围和必要的未知状态。**验收：** 新结论能对应原文，未生效政策没有写成当前可用。**失败处理：** 页面关闭就把JD转历史样本；正文受限就保留检索限制；官方冲突就停止给确定的时间结论，并向主管机关核实。\n\n';
  out+='完整机器可读记录在 research/*-sources.json；去重审查见 [DEDUPE-AUDIT](../research/DEDUPE-AUDIT.md)。\n\n';
  const groups=[['方法与申请表达','method'],['岗位与面试官方依据','jobs'],['地区与毕业衔接','regions']];
  for(const [title,key] of groups){out+=`## ${title}\n\n`;for(const s of JSON.parse(read(`research/${key}-sources.json`))){out+=`### ${s.id} · ${s.title}\n\n`;out+=`[${s.issuer} · 官方原文](${s.url}) · 核验 ${s.checked}\n\n`;out+=`**用于：** ${s.claims.join('；')}。\n\n**适用范围：** ${s.scope}。\n\n**限制：** ${s.caveat}；读取状态：${s.verification||'见原始记录'}。\n\n`;}}
- out+='## 作者与咨询\n\n作者：AI 酋长 Andy。微信：**AIPMAndy**。公众号：**AI酋长Andy**。个人官网：[metaver.vip](https://metaver.vip/)。公司官网：[a6no1.cn](https://www.a6no1.cn/)。正文完整免费。咨询可用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。\n';
+ out+='## 作者与咨询\n\n作者：AI酋长Andy。微信：**AIPMAndy**。公众号：**AI酋长Andy**。个人官网：[metaver.vip](https://metaver.vip/)。公司官网：[a6no1.cn](https://www.a6no1.cn/)。正文完整免费。咨询可用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。\n';
  fs.writeFileSync(path.join(ROOT,'content/12-sources.md'),out);
 }

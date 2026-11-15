@@ -69,6 +69,6 @@
 
 复制本文件后，把每条记录的来源标签改为实际情况，补上参与者匿名编号、采集日期、知情同意、录音/笔记位置、原话和观察者解释。不要把此处的 S01–S06 重命名为六位受访者。
 
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/

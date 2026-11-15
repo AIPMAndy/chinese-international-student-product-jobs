@@ -56,7 +56,7 @@ for file in pages:
             check(obj.get("isAccessibleForFree") is True, rel + ": incorrectly describes free content")
             check(obj.get("image") == image, rel + ": JSON-LD image missing")
             check("aggregateRating" not in obj and "reviewRating" not in obj, rel + ": unexpected rating")
-            check(obj.get("author", {}).get("name") == "AI 酋长 Andy", rel + ": no known author")
+            check(obj.get("author", {}).get("name") == "AI酋长Andy", rel + ": no known author")
             check(obj.get("publisher", {}).get("url") == "https://www.a6no1.cn/", rel + ": no known company")
         except (ValueError, TypeError) as exc:
             errors.append(rel + ": invalid JSON-LD: " + str(exc))

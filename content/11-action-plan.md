@@ -79,4 +79,4 @@
 
 岗位定位：拿 3 条 JD 与自己的证据表来讨论。作品集诊断：带上原始记录、主案例与原型；只发封面无法判断能力。模拟面试：提供目标岗位、最弱题型和一段原始回答。先明确想解决的问题，再决定是否购买服务。
 
-作者：**AI 酋长 Andy**。微信：**AIPMAndy**。公众号：**AI酋长Andy**。个人官网：[https://metaver.vip/](https://metaver.vip/)。公司官网：[https://www.a6no1.cn/](https://www.a6no1.cn/)。免费内容完整开放；咨询不承诺录用或涨薪。
+作者：**AI酋长Andy**。微信：**AIPMAndy**。公众号：**AI酋长Andy**。个人官网：[https://metaver.vip/](https://metaver.vip/)。公司官网：[https://www.a6no1.cn/](https://www.a6no1.cn/)。免费内容完整开放；咨询不承诺录用或涨薪。

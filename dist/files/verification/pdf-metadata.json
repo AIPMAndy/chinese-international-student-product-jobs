@@ -4,8 +4,8 @@
   "verified_date": "2026-11-13",
   "engine": "ReportLab (no browser)",
   "pages": 128,
-  "bytes": 1487187,
-  "selectable_text_characters": 122599,
+  "bytes": 1486891,
+  "selectable_text_characters": 122287,
   "text_extraction": "verification/pdf-extracted-text.txt",
   "missing_section_titles": [],
   "blank_or_nearly_blank_pages": [],
@@ -175,7 +175,7 @@
         "family": "Andy Career Guide SC",
         "style": "Regular",
         "glyph_count": 1272,
-        "output": "/workspace/tmp/pdf-fonts/AndyCareerGuideSC-Regular.ttf",
+        "output": "/tmp/product/tmp/pdf-fonts/AndyCareerGuideSC-Regular.ttf",
         "license": "SIL Open Font License 1.1",
         "upstream": "https://github.com/notofonts/noto-cjk",
         "source_license_file": "/usr/share/doc/fonts-noto-cjk/copyright",
@@ -187,7 +187,7 @@
         "family": "Andy Career Guide SC",
         "style": "Bold",
         "glyph_count": 1272,
-        "output": "/workspace/tmp/pdf-fonts/AndyCareerGuideSC-Bold.ttf",
+        "output": "/tmp/product/tmp/pdf-fonts/AndyCareerGuideSC-Bold.ttf",
         "license": "SIL Open Font License 1.1",
         "upstream": "https://github.com/notofonts/noto-cjk",
         "source_license_file": "/usr/share/doc/fonts-noto-cjk/copyright",
@@ -208,769 +208,769 @@
   "page_stats": [
     {
       "page": 1,
-      "characters": 410,
+      "characters": 408,
       "links": 2,
       "images": 0
     },
     {
       "page": 2,
-      "characters": 522,
+      "characters": 520,
       "links": 37,
       "images": 0
     },
     {
       "page": 3,
-      "characters": 531,
+      "characters": 529,
       "links": 20,
       "images": 0
     },
     {
       "page": 4,
-      "characters": 1022,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 5,
-      "characters": 901,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 6,
-      "characters": 526,
-      "links": 4,
-      "images": 0
-    },
-    {
-      "page": 7,
-      "characters": 949,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 8,
-      "characters": 975,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 9,
-      "characters": 1408,
-      "links": 4,
-      "images": 0
-    },
-    {
-      "page": 10,
-      "characters": 1319,
-      "links": 4,
-      "images": 0
-    },
-    {
-      "page": 11,
-      "characters": 1274,
-      "links": 4,
-      "images": 0
-    },
-    {
-      "page": 12,
-      "characters": 942,
-      "links": 2,
-      "images": 0
-    },
-    {
-      "page": 13,
-      "characters": 1140,
-      "links": 3,
-      "images": 0
-    },
-    {
-      "page": 14,
-      "characters": 968,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 15,
-      "characters": 1143,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 16,
-      "characters": 910,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 17,
       "characters": 1020,
       "links": 1,
       "images": 0
     },
     {
+      "page": 5,
+      "characters": 899,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 6,
+      "characters": 524,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 7,
+      "characters": 945,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 8,
+      "characters": 973,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 9,
+      "characters": 1406,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 10,
+      "characters": 1317,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 11,
+      "characters": 1272,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 12,
+      "characters": 940,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 13,
+      "characters": 1136,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 14,
+      "characters": 966,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 15,
+      "characters": 1141,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 16,
+      "characters": 908,
+      "links": 1,
+      "images": 0
+    },
+    {
+      "page": 17,
+      "characters": 1018,
+      "links": 1,
+      "images": 0
+    },
+    {
       "page": 18,
-      "characters": 1057,
+      "characters": 1055,
       "links": 1,
       "images": 0
     },
     {
       "page": 19,
-      "characters": 414,
+      "characters": 412,
       "links": 3,
       "images": 0
     },
     {
       "page": 20,
-      "characters": 894,
+      "characters": 892,
       "links": 1,
       "images": 0
     },
     {
       "page": 21,
-      "characters": 849,
+      "characters": 847,
       "links": 1,
       "images": 0
     },
     {
       "page": 22,
-      "characters": 994,
+      "characters": 992,
       "links": 1,
       "images": 0
     },
     {
       "page": 23,
-      "characters": 984,
+      "characters": 982,
       "links": 1,
       "images": 0
     },
     {
       "page": 24,
-      "characters": 1473,
+      "characters": 1471,
       "links": 7,
       "images": 0
     },
     {
       "page": 25,
-      "characters": 1426,
+      "characters": 1424,
       "links": 9,
       "images": 0
     },
     {
       "page": 26,
-      "characters": 1379,
+      "characters": 1377,
       "links": 6,
       "images": 0
     },
     {
       "page": 27,
-      "characters": 1304,
+      "characters": 1302,
       "links": 7,
       "images": 0
     },
     {
       "page": 28,
-      "characters": 1268,
+      "characters": 1266,
       "links": 9,
       "images": 0
     },
     {
       "page": 29,
-      "characters": 1339,
+      "characters": 1337,
       "links": 7,
       "images": 0
     },
     {
       "page": 30,
-      "characters": 1488,
+      "characters": 1486,
       "links": 8,
       "images": 0
     },
     {
       "page": 31,
-      "characters": 1163,
+      "characters": 1161,
       "links": 3,
       "images": 0
     },
     {
       "page": 32,
-      "characters": 1333,
+      "characters": 1331,
       "links": 8,
       "images": 0
     },
     {
       "page": 33,
-      "characters": 988,
+      "characters": 986,
       "links": 1,
       "images": 0
     },
     {
       "page": 34,
-      "characters": 939,
+      "characters": 935,
       "links": 3,
       "images": 0
     },
     {
       "page": 35,
-      "characters": 736,
+      "characters": 732,
       "links": 10,
       "images": 0
     },
     {
       "page": 36,
-      "characters": 105,
+      "characters": 103,
       "links": 1,
       "images": 1
     },
     {
       "page": 37,
-      "characters": 94,
+      "characters": 92,
       "links": 1,
       "images": 1
     },
     {
       "page": 38,
-      "characters": 432,
+      "characters": 430,
       "links": 1,
       "images": 1
     },
     {
       "page": 39,
-      "characters": 730,
+      "characters": 728,
       "links": 2,
       "images": 0
     },
     {
       "page": 40,
-      "characters": 676,
+      "characters": 674,
       "links": 1,
       "images": 0
     },
     {
       "page": 41,
-      "characters": 782,
+      "characters": 780,
       "links": 2,
       "images": 0
     },
     {
       "page": 42,
-      "characters": 639,
+      "characters": 637,
       "links": 3,
       "images": 0
     },
     {
       "page": 43,
-      "characters": 881,
-      "links": 1,
-      "images": 0
-    },
-    {
-      "page": 44,
-      "characters": 719,
-      "links": 3,
-      "images": 0
-    },
-    {
-      "page": 45,
-      "characters": 750,
-      "links": 2,
-      "images": 0
-    },
-    {
-      "page": 46,
-      "characters": 1129,
-      "links": 2,
-      "images": 0
-    },
-    {
-      "page": 47,
-      "characters": 413,
-      "links": 3,
-      "images": 0
-    },
-    {
-      "page": 48,
       "characters": 879,
       "links": 1,
       "images": 0
     },
     {
+      "page": 44,
+      "characters": 717,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 45,
+      "characters": 748,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 46,
+      "characters": 1127,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 47,
+      "characters": 409,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 48,
+      "characters": 875,
+      "links": 1,
+      "images": 0
+    },
+    {
       "page": 49,
-      "characters": 997,
+      "characters": 995,
       "links": 2,
       "images": 0
     },
     {
       "page": 50,
-      "characters": 1340,
+      "characters": 1338,
       "links": 2,
       "images": 0
     },
     {
       "page": 51,
-      "characters": 1135,
+      "characters": 1133,
       "links": 2,
       "images": 0
     },
     {
       "page": 52,
-      "characters": 785,
+      "characters": 783,
       "links": 1,
       "images": 0
     },
     {
       "page": 53,
-      "characters": 378,
+      "characters": 374,
       "links": 3,
       "images": 0
     },
     {
       "page": 54,
-      "characters": 1024,
+      "characters": 1022,
       "links": 1,
       "images": 0
     },
     {
       "page": 55,
-      "characters": 1026,
+      "characters": 1024,
       "links": 1,
       "images": 0
     },
     {
       "page": 56,
-      "characters": 1281,
+      "characters": 1279,
       "links": 3,
       "images": 0
     },
     {
       "page": 57,
-      "characters": 1162,
+      "characters": 1158,
       "links": 3,
       "images": 0
     },
     {
       "page": 58,
-      "characters": 1295,
+      "characters": 1293,
       "links": 1,
       "images": 0
     },
     {
       "page": 59,
-      "characters": 957,
+      "characters": 955,
       "links": 1,
       "images": 0
     },
     {
       "page": 60,
-      "characters": 1277,
+      "characters": 1275,
       "links": 1,
       "images": 0
     },
     {
       "page": 61,
-      "characters": 1375,
+      "characters": 1373,
       "links": 2,
       "images": 0
     },
     {
       "page": 62,
-      "characters": 1110,
+      "characters": 1108,
       "links": 1,
       "images": 0
     },
     {
       "page": 63,
-      "characters": 1150,
+      "characters": 1148,
       "links": 1,
       "images": 0
     },
     {
       "page": 64,
-      "characters": 1216,
+      "characters": 1214,
       "links": 1,
       "images": 0
     },
     {
       "page": 65,
-      "characters": 1047,
+      "characters": 1045,
       "links": 1,
       "images": 0
     },
     {
       "page": 66,
-      "characters": 1223,
+      "characters": 1219,
       "links": 2,
       "images": 0
     },
     {
       "page": 67,
-      "characters": 1198,
+      "characters": 1196,
       "links": 1,
       "images": 0
     },
     {
       "page": 68,
-      "characters": 623,
+      "characters": 621,
       "links": 1,
       "images": 0
     },
     {
       "page": 69,
-      "characters": 515,
+      "characters": 511,
       "links": 3,
       "images": 0
     },
     {
       "page": 70,
-      "characters": 1255,
+      "characters": 1253,
       "links": 2,
       "images": 0
     },
     {
       "page": 71,
-      "characters": 1089,
+      "characters": 1087,
       "links": 1,
       "images": 0
     },
     {
       "page": 72,
-      "characters": 599,
+      "characters": 597,
       "links": 2,
       "images": 0
     },
     {
       "page": 73,
-      "characters": 888,
+      "characters": 886,
       "links": 1,
       "images": 0
     },
     {
       "page": 74,
-      "characters": 806,
+      "characters": 804,
       "links": 1,
       "images": 0
     },
     {
       "page": 75,
-      "characters": 498,
+      "characters": 494,
       "links": 3,
       "images": 0
     },
     {
       "page": 76,
-      "characters": 850,
+      "characters": 848,
       "links": 2,
       "images": 0
     },
     {
       "page": 77,
-      "characters": 832,
+      "characters": 830,
       "links": 1,
       "images": 0
     },
     {
       "page": 78,
-      "characters": 257,
+      "characters": 253,
       "links": 3,
       "images": 0
     },
     {
       "page": 79,
-      "characters": 793,
+      "characters": 791,
       "links": 2,
       "images": 0
     },
     {
       "page": 80,
-      "characters": 729,
+      "characters": 727,
       "links": 1,
       "images": 0
     },
     {
       "page": 81,
-      "characters": 827,
+      "characters": 823,
       "links": 5,
       "images": 0
     },
     {
       "page": 82,
-      "characters": 963,
+      "characters": 961,
       "links": 1,
       "images": 0
     },
     {
       "page": 83,
-      "characters": 1105,
+      "characters": 1103,
       "links": 3,
       "images": 0
     },
     {
       "page": 84,
-      "characters": 830,
+      "characters": 828,
       "links": 2,
       "images": 0
     },
     {
       "page": 85,
-      "characters": 522,
+      "characters": 518,
       "links": 3,
       "images": 0
     },
     {
       "page": 86,
-      "characters": 1727,
+      "characters": 1725,
       "links": 2,
       "images": 0
     },
     {
       "page": 87,
-      "characters": 1430,
+      "characters": 1426,
       "links": 3,
       "images": 0
     },
     {
       "page": 88,
-      "characters": 1671,
+      "characters": 1669,
       "links": 2,
       "images": 0
     },
     {
       "page": 89,
-      "characters": 1324,
+      "characters": 1322,
       "links": 1,
       "images": 0
     },
     {
       "page": 90,
-      "characters": 2339,
+      "characters": 2337,
       "links": 1,
       "images": 0
     },
     {
       "page": 91,
-      "characters": 1639,
+      "characters": 1637,
       "links": 1,
       "images": 0
     },
     {
       "page": 92,
-      "characters": 306,
+      "characters": 302,
       "links": 3,
       "images": 0
     },
     {
       "page": 93,
-      "characters": 972,
+      "characters": 968,
       "links": 15,
       "images": 0
     },
     {
       "page": 94,
-      "characters": 951,
+      "characters": 949,
       "links": 4,
       "images": 0
     },
     {
       "page": 95,
-      "characters": 858,
+      "characters": 854,
       "links": 3,
       "images": 0
     },
     {
       "page": 96,
-      "characters": 494,
+      "characters": 492,
       "links": 2,
       "images": 0
     },
     {
       "page": 97,
-      "characters": 392,
+      "characters": 390,
       "links": 2,
       "images": 0
     },
     {
       "page": 98,
-      "characters": 761,
+      "characters": 759,
       "links": 2,
       "images": 0
     },
     {
       "page": 99,
-      "characters": 437,
+      "characters": 433,
       "links": 4,
       "images": 0
     },
     {
       "page": 100,
-      "characters": 382,
+      "characters": 380,
       "links": 2,
       "images": 0
     },
     {
       "page": 101,
-      "characters": 407,
+      "characters": 405,
       "links": 2,
       "images": 0
     },
     {
       "page": 102,
-      "characters": 457,
+      "characters": 455,
       "links": 2,
       "images": 0
     },
     {
       "page": 103,
-      "characters": 369,
+      "characters": 367,
       "links": 2,
       "images": 0
     },
     {
       "page": 104,
-      "characters": 866,
+      "characters": 864,
       "links": 2,
       "images": 0
     },
     {
       "page": 105,
-      "characters": 245,
+      "characters": 241,
       "links": 5,
       "images": 0
     },
     {
       "page": 106,
-      "characters": 770,
-      "links": 2,
-      "images": 0
-    },
-    {
-      "page": 107,
-      "characters": 345,
-      "links": 4,
-      "images": 0
-    },
-    {
-      "page": 108,
-      "characters": 763,
-      "links": 2,
-      "images": 0
-    },
-    {
-      "page": 109,
-      "characters": 340,
-      "links": 3,
-      "images": 0
-    },
-    {
-      "page": 110,
-      "characters": 837,
-      "links": 7,
-      "images": 0
-    },
-    {
-      "page": 111,
-      "characters": 424,
-      "links": 2,
-      "images": 0
-    },
-    {
-      "page": 112,
-      "characters": 1923,
-      "links": 5,
-      "images": 0
-    },
-    {
-      "page": 113,
-      "characters": 848,
-      "links": 5,
-      "images": 0
-    },
-    {
-      "page": 114,
       "characters": 768,
       "links": 2,
       "images": 0
     },
     {
+      "page": 107,
+      "characters": 341,
+      "links": 4,
+      "images": 0
+    },
+    {
+      "page": 108,
+      "characters": 761,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 109,
+      "characters": 336,
+      "links": 3,
+      "images": 0
+    },
+    {
+      "page": 110,
+      "characters": 833,
+      "links": 7,
+      "images": 0
+    },
+    {
+      "page": 111,
+      "characters": 422,
+      "links": 2,
+      "images": 0
+    },
+    {
+      "page": 112,
+      "characters": 1919,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 113,
+      "characters": 844,
+      "links": 5,
+      "images": 0
+    },
+    {
+      "page": 114,
+      "characters": 766,
+      "links": 2,
+      "images": 0
+    },
+    {
       "page": 115,
-      "characters": 465,
+      "characters": 461,
       "links": 4,
       "images": 0
     },
     {
       "page": 116,
-      "characters": 1082,
+      "characters": 1078,
       "links": 5,
       "images": 0
     },
     {
       "page": 117,
-      "characters": 1314,
+      "characters": 1312,
       "links": 6,
       "images": 0
     },
     {
       "page": 118,
-      "characters": 1467,
+      "characters": 1465,
       "links": 6,
       "images": 0
     },
     {
       "page": 119,
-      "characters": 1414,
+      "characters": 1412,
       "links": 6,
       "images": 0
     },
     {
       "page": 120,
-      "characters": 1318,
+      "characters": 1316,
       "links": 6,
       "images": 0
     },
     {
       "page": 121,
-      "characters": 1449,
+      "characters": 1447,
       "links": 7,
       "images": 0
     },
     {
       "page": 122,
-      "characters": 1400,
+      "characters": 1398,
       "links": 6,
       "images": 0
     },
     {
       "page": 123,
-      "characters": 1437,
+      "characters": 1435,
       "links": 7,
       "images": 0
     },
     {
       "page": 124,
-      "characters": 1425,
+      "characters": 1423,
       "links": 7,
       "images": 0
     },
     {
       "page": 125,
-      "characters": 1345,
+      "characters": 1343,
       "links": 7,
       "images": 0
     },
     {
       "page": 126,
-      "characters": 1398,
+      "characters": 1396,
       "links": 7,
       "images": 0
     },
     {
       "page": 127,
-      "characters": 1345,
+      "characters": 1343,
       "links": 7,
       "images": 0
     },
     {
       "page": 128,
-      "characters": 1394,
+      "characters": 1390,
       "links": 8,
       "images": 0
     }

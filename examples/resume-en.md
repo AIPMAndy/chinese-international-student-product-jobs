@@ -59,6 +59,6 @@ Replace every placeholder. Check links and access permissions. Verify dates, rol
 
 ---
 
-Teaching author: AI 酋长 Andy · WeChat: AIPMAndy · Official account: AI酋长Andy  
+Teaching author: AI酋长Andy · WeChat: AIPMAndy · Official account: AI酋长Andy  
 Personal website: https://metaver.vip/ · Company website: https://www.a6no1.cn/  
 Remove this attribution and teaching guidance from an actual applicant resume.

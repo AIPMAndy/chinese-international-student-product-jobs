@@ -15,7 +15,7 @@ V1.0.0 · 2026-11-13
 用证据检验判断
 产品实习 · 毕业生项目 · 正式产品岗位 · AI 产品经理
 15 份可编辑模板 / 1 套完整贯穿样例 / 63 个官方资料链接
-AI 酋长 Andy
+AI酋长Andy
 流量 AI 联合创始人、星觉 AI 创始人
 微信：AIPMAndy  ·  公众号：AI酋长Andy
 个人官网：https://metaver.vip/
@@ -24,7 +24,7 @@ AI 酋长 Andy
 不承诺录用或涨薪
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 002
 READING MAP / 可点击目录
@@ -68,7 +68,7 @@ READING MAP / 可点击目录
 每周产出、验收与失败处理
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 003
 WORKBOOK / 完整样例与模板
@@ -100,7 +100,7 @@ OfferTrail 的雇主、申请、候选人与六条情境均为教学模拟。没
 在线阅读与下载：https://aipmandy.github.io/chinese-international-student-product-jobs/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 004
 CHAPTER 00 / PRODUCT JOBS
@@ -148,7 +148,7 @@ CHAPTER 00 / PRODUCT JOBS
 非 AI 基线、评测表与失败回退方案
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 005
 章节编号与网站、PDF一致。Markdown 源码中路径不同，网站导航提供统一入口。
@@ -185,7 +185,7 @@ PRODUCT EVIDENCE / 教学案例结构
 项目。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 006
 地区覆盖与边界
@@ -202,12 +202,12 @@ AI 酋长 Andy
 微信：AIPMAndy。公众号：AI酋长Andy。个人官网：metaver.vip。公司官网：a6no1.cn。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 007
 CHAPTER 01 / PRODUCT JOBS
 看懂真实产品岗位要求
-本章核验日期：2026-11-13。作者：AI 酋长 Andy。以下为招聘要求样本，不是岗位推荐清单。页面可读不代
+本章核验日期：2026-11-13。作者：AI酋长Andy。以下为招聘要求样本，不是岗位推荐清单。页面可读不代
 表仍有名额，申请当天必须重开原文。
 产品岗位的申请材料，要回答四件事：你理解了谁的问题，为什么做这个方案，放弃了什么，以及你怎样
 把事情推进到可验收的状态。
@@ -243,7 +243,7 @@ CHAPTER 01 / PRODUCT JOBS
 满足 / 不满足 / 待确认
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 008
 字段
@@ -308,7 +308,7 @@ AI 产品经理属于本册。模型训练、算法研究、工程实现是另�
 下列“应准备的证据”均为作者根据职责作出的训练建议，不是雇主承诺的录用标准。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 009
 J01 · 美国 · Amazon 技术产品实习
@@ -344,7 +344,7 @@ J03 · 新加坡 · TikTok AI 产品毕业生岗
 景不能只写“熟练使用 AI”；要说明自己怎样识别错误和定义产品规则。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 010
 申请判断： 页面要求写明毕业与到岗日期，并说明滚动审阅、关联公司全球最多两个申请。正文的“年底
@@ -379,7 +379,7 @@ J06 · 德国 · Bosch Technical Product Owner
 原文短摘录： “generic agile coordination or backlog administration alone is insufficient”。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 011
 实际条件： 相关本科或硕士；能证明对已部署机器人、自动化或 MES/OT 产品的技术范围、优先级和验收
@@ -415,7 +415,7 @@ J09 · 中国大陆 · Amazon 商业分析对照
 官方标题： Business Analyst, Amazon Global Logistics。职位编号 10538315；地点上海或深圳。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 012
 原文短摘录： “Experience with SQL or ETL”。
@@ -466,7 +466,7 @@ AI 评测
 可执行范围、技术限制、指标口径与验证
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 013
 背景
@@ -514,12 +514,12 @@ experimentation、customer discovery，并逐条核对；不要盲目扩到所�
 化视野”四个字替代。
 简历没回应：检查资格门槛、岗位匹配和证据表达分别出了什么问题。没有雇主反馈时，只能形成待验证
 假设；不能从几次拒信断言某个国家不招留学生。
-作者：AI 酋长 Andy · 微信：AIPMAndy · 公众号：AI酋长Andy
+作者：AI酋长Andy · 微信：AIPMAndy · 公众号：AI酋长Andy
 个人官网：https://metaver.vip/ · 公司官网：https://www.a6no1.cn/
 免费内容完整开放。咨询可用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 014
 CHAPTER 02 / PRODUCT JOBS
@@ -569,7 +569,7 @@ CHAPTER 02 / PRODUCT JOBS
 记录。分档不是招聘概率，也不意味着所有岗位都要求 3 档。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 015
 “做了高保真原型”可以证明部分交互表达。它不能证明用户需要这个产品，也不能证明你推进过研发。
@@ -605,7 +605,7 @@ AI 酋长 Andy
 要理解数据与技术”。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 016
 路线 C：已有产品/运营/设计经历
@@ -632,7 +632,7 @@ assumptions transfer, and which still need local validation.” 然后展示一�
 时间为作者练习建议。若资格核实不通过，立即调整路径；若没有真实研究，交付物必须保留假设标签。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 017
 CHAPTER 03 / PRODUCT JOBS
@@ -664,7 +664,7 @@ CHAPTER 03 / PRODUCT JOBS
 讨论你最近一次申请的过程？涉及个人信息的页面不需要展示。”
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 018
 不够好的问题
@@ -710,7 +710,7 @@ AI 酋长 Andy
 输入： 一个可点击原型、一条真实任务或标注为模拟的任务、观察记录表。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 019
 操作： 给任务，不教按钮位置。记录开始点、结束点、求助次数、误操作、错误原因及是否需要研究者介
@@ -728,7 +728,7 @@ R-M02 GOV.UK：获得知情同意，核验 2026-11-13。引用只说明方法，
 要求。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 020
 CHAPTER 04 / PRODUCT JOBS
@@ -778,7 +778,7 @@ CHAPTER 04 / PRODUCT JOBS
 验收： 每项第一版需求有原始依据或待验证假设；每项被砍需求有恢复条件。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 021
 失败处理： 全部都是最高优先级，重新限制本轮目标和资源；不能把所有业务愿望都放进同一个最小版本。
@@ -818,7 +818,7 @@ OfferTrail 指标树：结果、过程与护栏，均为设计口径而非实测
 确处理提交前的关键信息缺失”。实际测量前需要独立的核对基准，不能把点击按钮当作正确完成。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 022
 指标
@@ -873,7 +873,7 @@ AI 酋长 Andy
 止。这样既能展示成果，也能承受面试追问。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 023
 CHAPTER 05 / PRODUCT JOBS
@@ -922,7 +922,7 @@ CHAPTER 05 / PRODUCT JOBS
 雇主不同国家，仍须分别填写。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 024
 失败处理： 硬条件不满足时，不靠作品集“抵消”。如果只是未写清毕业日期或许可支持，向官方招聘联
@@ -957,7 +957,7 @@ available start date is [date]. Which date does this role use to determine gradu
 否必须交求职信，仍看岗位要求。R45
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 025
 许可核验门： PGWP 不是所有在加拿大读过书的人都能申请。IRCC 要求核对学校和项目资格、学习状态、
@@ -994,7 +994,7 @@ AI 酋长 Andy
 产出： 简历、按职位要求准备的证明材料、一个讲清接口/依赖/验收的交付案例。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 026
 验收： 你能分别演示用户问题、优先级取舍、研发协作；不能因为会写代码就跳过产品判断。
@@ -1031,7 +1031,7 @@ convention de stage，毕业后不能默认继续用在读实习入口。R28
 R49
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 027
 许可核验门： Third Level Graduate Programme 对 Level 8 和 Level 9 及以上的期限安排不同。Level 9 
@@ -1068,7 +1068,7 @@ AI 酋长 Andy
 学校国际事务部门和主管机关，暂不承诺开工日。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 028
 国家
@@ -1117,7 +1117,7 @@ R12
 产出： 日文/英文材料清单、entry sheet 答案库、解释秋季毕业与入社间隔的计划。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 029
 验收： 项目讲解能用岗位要求的语言完成；没有把“拿到内定”与“已可按目标日期开工”混同。
@@ -1154,7 +1154,7 @@ programme 分开检索。HKU CEDARS 列出 NETjobs、JIJIS、校招活动等入�
 R33
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 030
 许可核验门： Jobseeker visit visa 有教育/技能等条件和不同停留选项；它是寻找机会的访问路径，不是
@@ -1191,7 +1191,7 @@ Level 7 及以下与学位 Level 7 及以上不能混写。官方公告拟扩大
 产出： 按学历类别整理的资格证据，加真实可到岗日；与目标产品相关的英文用户研究与取舍说明。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 031
 验收： 旧规则、未来公告和已经获批的个人许可分开记录。
@@ -1238,7 +1238,7 @@ R21
 格保持空白，不从邻国移植。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 032
 市场
@@ -1310,7 +1310,7 @@ Graduate Pass 是另一条有国籍、期限和可工作范围限制的安排，
 案例追问，补真实决策过程
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 033
 自设时间
@@ -1357,7 +1357,7 @@ Owner 可能偏交付；Product Analyst 可能偏分析；Program Manager 可能
 输入： 课程结束、学位授予、许可期限和雇主起始月份。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 034
 操作： 先找硬冲突，再问是否接受完成证明、后续补证或其他批次。不要假定“我可以晚两个月入职”一
@@ -1382,17 +1382,17 @@ AI 酋长 Andy
 本版明确保留的待核对项： 新西兰新规则生效日期冲突；韩国不同官方页面的新旧说明差异；法国随更新
 变化的薪资门槛；部分动态官方网页需要申请人实际打开确认。没有这些确认之前，读者仍可完成岗位筛
 选、产品研究、原型、案例、简历和面试训练。
-作者：AI 酋长 Andy。微信：AIPMAndy。公众号：AI酋长Andy。个人官网：metaver.vip。公司官网：
+作者：AI酋长Andy。微信：AIPMAndy。公众号：AI酋长Andy。个人官网：metaver.vip。公司官网：
 a6no1.cn。本章免费完整开放。咨询可承接岗位定位、作品集诊断和模拟面试；不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 035
 CHAPTER 06 / PRODUCT JOBS
 贯穿案例：OfferTrail
 案例：OfferTrail，跨时区申请提交前的最后一次核对。
-版本 1.0.0｜2026-11-13｜作者：AI 酋长 Andy
+版本 1.0.0｜2026-11-13｜作者：AI酋长Andy
 教学模拟边界：本章的申请者、雇主、岗位数据和六条情境材料都是作者编写的。没有开展真实访谈，没有真
 实上线，没有申请成功率、营收或用户增长结果。我们展示的是一套可以检查的分析与设计过程。真实求职者
 应使用自己的项目重做，并如实区分已经完成与尚未验证的部分。
@@ -1435,19 +1435,19 @@ S01–S06
 读本章时，先打开原型，再看每一步为什么存在。不要先花一周给作品集换字体。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 036
 OfferTrail 实际原型截图：APP-01 的原始时间、北京时间和待核对材料
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 037
 原型状态：原文缺少日期或时区时，阻止确认并提示回到官方来源。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 038
 原型状态：人工核对完成。此状态不代表已投递，也不代表取得工作许可。
@@ -1464,7 +1464,7 @@ AI 酋长 Andy
 待核实项”？如果现有表格与日历已经能可靠完成，该问题未必需要一个新产品。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 039
 产出
@@ -1525,7 +1525,7 @@ R2，设计风险
 一张问题与假设表。任何“用户需要”都能指向材料，任何材料都能看见其真实性状态。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 040
 验收
@@ -1566,7 +1566,7 @@ T3：结束核对
 务，不把短期可用性推出长期录用效果。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 041
 第 4 步：比较方案，说明为什么没有选其他方案
@@ -1621,7 +1621,7 @@ C：AI 抽取 + 自动判断
 按“是否是当前任务的必要条件、错误是否会误导、能否更低成本实现”排序。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 042
 层级
@@ -1673,7 +1673,7 @@ AI 提取字段后由人确认
 先看风险，再看装饰
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 043
 原型位置
@@ -1725,7 +1725,7 @@ T1–T3、研究计划、拟比较的 A 与 B 两种方案。
 是否避免错误确定性
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 044
 层级
@@ -1786,7 +1786,7 @@ W1、任务脚本
 表格已足够则停止新增功能
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 045
 工作包
@@ -1831,7 +1831,7 @@ OfferTrail 是一个关于跨时区申请核对的教学模拟案例。我用六
 完整作品集成品。它不依赖读者猜测截图背后的推理。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 046
 验收
@@ -1867,7 +1867,7 @@ verification. No live launch or user-study results are claimed.
 要把表达训练用来遮住经历缺口。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 047
 本案例的事实核对表
@@ -1895,17 +1895,17 @@ AI 酋长 Andy
 来源
 教学模拟标签；真实信息另查官方来源
 用虚构雇主当真实岗位信息
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 免费内容完整开放。咨询可用于岗位定位、作品集诊断与模拟面试，不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 048
 CHAPTER 07 / PRODUCT JOBS
 中英文申请材料
-版本 1.0.0｜2026-11-13｜作者：AI 酋长 Andy
+版本 1.0.0｜2026-11-13｜作者：AI酋长Andy
 产品岗位材料要回答四个问题：你理解了谁的问题；你做过什么判断；你怎样推动事情；哪些结果可以核
 实。简历负责让人愿意继续看，作品集负责解释判断，面试负责检验你是否真的做过。三者应使用同一套
 事实。
@@ -1967,7 +1967,7 @@ CHAPTER 07 / PRODUCT JOBS
 客户
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 049
 经历类型
@@ -2036,7 +2036,7 @@ W1–W4 推进计划
 不取决于简历模板是否要求。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 050
 教学改写
@@ -2080,7 +2080,7 @@ live launch or user-study results are claimed.
 题，应根据具体表单和真实身份核对；不得为了筛选通过填写不实答案。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 051
 6. 项目介绍：三种长度，同一组事实
@@ -2124,7 +2124,7 @@ validation plan are complete; real-user testing has not been conducted.
 6. 个人贡献与复盘：别人做了什么、工具做了什么、你做了什么。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 052
 附录再放完整文档。主页面不要堆所有线框图；但面试官追问时要能找到。
@@ -2181,7 +2181,7 @@ AI 酋长 Andy
 补证据或降低表述强度
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 053
 给评审者的短消息模板
@@ -2189,12 +2189,12 @@ AI 酋长 Andy
 具体。项目性质是[课程/个人/实习]，当前做到[真实阶段]。材料在[链接]。如果只能给一个建议，哪一处最影
 响你判断我是否适合这份岗位？
 这是待发送草稿，不代表本项目替你联系任何人。涉及真实对外消息，请由你核对收件人与内容后发送。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 免费内容完整开放。咨询入口用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 054
 CHAPTER 08 / PRODUCT JOBS
@@ -2239,7 +2239,7 @@ AI 产品经理仍然需要理解用户、做取舍和推进交付。AI 部分�
 超时保留手工入口；更正不等于模型已经学会
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 055
 层级
@@ -2290,7 +2290,7 @@ AI 酋长 Andy
 延迟、人工修订时间必须实际测量后再填。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 056
 本包 12 条检查含 3 条提取候选、9 条应转人工。candidate 只表示待人工核对的提取候选，不代表允许完
@@ -2327,12 +2327,12 @@ R-M03 Google PAIR：User Needs + Defining Success，核验 2026-11-13。
 R-M04 Microsoft HAX：Support efficient correction，核验 2026-11-13。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 057
 CHAPTER 09 / PRODUCT JOBS
 产品面试实验室
-版本日期：2026-11-13。作者：AI 酋长 Andy。本章题目、训练时间与评分标准为作者设计，不是任何雇主的
+版本日期：2026-11-13。作者：AI酋长Andy。本章题目、训练时间与评分标准为作者设计，不是任何雇主的
 泄露题库，也不预测录用结果。
 面试练习的目标，是让对方看见你的判断过程。先确认问题，再展示证据；不确定的地方说清楚，再说明
 如何验证。
@@ -2362,7 +2362,7 @@ case presentation, and are there any rules on tools or AI assistance?
 代替用户投递。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 058
 输入： 六条模拟情境、三条虚构申请记录、空白问题与方案表。
@@ -2404,7 +2404,7 @@ those blockers and whether this workflow adds value beyond their existing spread
 你的指标为什么不是 Offer 数？说明产品直接可控环节、外部混杂和观察周期。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 059
 评分锚点： 1 分只列功能；2 分能选用户和问题；3 分能比较方案并设计验证；4 分能处理反例、未知与失
@@ -2469,7 +2469,7 @@ U10
 认事件除以十名注册用户。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 060
 失败处理： 数字不同先检查事件去重、时间边界、测试账号与观察窗。数据有缺失时先降低结论强度，不
@@ -2504,7 +2504,7 @@ INSERT INTO events VALUES
 查询在下一代码块中。这里先取全体历史的首次曝光，再筛入组日期，避免把重复访问当成首次使用。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 061
 WITH first_views AS (
@@ -2558,7 +2558,7 @@ FROM outcomes;
 能仅凭分群提高断言改版有因果效果。若不是随机实验，还需考虑渠道质量、季节、设备等因素。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 062
 题面 C：实验提高了十个百分点，能立即全量吗？
@@ -2604,7 +2604,7 @@ E 调整介绍文案
 输入： 候选列表、十个人日容量、可复现问题、发布约束。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 063
 操作：
@@ -2646,7 +2646,7 @@ when we have better evidence, rather than treat this ranking as permanent.
 ：二十条需要复核，八十条正常。它们不是真实内容，也不代表线上分布。这道题独立于 OfferTrail。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 064
 结果
@@ -2693,7 +2693,7 @@ small synthetic evaluation as evidence of production readiness.
 布风险、上线条件与回退。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 065
 9.6 练习五：对贯穿案例做项目深挖
@@ -2730,10 +2730,10 @@ AI 酋长 Andy
 问：这是你原创的项目吗？
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 066
-答：如果我只是照本书复现，应说“我复现了 AI 酋长 Andy 的教学案例，并新增了……”。没有新增就不
+答：如果我只是照本书复现，应说“我复现了 AI酋长Andy 的教学案例，并新增了……”。没有新增就不
 填写。只有自己真正完成的研究、修改或分析，才能归到自己的贡献。
 英文边界声明
 This is a reproduction of a published teaching case, not a live client project. The scenarios are
@@ -2766,7 +2766,7 @@ USC 职业中心建议用具体经历回答行为问题，说明自己的角色�
 实协作经历时，不把独立模拟包装成团队项目。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 067
 填写骨架
@@ -2818,7 +2818,7 @@ to agree on acceptance criteria before assigning work.
 行为改变。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 068
 9.8 一张统一复盘表
@@ -2871,7 +2871,7 @@ AI 酋长 Andy
 岗位卡与证据链接
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 069
 天数
@@ -2903,12 +2903,12 @@ AI 评测题，或岗位需要的技术取舍
 复测记录与准备卡
 使用 AI 练习时，给它岗位、真实材料和明确规则：“只能依据这些事实提问；发现证据缺口就指出；不要
 替我补经历或成绩。”模型的评分只是反馈线索；计算、来源和事实仍要自己核查。
-作者：AI 酋长 Andy · 微信：AIPMAndy · 公众号：AI酋长Andy
+作者：AI酋长Andy · 微信：AIPMAndy · 公众号：AI酋长Andy
 个人官网：https://metaver.vip/ · 公司官网：https://www.a6no1.cn/
 免费内容完整开放。咨询可用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 070
 CHAPTER 10 / PRODUCT JOBS
@@ -2943,7 +2943,7 @@ earliest availability is [date]. Thank you.”
 位和到岗安排。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 071
 3. 一条 JD，一版证据排序
@@ -2978,7 +2978,7 @@ AI 酋长 Andy
 为 Offer。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 072
 失败处理： 同一岗位不重复海投。连续少量无回复先做具体个案审查；样本很小时不要用转化率推断因果。
@@ -2998,7 +2998,7 @@ AI 酋长 Andy
 R-M05 Harvard MCS：Creating a Strong Resume，核验 2026-11-13。简历表达建议及国际差异提醒。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 073
 CHAPTER 11 / PRODUCT JOBS
@@ -3042,7 +3042,7 @@ W04
 失败处理： 全是观点就回到具体任务；证据不支持选题就改问题，不为了保住原型继续找支持材料。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 074
 第三周：原型、指标与交接
@@ -3085,7 +3085,7 @@ JD 条目→材料具体位置
 2. 学历、毕业日期、语言、地点、到岗与授权问题按真实情况填写。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 075
 3. 项目类型、团队规模、本人贡献、完成状态准确。
@@ -3100,11 +3100,11 @@ AI 酋长 Andy
 岗位定位：拿 3 条 JD 与自己的证据表来讨论。作品集诊断：带上原始记录、主案例与原型；只发封面无
 法判断能力。模拟面试：提供目标岗位、最弱题型和一段原始回答。先明确想解决的问题，再决定是否购
 买服务。
-作者：AI 酋长 Andy。微信：AIPMAndy。公众号：AI酋长Andy。个人官网：https://metaver.vip/。公
-司官网：https://www.a6no1.cn/。免费内容完整开放；咨询不承诺录用或涨薪。
+作者：AI酋长Andy。微信：AIPMAndy。公众号：AI酋长Andy。个人官网：https://metaver.vip/。公司
+官网：https://www.a6no1.cn/。免费内容完整开放；咨询不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 076
 APPENDIX A / WORKBOOK
@@ -3143,7 +3143,7 @@ S03 · 材料分散情境
 待验证问题： 哪些材料真的跨平台？轻量清单是否足够？
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 077
 S04 · 资格不明情境
@@ -3205,17 +3205,17 @@ H3，未验证
 对比不同申请负担的用户
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 078
 真实采集时需要替换的字段
 复制本文件后，把每条记录的来源标签改为实际情况，补上参与者匿名编号、采集日期、知情同意、录音/
 笔记位置、原话和观察者解释。不要把此处的 S01–S06 重命名为六位受访者。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 079
 OfferTrail 真实研究计划
@@ -3267,7 +3267,7 @@ OfferTrail 真实研究计划
 定的地方吗？”
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 080
 可用性任务：独立于访谈
@@ -3300,14 +3300,14 @@ T3： 完成核对后回答“是否已经向雇主提交？”正确答案应�
 成目标用户验证。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 081
 APPENDIX B / WORKBOOK
 完整产品作品集
 可编辑源文件：examples/offertrail-portfolio.md
 产品案例成品 · 原创教学模拟
-作者：AI 酋长 Andy｜版本 1.0.0｜2026-11-13
+作者：AI酋长Andy｜版本 1.0.0｜2026-11-13
 项目摘要
 OfferTrail 聚焦跨时区申请提交前的一次核对：原始截止信息是否明确，材料是否齐备，还有哪些项目需
 要人工确认。
@@ -3342,7 +3342,7 @@ S05
 ，而不是直接扩大功能。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 082
 3. 一次关键取舍
@@ -3375,7 +3375,7 @@ AI 酋长 Andy
 解为已提交，先改状态与措辞，再继续验证。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 083
 7. 个人贡献与工具边界
@@ -3402,7 +3402,7 @@ No real interviews, live launch, user growth or hiring outcomes are claimed.
 免费内容完整开放。可咨询岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 084
 APPENDIX C / WORKBOOK
@@ -3442,7 +3442,7 @@ OfferTrail｜产品分析与原型教学练习｜[实际完成时间]
 [比较了哪些方案；根据什么证据选择；承担什么代价]。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 085
 -
@@ -3465,12 +3465,12 @@ AI 酋长 Andy
 投递前核对
 本人信息和学校待填字段已替换；项目标签真实；链接公开可访问；每个动作确实由本人完成；资格与申
 请表一致。
-教材作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+教材作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 以上为教材署名，不能替代申请者联系方式。实际投递请移除本教学说明与署名区。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 086
 Teaching Candidate — Product Resume
@@ -3509,7 +3509,7 @@ Defined task-success and misunderstanding measures and prepared a validation pla
 real-user study, live launch or business results are claimed.
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 087
 Evidence: [Your own completed case] · [Prototype] · [Decision log]
@@ -3540,12 +3540,12 @@ Submission Check
 Replace every placeholder. Check links and access permissions. Verify dates, role titles and
 work-authorization answers against your actual situation and the specific application. Do not copy
 the teaching project as your own experience.
-Teaching author: AI 酋长 Andy · WeChat: AIPMAndy · Official account: AI酋长Andy
+Teaching author: AI酋长Andy · WeChat: AIPMAndy · Official account: AI酋长Andy
 Personal website: https://metaver.vip/ · Company website: https://www.a6no1.cn/
 Remove this attribution and teaching guidance from an actual applicant resume.
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 088
 APPENDIX D / WORKBOOK
@@ -3581,7 +3581,7 @@ end of day.” Automatically turning that into a precise date and time would cre
 The prototype keeps the date and time zone unresolved and blocks completion until they are
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 089
 checked. It also makes clear that a completed local review does not submit an application
@@ -3617,7 +3617,7 @@ OfferTrail 是一个教学模拟，聚焦提交前最后一次核对。它想解
 衡量代价。相同任务分别用表格与原型完成，轮换顺序，保留放弃和失败记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 090
 这只是计划，没有结果。小规模测试也只适合发现问题，不能推断录用率提升。我会先确认问题，再比较
@@ -3655,7 +3655,7 @@ unresolved. Completing its materials does not remove that blocker. The third use
 deadline and an outdated-resume task.
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 091
 The prototype distinguishes local review from actual submission and work-authorization decisions.
@@ -3705,7 +3705,7 @@ AI 一定不可靠
 只要继续优化就一定成功
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 092
 本轮练习的五项检查
@@ -3714,17 +3714,17 @@ AI 酋长 Andy
 产出： 录音或笔记、一次复盘、下一轮目标。
 验收： 不扩大事实；取舍明确；能说出反例与下一步。
 失败处理： 回答卡住时，先定位是没做过、没理解还是没讲清，再选择补项目或练表达。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 093
 APPENDIX E / WORKBOOK
 15 份模板与填写示例
 可编辑源文件：templates/README.md
-版本 1.0.0｜2026-11-13｜作者：AI 酋长 Andy
+版本 1.0.0｜2026-11-13｜作者：AI酋长Andy
 所有模板完整开放。Markdown 可用任意文本编辑器修改；CSV 可在 Excel、Numbers、Google Sheets
 等工具中导入，编码为 UTF-8。CSV 第一行是字段名，第二行是明确标注的教学示例，第三行是待填写行。
 复制后保留字段，删除教学行并填写自己的真实内容。
@@ -3778,7 +3778,7 @@ interview-retrospective.csv
 “为什么不用表格”
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 094
 文件
@@ -3821,7 +3821,7 @@ CSV 填写说明与验收
 失败处理： 无法说明代价时重做比较；未知影响保持未知，不补精确评分。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 095
 5. 指标口径表
@@ -3848,12 +3848,12 @@ AI 酋长 Andy
 先填岗位拆解，再填能力证据；选择最关键缺口，开展真实研究或项目；用决策日志记录取舍，用原型和
 指标说明如何验证；最后整理作品集、简历和面试复盘。模板服务于行动，不要求把所有表都填满才允许
 申请。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 免费内容完整开放。咨询可承接岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 096
 TEMPLATE 01 / CSV
@@ -3892,7 +3892,7 @@ examples/offertrail-facts.json
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 097
 TEMPLATE 02 / CSV
@@ -3927,7 +3927,7 @@ D01;案例方案比较
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 098
 TEMPLATE 03 / MARKDOWN
@@ -3989,7 +3989,7 @@ ID
 什么会推翻选择：[可观察条件]。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 099
 5. 原型与关键状态
@@ -4024,11 +4024,11 @@ AI 酋长 Andy
 -
 下一步与停止条件：[填写]。
 完整成品：OfferTrail 作品集。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 100
 TEMPLATE 04 / CSV
@@ -4063,7 +4063,7 @@ S02;S06均为模拟
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 101
 TEMPLATE 05 / CSV
@@ -4100,7 +4100,7 @@ S05;D01
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 102
 TEMPLATE 06 / CSV
@@ -4141,7 +4141,7 @@ J-SIM-01
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 103
 TEMPLATE 07 / CSV
@@ -4176,7 +4176,7 @@ M01
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 104
 TEMPLATE 08 / MARKDOWN
@@ -4253,7 +4253,7 @@ T3 中错误理解的次数
 分子：[填写]。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 105
 -
@@ -4267,11 +4267,11 @@ AI 酋长 Andy
 -
 哪些结论不能得到：[填写]。
 可编辑口径表 · 完整填写示例
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 106
 TEMPLATE 09 / MARKDOWN
@@ -4311,7 +4311,7 @@ TEMPLATE 09 / MARKDOWN
 原型和测试：[链接]。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 107
 -
@@ -4325,11 +4325,11 @@ AI 酋长 Andy
 [ ] 涉及真实他人/公司的材料已获适当公开许可并去敏。
 [ ] 脱离上下文的截图也不会误导读者把模拟当真实。
 完整成品：OfferTrail 作品集。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 108
 TEMPLATE 10 / MARKDOWN
@@ -4363,7 +4363,7 @@ TEMPLATE 10 / MARKDOWN
 [ ] 教材作者联系方式没有被误填成候选人联系方式。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 109
 填写示例
@@ -4384,11 +4384,11 @@ OfferTrail S01–S06
 [参与者同意范围]
 [匿名化并去除无关信息]
 本清单用于材料管理与诚实披露，不替代具体组织的保密要求或当地规则。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 110
 TEMPLATE 11 / MARKDOWN
@@ -4451,11 +4451,11 @@ ID
 桌面和手机都走一次核心任务；用键盘操作一次；检查刷新、重置和已完成后修改字段。未执行的测试保
 留“待执行”。
 原型示例 · 完整规格 · 验收用例
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 111
 TEMPLATE 12 / CSV
@@ -4490,7 +4490,7 @@ examples/offertrail-raw-materials.md
 空白记录字段同上。下载 CSV 后复制空白行填写自己的事实；源文件保留完整空白记录。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 112
 TEMPLATE 13 / MARKDOWN
@@ -4528,12 +4528,12 @@ prototype and validation plan; no real-user study or live launch is claimed.
 Skills and Languages
 [Only capabilities and proficiency you can demonstrate.]
 Full example: English resume example.
-Teaching author: AI 酋长 Andy · WeChat: AIPMAndy · Official account: AI酋长Andy
+Teaching author: AI酋长Andy · WeChat: AIPMAndy · Official account: AI酋长Andy
 Personal website: https://metaver.vip/ · Company website: https://www.a6no1.cn/
 Remove teaching instructions and attribution before submitting an actual resume.
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 113
 TEMPLATE 14 / MARKDOWN
@@ -4569,12 +4569,12 @@ TEMPLATE 14 / MARKDOWN
 能力与语言
 [可以现场解释或操作的真实能力；可核验语言信息。]
 完整结构样例：中文简历示例。
-教材作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+教材作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 实际投递请删除教学说明与教材署名，填写申请者本人的信息。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 114
 TEMPLATE 15 / MARKDOWN
@@ -4635,7 +4635,7 @@ TEMPLATE 15 / MARKDOWN
 材料 ID：[R01]。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 115
 -
@@ -4663,16 +4663,16 @@ AI 酋长 Andy
 教学模拟，非访谈。 S05 描述“表格和日历可能已足够”。解释是“新工具未必有增量价值”；反解释是
 “重度跨地区申请者也许不同”；下一步是观察真实工作流，而不是直接宣布需求不存在。完整计划见
 OfferTrail 研究计划。
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 116
 SOURCES / VERSION & VERIFICATION
 官方来源与核验边界
-版本：1.0.0。统一核验日：2026-11-13。作者：AI 酋长 Andy。
+版本：1.0.0。统一核验日：2026-11-13。作者：AI酋长Andy。
 如何判断证据强度
 岗位要求使用雇主原文；招聘方式与资格使用政府、学校、雇主官方资料。记录核验日期不代表岗位仍开放，也不代
 表所有规则都在当天生效。读取状态分为官方正文已读、官方检索摘录、动态页面受限。来源冲突保留双方，不能凭
@@ -4701,7 +4701,7 @@ Google PAIR · 官方原文 · 核验 2026-11-13
 用于： 先判断用户问题与AI增量价值，比较规则和AI方案。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 117
 适用范围： AI产品设计方法。
@@ -4737,7 +4737,7 @@ TikTok · 官方原文 · 核验 2026-11-13
 适用范围： 新加坡AI产品毕业生岗位。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 118
 限制： 正文by the end of the year未明确该句年份，必须向招聘方确认；未给出个人工作授权结论。；读取状态：
@@ -4776,7 +4776,7 @@ GitLab · 官方原文 · 核验 2026-11-13
 竞争/赢丢单分析。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 119
 适用范围： Product Marketing职责对照。
@@ -4814,7 +4814,7 @@ University of Southern California Career Center · 官方原文 · 核验 2026-1
 适用范围： 大学官方行为面试训练建议。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 120
 限制： 只采用该页行为面试指导；本书模拟故事与训练量表为作者原创。；读取状态：official_body_opened。
@@ -4848,7 +4848,7 @@ UK Government / Home Office · 官方原文 · 核验 2026-11-13
 限制： 不是英国所有工作路线；不能以赶政策日期代替完成课程事实；读取状态：official_body。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 121
 R05 · Prospects after Graduation
@@ -4885,7 +4885,7 @@ R10 · Look for work after completing your studies in Sweden
 Swedish Migration Agency · 官方原文 · 核验 2026-11-13
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 122
 用于： 须在现有许可到期前申请并满足完成学业等条件；学士/硕士通常最长一年；博士另列时长。
@@ -4922,7 +4922,7 @@ Hong Kong Immigration Department · 官方原文 · 核验 2026-11-13
 限制： 仅符合课程及其他要求的人适用；不是所有海外学历通用路线；读取状态：official_body。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 123
 R16 · Temporary Graduate visa (subclass 485) Post-Higher Education Work stream
@@ -4959,7 +4959,7 @@ R21 · 国（境）外学历学位认证指南
 届别要求。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 124
 适用范围： 回国学历材料准备。
@@ -4995,7 +4995,7 @@ R27 · Finding advertised opportunities
 University of Oxford Careers · 官方原文 · 核验 2026-11-13
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 125
 用于： 部分graduate schemes提前开放；滚动招聘宜尽早核对与申请。
@@ -5031,7 +5031,7 @@ R33 · Searching for a job
 Official Platform of the UAE Government · 官方原文 · 核验 2026-11-13
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 126
 用于： 提供企业官网、招聘活动等渠道；本国国民项目与一般招聘渠道分开。
@@ -5068,7 +5068,7 @@ European Commission, Migration and Home Affairs · 官方原文 · 核验 2026-1
 适用范围： 欧洲跨国核验方法。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 127
 限制： 不替代任一国家具体资格条件；读取状态：official_search_excerpt。
@@ -5104,7 +5104,7 @@ European Labour Authority / EURES · 官方原文 · 核验 2026-11-13
 适用范围： 欧洲招聘检索与身份边界。
 
 中国留学生 · 产品岗位求职
-AI 酋长 Andy
+AI酋长Andy
 完整免费开放  ·  V1.0.0  ·  2026-11-13
 128
 限制： EURES不授予工作权；不许诺服务或资助资格；读取状态：official_search_excerpt。
@@ -5136,5 +5136,5 @@ Education Malaysia Global Services (EMGS) · 官方原文 · 核验 2026-11-13
 适用范围： 马来西亚毕业生补充核验。
 限制： 未向2027外推政策；正式产品工作另核工作范围和Employment Pass；读取状态：official_search_excerpt。
 作者与咨询
-作者：AI 酋长 Andy。微信：AIPMAndy。公众号：AI酋长Andy。个人官网：metaver.vip。公司官网：a6no1.cn。
-正文完整免费。咨询可用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
+作者：AI酋长Andy。微信：AIPMAndy。公众号：AI酋长Andy。个人官网：metaver.vip。公司官网：a6no1.cn。正
+文完整免费。咨询可用于岗位定位、作品集诊断和模拟面试，不承诺录用或涨薪。
