@@ -1,6 +1,6 @@
 # 验证记录与待补事项
 
-版本：1.0.0。核验日：2026-11-13。作者：AI 酋长 Andy。
+版本：1.0.0。核验日：2026-11-13。作者：AI酋长Andy。
 
 **完整项目与 v1.0.0 Release 已公开，GitHub Pages 已上线并完成验收：106 个线上 URL 与文件哈希检查、18 项桌面和窄屏浏览器检查均通过。** 正式部署目标以 [DEPLOYMENT.md](../DEPLOYMENT.md) 为准。
 
@@ -72,4 +72,4 @@ PDF复现依赖与操作见 [PUBLISH.md](../PUBLISH.md)、[构建记录](pdf-bui
 1. **真人研究与真机**：OfferTrail用户访谈、独立任务测试、需求强度和业务效果仍未开展；R01–R03保持计划状态。窄屏CSS检查不等同于iOS/Android真机测试。
 2. **官方冲突与时效**：新西兰公告生效日冲突、韩国新旧官方说明、法国动态门槛和部分动态网页读取限制已在正文披露，申请前按对应机关原文再核对。
 
-作者：AI 酋长 Andy。微信：AIPMAndy。公众号：AI酋长Andy。[个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)。免费内容完整开放；咨询不承诺录用或涨薪。
+作者：AI酋长Andy。微信：AIPMAndy。公众号：AI酋长Andy。[个人官网](https://metaver.vip/) · [公司官网](https://www.a6no1.cn/)。免费内容完整开放；咨询不承诺录用或涨薪。

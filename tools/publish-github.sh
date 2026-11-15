@@ -188,7 +188,7 @@ for path in sorted(source.rglob('*')):
     destination.parent.mkdir(parents=True, exist_ok=True)
     shutil.copy2(path, destination)
 PY
-gh_git -C "$CHECKOUT_DIR" config user.name 'AI 酋长 Andy'
+gh_git -C "$CHECKOUT_DIR" config user.name 'AI酋长Andy'
 gh_git -C "$CHECKOUT_DIR" config user.email "${ACCOUNT_ID}+${TARGET_OWNER}@users.noreply.github.com"
 gh_git -C "$CHECKOUT_DIR" add --all
 # ZIPs are intentionally ignored in normal source work but must accompany this
@@ -286,7 +286,7 @@ fi
 cat >"$PUBLISH_TMP/release-notes.md" <<'NOTES'
 # 中国留学生产品岗位求职保姆级攻略 v1.0.0
 
-作者：AI 酋长 Andy。完整中文攻略、产品岗位 JD 证据、地区核验、OfferTrail 教学模拟、15 份模板、中英文申请材料与面试训练。
+作者：AI酋长Andy。完整中文攻略、产品岗位 JD 证据、地区核验、OfferTrail 教学模拟、15 份模板、中英文申请材料与面试训练。
 
 附件包括成品 PDF、完整样例与模板包、可重新构建的源码包。OfferTrail 无真实访谈、上线、增长或录用结果；免费内容完整开放，不承诺录用或涨薪。
 

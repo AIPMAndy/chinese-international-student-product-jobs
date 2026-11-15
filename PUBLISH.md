@@ -140,5 +140,5 @@ Git 命令始终针对临时 clone，远端固定为公开 GitHub 项目。脚�
 - [gh release create](https://cli.github.com/manual/gh_release_create)：指定提交、草稿、附件与 release 创建过程。
 - [gh release upload](https://cli.github.com/manual/gh_release_upload)：同名覆盖会先删除旧资产，因此本脚本不使用 `--clobber`。
 
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/

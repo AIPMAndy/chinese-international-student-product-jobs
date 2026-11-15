@@ -111,7 +111,7 @@ def source_payload(pdf: Path | None) -> dict[str, bytes]:
 def workbook_readme() -> bytes:
     return f"""# 中国留学生产品岗位求职｜完整样例与可编辑模板
 
-作者：AI 酋长 Andy｜版本 {VERSION}｜{DATE}
+作者：AI酋长Andy｜版本 {VERSION}｜{DATE}
 
 本包含 15 份模板及填写说明、12 个样例文件、完整案例章节、可本地运行的原型与所需图像。所有 OfferTrail 申请者、雇主和六条情境均为教学模拟；没有真实访谈、上线、增长或录用结果。
 
@@ -134,7 +134,7 @@ Markdown 可在文本编辑器中阅读和修改。文件夹结构应整体保�
 
 
 def workbook_index() -> bytes:
-    return """<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>产品求职练习包 · AI 酋长 Andy</title><style>body{font-family:system-ui,sans-serif;background:#f5f5ee;color:#243b2e;max-width:760px;padding:44px 22px;margin:auto;line-height:1.8}h1{font-size:32px}a{color:#2e5146}li{margin:14px 0}.note{background:white;padding:18px;border:1px solid #d9dfd2;border-radius:12px}footer{margin-top:40px;font-size:14px}</style><h1>把产品判断，落到材料上。</h1><p>完整样例与可编辑模板 · v1.0.0 · 2026-11-13</p><div class="note">OfferTrail 为教学模拟。没有真实访谈、上线、增长或录用结果。原型不发送申请，不判断工作许可。</div><ul><li><a href="prototypes/offertrail.html">运行 OfferTrail 交互原型</a></li><li><a href="examples/README.md">完整样例阅读顺序</a></li><li><a href="content/case/06-end-to-end-case.md">十步贯穿案例</a></li><li><a href="content/case/07-application-materials.md">中英文申请材料方法</a></li><li><a href="templates/README.md">15 份模板与填写说明</a></li><li><a href="README.md">离线使用说明</a></li></ul><p>Markdown 用文本编辑器阅读；CSV 用电子表格软件打开。请保留整个文件夹结构。</p><footer>作者：AI 酋长 Andy · 微信 AIPMAndy · 公众号 AI酋长Andy<br><a href="https://metaver.vip/">个人官网</a> · <a href="https://www.a6no1.cn/">公司官网</a><p>完整免费开放；咨询不承诺录用或涨薪。</p></footer></html>""".encode("utf-8")
+    return """<!doctype html><html lang="zh-CN"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>产品求职练习包 · AI酋长Andy</title><style>body{font-family:system-ui,sans-serif;background:#f5f5ee;color:#243b2e;max-width:760px;padding:44px 22px;margin:auto;line-height:1.8}h1{font-size:32px}a{color:#2e5146}li{margin:14px 0}.note{background:white;padding:18px;border:1px solid #d9dfd2;border-radius:12px}footer{margin-top:40px;font-size:14px}</style><h1>把产品判断，落到材料上。</h1><p>完整样例与可编辑模板 · v1.0.0 · 2026-11-13</p><div class="note">OfferTrail 为教学模拟。没有真实访谈、上线、增长或录用结果。原型不发送申请，不判断工作许可。</div><ul><li><a href="prototypes/offertrail.html">运行 OfferTrail 交互原型</a></li><li><a href="examples/README.md">完整样例阅读顺序</a></li><li><a href="content/case/06-end-to-end-case.md">十步贯穿案例</a></li><li><a href="content/case/07-application-materials.md">中英文申请材料方法</a></li><li><a href="templates/README.md">15 份模板与填写说明</a></li><li><a href="README.md">离线使用说明</a></li></ul><p>Markdown 用文本编辑器阅读；CSV 用电子表格软件打开。请保留整个文件夹结构。</p><footer>作者：AI酋长Andy · 微信 AIPMAndy · 公众号 AI酋长Andy<br><a href="https://metaver.vip/">个人官网</a> · <a href="https://www.a6no1.cn/">公司官网</a><p>完整免费开放；咨询不承诺录用或涨薪。</p></footer></html>""".encode("utf-8")
 
 
 class Links(HTMLParser):

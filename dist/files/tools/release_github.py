@@ -180,7 +180,7 @@ def publish(expected: dict) -> dict:
         if existing_tag is None:
             api("git/refs", method="POST", body={"ref": "refs/tags/" + TAG, "sha": sha})
         require(tag_commit() == sha, "New tag read-back differs; stopping before release creation.")
-        notes = ("作者：AI 酋长 Andy。完整中文攻略、真实岗位 JD 拆解、地区路径、OfferTrail 教学模拟、"
+        notes = ("作者：AI酋长Andy。完整中文攻略、真实岗位 JD 拆解、地区路径、OfferTrail 教学模拟、"
                  "15 份模板、中英文申请材料与面试训练。\n\n"
                  "免费内容完整开放。模拟案例没有真实访谈、上线、增长或录用结果；不承诺录用或涨薪。\n\n"
                  "微信：AIPMAndy｜公众号：AI酋长Andy\n\n"

@@ -36,5 +36,5 @@
 
 [原型示例](../prototypes/offertrail.html) · [完整规格](../examples/offertrail-prototype-spec.md) · [验收用例](../examples/offertrail-test-cases.csv)
 
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/

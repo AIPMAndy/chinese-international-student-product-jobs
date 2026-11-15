@@ -57,5 +57,5 @@
 
 **教学模拟，非访谈。** S05 描述“表格和日历可能已足够”。解释是“新工具未必有增量价值”；反解释是“重度跨地区申请者也许不同”；下一步是观察真实工作流，而不是直接宣布需求不存在。完整计划见[OfferTrail 研究计划](../examples/offertrail-research-plan.md)。
 
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/

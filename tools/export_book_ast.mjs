@@ -25,7 +25,7 @@ sections.push(...appendices.map(a=>({id:a.id,key:`appendix-${a.id}`,kind:'append
 sections.push({id:'E',key:'appendix-E',kind:'templates',title:`${templateFiles.length} 份模板与填写示例`,description:'保留说明、空白模板与完整填写示例',documents:['templates/README.md',...templateFiles].map(document)});
 const sourceChapter=chapters.find(c=>c.id==='12');
 sections.push({id:'12',key:'chapter-12',kind:'sources',title:'官方来源与核验边界',description:'来源、日期、适用范围、读取限制和政策冲突',documents:[document(sourceChapter.file)]});
-const data={title:'中国留学生产品岗位求职保姆级攻略',subtitle:'从真实 JD 出发，拿出能够解释判断、取舍与推进的证据。',author:'AI 酋长 Andy',date:DATE,version:VERSION,origin:ORIGIN,sourceCount:new Set(sources().map(s=>s.url)).size,templateCount:templateFiles.length,sections};
+const data={title:'中国留学生产品岗位求职保姆级攻略',subtitle:'从真实 JD 出发，拿出能够解释判断、取舍与推进的证据。',author:'AI酋长Andy',date:DATE,version:VERSION,origin:ORIGIN,sourceCount:new Set(sources().map(s=>s.url)).size,templateCount:templateFiles.length,sections};
 const out=path.join(ROOT,'tmp/pdfs/book-ast.json');
 fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,JSON.stringify(data,null,2));
 const counts={};

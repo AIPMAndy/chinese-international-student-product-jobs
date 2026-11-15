@@ -42,5 +42,5 @@
 
 [可编辑口径表](metric-dictionary.csv) · [完整填写示例](../examples/offertrail-metrics.csv)
 
-作者：AI 酋长 Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
+作者：AI酋长Andy｜微信：AIPMAndy｜公众号：AI酋长Andy  
 个人官网：https://metaver.vip/ ｜公司官网：https://www.a6no1.cn/

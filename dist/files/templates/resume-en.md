@@ -41,6 +41,6 @@ Remove this section if you do not have employment or internship history.
 
 Full example: [English resume example](../examples/resume-en.md).
 
-Teaching author: AI 酋长 Andy · WeChat: AIPMAndy · Official account: AI酋长Andy  
+Teaching author: AI酋长Andy · WeChat: AIPMAndy · Official account: AI酋长Andy  
 Personal website: https://metaver.vip/ · Company website: https://www.a6no1.cn/  
 Remove teaching instructions and attribution before submitting an actual resume.
