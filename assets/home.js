@@ -52,8 +52,8 @@
       $('plan-title').textContent,$('plan-explain').textContent,'',...steps,'',
       '本清单是教学练习，不是岗位、签证或工作许可结论。','请以雇主、政府和学校最新官方信息核验资格及日期。',
       '来源与说明：https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/12-sources.html',
-      '咨询与陪跑：https://metaver.vip/services','微信：AIPMAndy'].join('\\n');
-    const url=URL.createObjectURL(new Blob(['\\uFEFF'+text],{type:'text/plain;charset=utf-8'}));
+      '咨询与陪跑：https://metaver.vip/services','微信：AIPMAndy'].join('\n');
+    const url=URL.createObjectURL(new Blob(['\uFEFF'+text],{type:'text/plain;charset=utf-8'}));
     const link=root.createElement('a');link.href=url;link.download='product-job-action-plan.txt';root.body.append(link);link.click();link.remove();
     setTimeout(()=>URL.revokeObjectURL(url),1000);
     $('export-note').textContent='清单已在本机生成；请查看浏览器下载列表。未向网站发送所选信息。';
