@@ -42,6 +42,22 @@
     const tag=root.querySelector('.result-tag');if(tag)tag.textContent=region?'定制练习建议':'示例路径';
   }
   if($('build-plan'))$('build-plan').addEventListener('click',buildPlan);
+  const exportPlan=$('export-plan');
+  if(exportPlan)exportPlan.addEventListener('click',()=>{
+    const steps=[...root.querySelectorAll('#plan-list>div span')].map((node,i)=>String(i+1)+'. '+node.textContent);
+    const region=$('plan-region').value;
+    const text=['中国留学生产品求职 · 我的行动清单','作者：AI酋长Andy | https://metaver.vip/','',
+      '选择背景：'+backgroundRoutes[background].label,'岗位方向：'+$('plan-role').selectedOptions[0].textContent,
+      '目标市场：'+(region?regionNames[region]:'未选择（需自行确定）'),'',
+      $('plan-title').textContent,$('plan-explain').textContent,'',...steps,'',
+      '本清单是教学练习，不是岗位、签证或工作许可结论。','请以雇主、政府和学校最新官方信息核验资格及日期。',
+      '来源与说明：https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/12-sources.html',
+      '咨询与陪跑：https://metaver.vip/services','微信：AIPMAndy'].join('\\n');
+    const url=URL.createObjectURL(new Blob(['\\uFEFF'+text],{type:'text/plain;charset=utf-8'}));
+    const link=root.createElement('a');link.href=url;link.download='product-job-action-plan.txt';root.body.append(link);link.click();link.remove();
+    setTimeout(()=>URL.revokeObjectURL(url),1000);
+    $('export-note').textContent='清单已在本机生成；请查看浏览器下载列表。未向网站发送所选信息。';
+  });
   const regionDetails={
     uk:{heading:'英国 · United Kingdom',desc:'先核实岗位属于 internship、graduate scheme 还是 experienced hire；对照毕业时间窗口、雇主岗位资格和当前适用的工作许可要求。',checks:['官方招聘入口','毕业生项目周期','工作资格核验']},
     us:{heading:'美国 · United States',desc:'按雇主的实习/毕业生岗位 JD 核对教育阶段与申请资格；涉及实习授权、毕业后工作安排时，以学校和相关政府机构说明为准。',checks:['校招/实习职责','校园职业中心','工作授权核验']},
@@ -67,10 +83,13 @@
         item.hidden=!!query&&!hay.includes(query);
         if(!item.hidden)n++;
       });
-      $('chapter-count').textContent=n+' CHAPTERS';
+      $('chapter-count').textContent=n+' / '+root.querySelectorAll('.chapter-item').length+' CHAPTERS';
       $('chapter-empty').hidden=n!==0;
+      const clear=$('chapter-clear');if(clear)clear.disabled=!query;
     });
   }
+  const clearSearch=$('chapter-clear');
+  if(clearSearch&&search)clearSearch.addEventListener('click',()=>{search.value='';search.dispatchEvent(new Event('input',{bubbles:true}));search.focus();});
   const copy=$('copy-wechat');
   if(copy)copy.addEventListener('click',async()=>{
     try{
