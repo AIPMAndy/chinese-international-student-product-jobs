@@ -48,7 +48,10 @@ async function main() {
       const stream=await download.createReadStream();
       const parts=[];for await(const chunk of stream)parts.push(chunk);
       const txt=Buffer.concat(parts).toString('utf8');
-      assert.match(txt,/新加坡/);assert.match(txt,/AIPMAndy/);
+      assert.equal(txt.charCodeAt(0),0xFEFF,'UTF-8 BOM for Chinese TXT');
+      assert.match(txt,/\n选择背景：商科背景/);
+      assert.match(txt,/\n目标市场：新加坡/);
+      assert.match(txt,/AIPMAndy/);
       assert.match(txt,/教学练习/);assert.match(txt,/AI 产品经理/);
       assert.match(await page.locator('#export-note').innerText(),/未向网站发送/);
       assert.equal(await page.locator('a[href="https://www.a6no1.cn/"]').count()>0,true);
