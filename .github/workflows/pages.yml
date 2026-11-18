@@ -67,7 +67,7 @@ jobs:
           from urllib.request import Request, urlopen
 
           base = os.environ['LIVE_URL'].rstrip('/') + '/'
-          paths = ["index.html","chapters/00-start-here.html","assets/home.css","assets/home.js","downloads/product-jobs-guide-v1.0.0.pdf","downloads/product-jobs-workbook-v1.0.0.zip","downloads/product-jobs-source-v1.0.0.zip"]
+          paths = ["index.html","chapters/00-start-here.html","sources-workbench.html","assets/home.css","assets/home.js","assets/site.css","assets/source-review.js","robots.txt","sitemap.xml","downloads/product-jobs-guide-v1.0.0.pdf","downloads/product-jobs-workbook-v1.0.0.zip","downloads/product-jobs-source-v1.0.0.zip"]
           for path in paths:
               expected = (Path('dist') / path).read_bytes()
               expected_hash = hashlib.sha256(expected).hexdigest()
