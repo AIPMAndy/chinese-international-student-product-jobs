@@ -56,6 +56,36 @@ async function main() {
       assert.match(await page.locator('#export-note').innerText(),/未向网站发送/);
       assert.equal(await page.locator('a[href="https://www.a6no1.cn/"]').count()>0,true);
       assert.equal(await page.locator('a[href="https://metaver.vip/services"]').count()>0,true);
+      // Dated evidence desk: never treat a historical JD as an open vacancy.
+      const auditResponse=await page.goto(ORIGIN+'sources-workbench.html',{waitUntil:'networkidle'});
+      assert.equal(auditResponse.status(),200);
+      assert.equal(await page.locator('.audit-card').count(),14);
+      assert.match(await page.locator('.audit-lead').innerText(),/不是实时招聘平台/);
+      assert.equal(await page.locator('link[rel="canonical"]').getAttribute('href'),
+        'https://aipmandy.github.io/chinese-international-student-product-jobs/sources-workbench.html');
+      const auditSchema=JSON.parse(await page.locator('script[type="application/ld+json"]').first().textContent());
+      assert.equal(auditSchema.citation.length,14,'schema citations sourced from actual rendered records');
+      await page.locator('#audit-kind').selectOption('jd');
+      assert.equal(await page.locator('.audit-card:visible').count(),7);
+      await page.locator('#audit-query').fill('Bosch');
+      assert.equal(await page.locator('.audit-card:visible').count(),1);
+      const [auditDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#audit-export').click()]);
+      assert.equal(auditDownload.suggestedFilename(),'product-job-source-recheck.txt');
+      const auditStream=await auditDownload.createReadStream();
+      const auditParts=[];for await(const chunk of auditStream)auditParts.push(chunk);
+      const auditText=Buffer.concat(auditParts).toString('utf8');
+      assert.equal(auditText.charCodeAt(0),0xFEFF);
+      assert.match(auditText,/Bosch/);
+      assert.match(auditText,/2026-11-13（不是今天的核验）/);
+      assert.match(auditText,/AIPMAndy/);
+      assert.doesNotMatch(auditText,/Atlassian/);
+      await page.locator('#audit-clear').click();
+      assert.equal(await page.locator('.audit-card:visible').count(),14);
+      assert.equal(await page.locator('#audit-query').inputValue(),'');
+      assert.equal(await page.locator('#audit-clear').isDisabled(),true);
+      const auditOverflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
+      assert.ok(auditOverflow<=2,'source audit horizontal overflow at '+width+': '+auditOverflow);
+      console.log('PASS evidence source review '+width+'px: citations, filtering, original dates, TXT, reset');
       const pdf=await page.request.get(ORIGIN+'downloads/product-jobs-guide-v1.0.0.pdf');
       assert.equal(pdf.status(),200);
       const bytes=await pdf.body();assert.equal(bytes.subarray(0,5).toString(),'%PDF-');
