@@ -6,9 +6,24 @@ on:
       - 'site/home.html'
       - 'assets/home.js'
       - 'assets/home.css'
+      - 'assets/site.css'
+      - 'assets/source-review.js'
+      - 'tools/source_audit.mjs'
+      - 'tools/check_seo.py'
+      - 'research/jobs-sources.json'
       - 'tools/build_site.mjs'
       - 'tests/browser_smoke.cjs'
       - '.github/workflows/browser-qa.yml'
+  pull_request:
+    paths:
+      - 'site/home.html'
+      - 'assets/source-review.js'
+      - 'assets/site.css'
+      - 'tools/source_audit.mjs'
+      - 'tools/build_site.mjs'
+      - 'tools/check_seo.py'
+      - 'research/jobs-sources.json'
+      - 'tests/browser_smoke.cjs'
   workflow_dispatch:
 permissions:
   contents: read
@@ -35,5 +50,6 @@ jobs:
           python3 tools/check_seo.py
           python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf
           node --check assets/home.js
+          node --check assets/source-review.js
       - name: Test Chromium at 360 / 390 / 1280px
         run: node tests/browser_smoke.cjs
