@@ -86,6 +86,7 @@ async function main() {
       const auditOverflow=await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth);
       assert.ok(auditOverflow<=2,'source audit horizontal overflow at '+width+': '+auditOverflow);
       console.log('PASS evidence source review '+width+'px: citations, filtering, original dates, TXT, reset');
+      await page.goto(ORIGIN,{waitUntil:'networkidle'}); // Return for original navigation regression.
       const pdf=await page.request.get(ORIGIN+'downloads/product-jobs-guide-v1.0.0.pdf');
       assert.equal(pdf.status(),200);
       const bytes=await pdf.body();assert.equal(bytes.subarray(0,5).toString(),'%PDF-');
