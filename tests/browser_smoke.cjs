@@ -54,6 +54,29 @@ async function main() {
       assert.match(txt,/AIPMAndy/);
       assert.match(txt,/教学练习/);assert.match(txt,/AI 产品经理/);
       assert.match(await page.locator('#export-note').innerText(),/未向网站发送/);
+      // Selection edits must immediately update the on-screen result AND exported TXT.
+      await page.emulateMedia({reducedMotion:'reduce'});
+      await page.locator('[data-background="experienced"]').click();
+      assert.match(await page.locator('#plan-title').innerText(),/有相关经历 → AI 产品经理/);
+      assert.equal(await page.locator('[data-background="experienced"]').evaluate(el=>document.activeElement===el),true);
+      await page.locator('#plan-role').selectOption('pm');
+      const region=page.locator('#plan-region');
+      await region.focus();
+      await region.selectOption('uk');
+      assert.match(await page.locator('#plan-title').innerText(),/有相关经历 → 产品经理/);
+      assert.match(await page.locator('#plan-explain').innerText(),/英国/);
+      assert.equal(await region.evaluate(el=>document.activeElement===el),true);
+      assert.equal(await page.locator('#plan-link').getAttribute('href'),'chapters/02-route-and-gap.html');
+      assert.match(await page.locator('#export-note').innerText(),/仅在本机生成/);
+      const [updatedDownload]=await Promise.all([page.waitForEvent('download'),page.locator('#export-plan').click()]);
+      const updatedStream=await updatedDownload.createReadStream();
+      const updatedParts=[];for await(const chunk of updatedStream)updatedParts.push(chunk);
+      const updatedTxt=Buffer.concat(updatedParts).toString('utf8');
+      assert.match(updatedTxt,/选择背景：有相关经历/);
+      assert.match(updatedTxt,/目标市场：英国/);
+      assert.match(updatedTxt,/有相关经历 → 产品经理/);
+      assert.doesNotMatch(updatedTxt,/商科背景|新加坡|AI 产品经理/);
+      assert.ok(await page.evaluate(()=>document.documentElement.scrollWidth-innerWidth<=2));
       assert.equal(await page.locator('a[href="https://www.a6no1.cn/"]').count()>0,true);
       assert.equal(await page.locator('a[href="https://metaver.vip/services"]').count()>0,true);
       // Dated evidence desk: never treat a historical JD as an open vacancy.
@@ -94,8 +117,10 @@ async function main() {
         const menu=page.locator('.mobile-menu');
         await menu.click();
         assert.equal(await menu.getAttribute('aria-expanded'),'true');
+        await page.locator('#global-nav a').first().focus();
         await page.keyboard.press('Escape');
         assert.equal(await menu.getAttribute('aria-expanded'),'false');
+        assert.equal(await menu.evaluate(el=>document.activeElement===el),true);
       }
       console.log('PASS product job workbench at '+width+'px: planner, TXT, search reset, PDF, links, overflow');
       await context.close();
