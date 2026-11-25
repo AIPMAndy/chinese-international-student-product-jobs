@@ -8,7 +8,7 @@
   if(menu&&nav){
     menu.addEventListener('click',()=>{const open=menu.getAttribute('aria-expanded')!=='true';menu.setAttribute('aria-expanded',String(open));menu.setAttribute('aria-label',open?'关闭网站导航':'打开网站导航');nav.classList.toggle('open',open);});
     nav.querySelectorAll('a').forEach(a=>a.addEventListener('click',closeMenu));
-    root.addEventListener('keydown',e=>{if(e.key==='Escape')closeMenu();});
+    root.addEventListener('keydown',e=>{if(e.key==='Escape'&&menu.getAttribute('aria-expanded')==='true'){closeMenu();menu.focus();}});
   }
   const backgroundRoutes={
     tech:{label:'技术背景',goal:'从已有技术项目出发，把实现能力转成用户需求、约束、方案比较和产品决策证据。',step2:'选一个自己完成的技术项目，补齐用户问题与至少两个方案的取舍。'},
@@ -21,6 +21,7 @@
     btn.addEventListener('click',()=>{
       background=btn.dataset.background;
       root.querySelectorAll('[data-background]').forEach(b=>{const active=b===btn;b.classList.toggle('selected',active);b.setAttribute('aria-pressed',String(active));});
+      refreshPlan();
     });
   });
   function buildPlan(){
@@ -41,9 +42,21 @@
     $('plan-link').innerHTML=role==='aipm'?'进入 AI 产品专项训练 <span aria-hidden="true">→</span>':'进入背景与能力诊断 <span aria-hidden="true">→</span>';
     const tag=root.querySelector('.result-tag');if(tag)tag.textContent=region?'定制练习建议':'示例路径';
   }
-  if($('build-plan'))$('build-plan').addEventListener('click',buildPlan);
+  const exportNote=$('export-note');
+  const initialExportNote=exportNote?.textContent;
+  function refreshPlan(){
+    buildPlan();
+    if(exportNote)exportNote.textContent=initialExportNote;
+  }
+  if($('build-plan')){
+    $('build-plan').addEventListener('click',refreshPlan);
+    $('plan-role').addEventListener('change',refreshPlan);
+    $('plan-region').addEventListener('change',refreshPlan);
+  }
   const exportPlan=$('export-plan');
   if(exportPlan)exportPlan.addEventListener('click',()=>{
+    // Export the current choices and steps from the same freshly rendered state.
+    buildPlan();
     const steps=[...root.querySelectorAll('#plan-list>div span')].map((node,i)=>String(i+1)+'. '+node.textContent);
     const region=$('plan-region').value;
     const text=['中国留学生产品求职 · 我的行动清单','作者：AI酋长Andy | https://metaver.vip/','',
