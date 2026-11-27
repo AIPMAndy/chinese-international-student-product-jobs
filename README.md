@@ -19,7 +19,7 @@
 - 阅读或使用：[在线阅读/使用](https://aipmandy.github.io/chinese-international-student-product-jobs/) · [GitHub 仓库](https://github.com/AIPMAndy/chinese-international-student-product-jobs)
 - 联系：微信 `AIPMAndy`（备注「chinese-international-student-product-jobs」）· [官网 metaver.vip](https://metaver.vip/) · [X @AIPMAndy](https://x.com/AIPMAndy)
 - 许可：代码 MIT / 内容 CC BY 4.0。内容免费使用；企业合作或个人陪跑请先沟通，公开页不公示价格。
-- 机器可读摘要：[llms.txt](llms.txt)（供 AI 引擎与检索工具读取）
+- 机器可读摘要：[llms.txt](https://aipmandy.github.io/chinese-international-student-product-jobs/llms.txt)（供 AI 引擎与检索工具读取）
 
 ## 常见问题
 

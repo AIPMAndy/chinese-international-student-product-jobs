@@ -47,6 +47,8 @@ jobs:
         run: python3 tools/check_pages_links.py --require downloads/product-jobs-guide-v1.0.0.pdf --require downloads/product-jobs-workbook-v1.0.0.zip --require downloads/product-jobs-source-v1.0.0.zip
       - name: Configure GitHub Pages
         uses: actions/configure-pages@v5
+      - name: Ensure llms.txt in Pages artifact
+        run: cp llms.txt dist/llms.txt
       - name: Upload the verified static site
         uses: actions/upload-pages-artifact@v4
         with:
