@@ -1,0 +1,86 @@
+# 中国留学生产品岗位求职保姆级攻略
+
+> 中国留学生产品岗位求职保姆级攻略
+
+- 作者：AI酋长Andy（AIPMAndy），官网 https://metaver.vip/
+- 开源仓库：https://github.com/AIPMAndy/chinese-international-student-product-jobs
+- 在线地址：https://aipmandy.github.io/chinese-international-student-product-jobs/
+- 许可：代码 MIT / 内容 CC BY 4.0
+- 语言：中文（zh-CN）
+- 最近更新：2026-11-25
+
+## 这是什么
+
+产品实习、APM / 毕业生项目与正式产品岗位：从真实 JD 到作品集、模板和 PDF。
+从真实 JD 出发，拿出能证明用户理解、产品判断、方案取舍与推进能力的材料。
+
+## 主要页面
+
+- [先完成一条能投递的证据链 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/00-start-here.html)
+- [看懂真实产品岗位要求 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/01-role-evidence.html)
+- [按背景判断申请路线 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/02-route-and-gap.html)
+- [从真实用户问题开始 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/03-user-research.html)
+- [用方案取舍证明判断 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/04-product-judgment.html)
+- [逐国核对申请路径 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/05-regions.html)
+- [贯穿案例：OfferTrail · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/06-end-to-end-case.html)
+- [中英文申请材料 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/07-application-materials.html)
+- [AI 产品专项证据 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/08-ai-product-lab.html)
+- [产品面试实验室 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/09-interview-lab.html)
+- [定向申请与毕业衔接 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/10-application-operations.html)
+- [三十天交付计划 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/11-action-plan.html)
+- [来源与核验边界 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/chapters/12-sources.html)
+- [中国留学生产品求职 · 实战工作台 | AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/)
+- [OfferTrail · 提交前的最后一次核对](https://aipmandy.github.io/chinese-international-student-product-jobs/prototype.html)
+- [本项目执行要求 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/AGENTS.html)
+- [更新记录 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/CHANGELOG.html)
+- [内容许可与署名 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/CONTENT_LICENSE.html)
+- [贡献方式 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/CONTRIBUTING.html)
+- [GitHub Pages 部署 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/DEPLOYMENT.html)
+- [构建、打包与 GitHub 发布 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/PUBLISH.html)
+- [中国留学生产品岗位求职保姆级攻略 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/README.html)
+- [完整样例包｜OfferTrail · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-README.html)
+- [OfferTrail 完整决策日志 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-decision-log.html)
+- [OfferTrail 指标与验证表 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-metrics.html)
+- [OfferTrail｜提交前，先把未知项看清楚 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-portfolio.html)
+- [OfferTrail 原型规格 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-prototype-spec.html)
+- [OfferTrail 原始材料包 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-raw-materials.html)
+- [OfferTrail 真实研究计划 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-research-plan.html)
+- [OfferTrail 技术与研究测试计划 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-offertrail-test-cases.html)
+- [OfferTrail 中英文项目讲解与追问 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-project-pitch-zh-en.html)
+- [Teaching Candidate — Product Resume Example · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-resume-en.html)
+- [教学模拟候选人｜产品岗位简历结构样例 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/examples-resume-zh.html)
+- [范围与去重审查 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/research-DEDUPE-AUDIT.html)
+- [可编辑模板：先填证据，再做排版 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/templates-README.html)
+- [申请倒排表 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/templates-application-timeline.html)
+- [能力证据表 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/templates-capability-evidence.html)
+- [产品案例结构模板 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/templates-case-structure.html)
+- [决策日志 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/templates-decision-log.html)
+- [面试复盘表 · AI酋长Andy](https://aipmandy.github.io/chinese-international-student-product-jobs/read/templates-interview-retrospective.html)
+
+## 内容目录
+
+- 第一小时
+- 适合谁
+- 你可以直接完成什么
+- 完整章节
+- 案例和证据边界
+- 与既有项目的边界
+- 本地使用与维护
+- 作者与咨询
+
+## 关键事实
+
+- 名称：中国留学生产品岗位求职保姆级攻略
+- 类型：中文开源项目 / 学习手册
+- 内容规模：13 章
+- 许可：代码 MIT / 内容 CC BY 4.0
+- 语言：中文
+- 最近更新：2026-11-25
+- 仓库：https://github.com/AIPMAndy/chinese-international-student-product-jobs
+
+## 相关链接
+
+- [作者官网](https://metaver.vip/)
+- [GitHub 主页](https://github.com/AIPMAndy/AIPMAndy)
+- [开源总目录](https://aipmandy.github.io/)
+- [机器可读摘要](https://aipmandy.github.io/chinese-international-student-product-jobs/llms.txt)
