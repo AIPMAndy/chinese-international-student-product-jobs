@@ -23,6 +23,8 @@ function ensureSocial(html){
 makeSourcesMarkdown();
 const evidenceRecords=JSON.parse(read('research/jobs-sources.json'));
 fs.mkdirSync(DIST,{recursive:true});
+// The source-controlled index must survive a clean build, not just Pages deployment.
+fs.copyFileSync(path.join(ROOT,'llms.txt'),path.join(DIST,'llms.txt'));
 function write(file,content){const out=path.join(DIST,file);fs.mkdirSync(path.dirname(out),{recursive:true});fs.writeFileSync(out,content);}
 function copyDir(source,target){if(!fs.existsSync(source))return;fs.mkdirSync(target,{recursive:true});for(const ent of fs.readdirSync(source,{withFileTypes:true})){if(['pdf-pages','pdf-contact-sheets','browser-artifacts','__pycache__'].includes(ent.name))continue;const src=path.join(source,ent.name),dst=path.join(target,ent.name);if(ent.isDirectory())copyDir(src,dst);else fs.copyFileSync(src,dst);}}
 function allFiles(dir){if(!fs.existsSync(path.join(ROOT,dir)))return[];return fs.readdirSync(path.join(ROOT,dir),{withFileTypes:true}).flatMap(e=>e.isDirectory()?allFiles(`${dir}/${e.name}`):[`${dir}/${e.name}`]);}
