@@ -10,6 +10,9 @@ on:
       - 'assets/source-review.js'
       - 'tools/source_audit.mjs'
       - 'tools/check_seo.py'
+      - 'llms.txt'
+      - 'dist/llms.txt'
+      - '.github/workflows/pages.yml'
       - 'research/jobs-sources.json'
       - 'tools/build_site.mjs'
       - 'tests/browser_smoke.cjs'
@@ -22,6 +25,9 @@ on:
       - 'tools/source_audit.mjs'
       - 'tools/build_site.mjs'
       - 'tools/check_seo.py'
+      - 'llms.txt'
+      - 'dist/llms.txt'
+      - '.github/workflows/pages.yml'
       - 'research/jobs-sources.json'
       - 'tests/browser_smoke.cjs'
   workflow_dispatch:
@@ -45,6 +51,7 @@ jobs:
       - name: Rebuild from authoritative HTML, CSS and JS
         run: |
           python3 tools/package_release.py --require-pdf
+          rm -f dist/llms.txt
           npm run build
           python3 tools/check_integrity.py
           python3 tools/check_seo.py
