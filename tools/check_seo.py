@@ -69,6 +69,27 @@ for file in pages:
             errors.append(rel + ": invalid JSON-LD: " + str(exc))
     if rel != "404.html":
         check(expected in locs, rel + ": not in sitemap")
+if not business:
+    try:
+        source = (root / "llms.txt").read_bytes()
+        published = (site / "llms.txt").read_bytes()
+        check(source == published, "llms.txt differs from authoritative root")
+        index = published.decode("utf-8")
+        links = set(re.findall(r"\]\((https://[^)]+)\)", index))
+        for url in (base, base + "sources-workbench.html", base + "downloads/product-jobs-guide-v1.0.0.pdf", "https://metaver.vip/", "https://www.a6no1.cn/", "https://metaver.vip/services"):
+            check(url in links, "llms.txt missing " + url)
+        check("微信：AIPMAndy" in index, "llms.txt missing contact")
+        for url in links:
+            if not url.startswith(base):
+                continue
+            rel = url[len(base):] or "index.html"
+            target = (site / rel).resolve()
+            check(target.is_relative_to(site.resolve()) and target.is_file(), "llms.txt invalid local target " + rel)
+            # read/ pages are intentionally source-document previews, not primary sitemap entries.
+            if rel.endswith(".html") and not rel.startswith("read/"):
+                check(url in locs, "llms.txt primary HTML target absent from sitemap " + url)
+    except (OSError, UnicodeError) as exc:
+        errors.append("llms.txt unavailable or invalid: " + str(exc))
 homepage = (site / "index.html").read_text(encoding="utf-8")
 for token in ("AIPMAndy", "https://metaver.vip/", "https://www.a6no1.cn/"):
     check(token in homepage, "homepage missing public business reference: " + token)
